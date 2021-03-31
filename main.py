@@ -155,10 +155,6 @@ def beamDecode(decoder_hiddens, decoder, encoder_outputs=None):
     topk = 1  # how many sentences do you want to generate
     decoded_batch = []
 
-    # print(target_tensor.shape)
-    # print(decoder_hiddens.shape)
-    # print(encoder_outputs.shape)
-
     # decoding goes sentence by sentence
     for idx in range(decoder_hiddens.size(1)):
         decoder_hidden = decoder_hiddens[:, idx, :]

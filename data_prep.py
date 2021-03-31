@@ -131,7 +131,7 @@ def prepareData(lang1, lang2, reverse=False):
     print(input_char.name, input_char.n_chars)
     print('%d total pairs' % (len(pairs),))
 
-    # Shuffle pairs and split into train_pairs and test_pairs
+    # Shuffle pairs and split into 80 % train_pairs and 20% test_pairs
     random.shuffle(pairs)
     train_length = (len(pairs) // 10) * 8
     train_pairs = pairs[:train_length]

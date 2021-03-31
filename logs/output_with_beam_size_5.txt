@@ -1,0 +1,8712 @@
+Reading lines...
+Read 135842 sentence pairs
+Trimmed to 10599 sentence pairs
+Counting words and chars...
+Counted words:
+fra 4345
+eng 2803
+Counted chars:
+fra 30
+10599 total pairs
+
+Counting total pairs, train pairs, and test pairs...
+8472 train pairs
+2127 test pairs
+Example of a training pair: ['nous n aboutissons nulle part .', 'we re getting nowhere .']
+
+Testing charIndexesFromSentence...
+Sentence: je t aime
+Char Indexes: [[1, 7], [17], [2, 3, 16, 7], [0]]
+Epoch 0
+0m 22s (1000 11%) 3.4437
+0m 45s (2000 23%) 2.8928
+1m 7s (3000 35%) 2.7618
+1m 30s (4000 47%) 2.6807
+1m 53s (5000 59%) 2.5234
+2m 16s (6000 70%) 2.4994
+2m 39s (7000 82%) 2.4480
+3m 2s (8000 94%) 2.3554
+Epoch 1
+3m 36s (1000 11%) 3.2150
+3m 59s (2000 23%) 2.1332
+4m 22s (3000 35%) 2.1022
+4m 45s (4000 47%) 2.0455
+5m 8s (5000 59%) 1.9477
+5m 30s (6000 70%) 1.9804
+5m 53s (7000 82%) 1.9713
+6m 16s (8000 94%) 1.9188
+Epoch 2
+6m 49s (1000 11%) 2.6231
+7m 12s (2000 23%) 1.6156
+7m 35s (3000 35%) 1.6754
+7m 57s (4000 47%) 1.6570
+8m 20s (5000 59%) 1.6384
+8m 43s (6000 70%) 1.6293
+9m 5s (7000 82%) 1.6430
+9m 27s (8000 94%) 1.5815
+Epoch 3
+10m 1s (1000 11%) 2.0511
+10m 24s (2000 23%) 1.2888
+10m 47s (3000 35%) 1.4016
+11m 10s (4000 47%) 1.3762
+11m 33s (5000 59%) 1.3264
+11m 56s (6000 70%) 1.3157
+12m 19s (7000 82%) 1.3696
+12m 41s (8000 94%) 1.3181
+Epoch 4
+13m 15s (1000 11%) 1.6624
+13m 38s (2000 23%) 1.0698
+14m 1s (3000 35%) 1.1339
+14m 23s (4000 47%) 1.1462
+14m 46s (5000 59%) 1.0914
+15m 8s (6000 70%) 1.1044
+15m 31s (7000 82%) 1.1290
+15m 53s (8000 94%) 1.1612
+Epoch 5
+16m 28s (1000 11%) 1.3953
+16m 50s (2000 23%) 0.8825
+17m 13s (3000 35%) 0.9153
+17m 36s (4000 47%) 0.8941
+17m 58s (5000 59%) 0.9210
+18m 21s (6000 70%) 0.9237
+18m 44s (7000 82%) 0.9230
+19m 6s (8000 94%) 0.9140
+Epoch 6
+19m 41s (1000 11%) 1.1072
+20m 4s (2000 23%) 0.6786
+20m 26s (3000 35%) 0.7360
+20m 49s (4000 47%) 0.7175
+21m 12s (5000 59%) 0.7466
+21m 35s (6000 70%) 0.7660
+21m 57s (7000 82%) 0.7707
+22m 19s (8000 94%) 0.8056
+Epoch 7
+22m 54s (1000 11%) 0.9315
+23m 16s (2000 23%) 0.5616
+23m 39s (3000 35%) 0.5929
+24m 2s (4000 47%) 0.5555
+24m 25s (5000 59%) 0.5989
+24m 48s (6000 70%) 0.6191
+25m 11s (7000 82%) 0.6420
+25m 34s (8000 94%) 0.6473
+Epoch 8
+26m 9s (1000 11%) 0.7475
+26m 32s (2000 23%) 0.4398
+26m 54s (3000 35%) 0.4407
+27m 17s (4000 47%) 0.4759
+27m 39s (5000 59%) 0.4943
+28m 1s (6000 70%) 0.5043
+28m 23s (7000 82%) 0.4717
+28m 45s (8000 94%) 0.5056
+Epoch 9
+29m 18s (1000 11%) 0.5555
+29m 40s (2000 23%) 0.3860
+30m 3s (3000 35%) 0.3902
+30m 25s (4000 47%) 0.3889
+30m 47s (5000 59%) 0.3922
+31m 10s (6000 70%) 0.4109
+31m 32s (7000 82%) 0.4357
+31m 55s (8000 94%) 0.4409
+Epoch 10
+32m 28s (1000 11%) 0.4707
+32m 50s (2000 23%) 0.2752
+33m 12s (3000 35%) 0.3167
+33m 34s (4000 47%) 0.3025
+33m 57s (5000 59%) 0.3011
+34m 19s (6000 70%) 0.3200
+34m 41s (7000 82%) 0.3290
+35m 4s (8000 94%) 0.3724
+Epoch 11
+35m 37s (1000 11%) 0.3795
+35m 59s (2000 23%) 0.2139
+36m 22s (3000 35%) 0.2184
+36m 44s (4000 47%) 0.2681
+37m 7s (5000 59%) 0.2490
+37m 29s (6000 70%) 0.2959
+37m 52s (7000 82%) 0.2700
+38m 14s (8000 94%) 0.2914
+Epoch 12
+38m 47s (1000 11%) 0.3425
+39m 9s (2000 23%) 0.1816
+39m 31s (3000 35%) 0.1958
+39m 54s (4000 47%) 0.1654
+40m 16s (5000 59%) 0.2104
+40m 37s (6000 70%) 0.2198
+40m 59s (7000 82%) 0.2242
+41m 21s (8000 94%) 0.2098
+Epoch 13
+41m 54s (1000 11%) 0.2798
+42m 16s (2000 23%) 0.1439
+42m 38s (3000 35%) 0.1314
+42m 59s (4000 47%) 0.1350
+43m 21s (5000 59%) 0.1594
+43m 44s (6000 70%) 0.1696
+44m 6s (7000 82%) 0.1842
+44m 28s (8000 94%) 0.1901
+Epoch 14
+45m 1s (1000 11%) 0.1939
+45m 22s (2000 23%) 0.1272
+45m 45s (3000 35%) 0.1323
+46m 7s (4000 47%) 0.1267
+46m 29s (5000 59%) 0.1426
+46m 51s (6000 70%) 0.1274
+47m 12s (7000 82%) 0.1541
+47m 34s (8000 94%) 0.1640
+Epoch 15
+48m 6s (1000 11%) 0.1771
+48m 28s (2000 23%) 0.1025
+48m 50s (3000 35%) 0.1145
+49m 11s (4000 47%) 0.1232
+49m 33s (5000 59%) 0.1149
+49m 54s (6000 70%) 0.1277
+50m 16s (7000 82%) 0.1205
+50m 38s (8000 94%) 0.1266
+Epoch 16
+51m 11s (1000 11%) 0.1449
+51m 33s (2000 23%) 0.0911
+51m 55s (3000 35%) 0.0890
+52m 17s (4000 47%) 0.0954
+52m 38s (5000 59%) 0.1091
+53m 1s (6000 70%) 0.1215
+53m 23s (7000 82%) 0.1173
+53m 44s (8000 94%) 0.1248
+Epoch 17
+54m 18s (1000 11%) 0.1459
+54m 40s (2000 23%) 0.0800
+55m 2s (3000 35%) 0.0948
+55m 24s (4000 47%) 0.1063
+55m 47s (5000 59%) 0.0898
+56m 8s (6000 70%) 0.1045
+56m 30s (7000 82%) 0.1088
+56m 52s (8000 94%) 0.1014
+Epoch 18
+57m 25s (1000 11%) 0.1139
+57m 47s (2000 23%) 0.0798
+58m 9s (3000 35%) 0.0689
+58m 31s (4000 47%) 0.0885
+58m 52s (5000 59%) 0.0957
+59m 14s (6000 70%) 0.0945
+59m 36s (7000 82%) 0.0899
+59m 58s (8000 94%) 0.1172
+Epoch 19
+60m 31s (1000 11%) 0.1204
+60m 53s (2000 23%) 0.0745
+61m 15s (3000 35%) 0.0810
+61m 37s (4000 47%) 0.0772
+61m 59s (5000 59%) 0.0834
+62m 20s (6000 70%) 0.0980
+62m 42s (7000 82%) 0.0840
+63m 4s (8000 94%) 0.1020
+showPlot
+> je n en suis pas trop etonnee .
+= i m not that surprised by it .
+< i m not too drunk .
+
+> je suis paume maintenant .
+= i m confused now .
+< i m retired now .
+
+> je ne suis pas tres occupee .
+= i m not very busy .
+< i m not very busy .
+
+> vous etes tres avisee .
+= you re very wise .
+< you re very wise .
+
+> elle se trouve maintenant a l hotel .
+= she s at the hotel now .
+< she s in the hospital now .
+
+> nous sommes tous en danger .
+= we re all at risk .
+< we re all in danger .
+
+> je suis rationnelle .
+= i m rational .
+< i m relaxed .
+
+> elle aime beaucoup les fleurs .
+= she is very fond of flowers .
+< she is fond she dressed .
+
+> je suis habituee a vivre seule .
+= i am used to living alone .
+< i am accustomed to living alone .
+
+> tu n es plus une enfant .
+= you are not a child any more .
+< you re no longer child .
+
+> je suis un etudiant de cette ecole .
+= i am a student of this school .
+< i m a university student .
+
+> tu es insensible .
+= you re callous .
+< you re callous .
+
+> ce sont toutes des touristes .
+= they re all tourists .
+< they re all liars .
+
+> vous etes deloyaux .
+= you re disloyal .
+< you re grumpy .
+
+> je suis assez heureux .
+= i m kind of happy .
+< i m quite happy .
+
+> il a ete boire une biere .
+= he s been drinking beer .
+< he is likely to drive a .
+
+> elle t attend chez nous .
+= she s waiting for you at home .
+< she s waiting for you at home .
+
+> il est mon demi frere .
+= he s my half brother .
+< he is my brother brother .
+
+> elles sont endormies .
+= they re asleep .
+< they re happy .
+
+> il est americain .
+= he is an american .
+< he isn an american
+
+> je ne suis pas suppose boire .
+= i m not supposed to drink .
+< i m not tired to
+
+> je suis de zambie .
+= i m from zambia .
+< i m from kyoto .
+
+> elle a six ans de plus que moi .
+= she s six years older than i am .
+< she is six years older than me .
+
+> je suis habitue au bruit .
+= i m used to the noise .
+< i m used to the police .
+
+> je crains que tu m aies mal compris .
+= i m afraid you misunderstood me .
+< i m afraid that makes you it .
+
+> tu le fais correctement .
+= you re doing it right .
+< you re doing it right .
+
+> vous etes un joyeux drille .
+= you re a jolly good feller .
+< you re a jolly good feller .
+
+> il n est pas suppose se trouver la .
+= he s not supposed to be here .
+< he s not interested to be here .
+
+> je ne suis pas sur de ca .
+= i m not sure about this .
+< i m not sure of that .
+
+> il est incapable d acheter une voiture .
+= he is unable to buy a car .
+< he is able to have a car .
+
+> tu es un opportuniste .
+= you re opportunistic .
+< you re opportunistic .
+
+> je tire .
+= i m shooting .
+< i m leaving .
+
+> je suis folle .
+= i m crazy .
+< i m powerless .
+
+> il est capable de trahison .
+= he is capable of treachery .
+< he is capable of speak .
+
+> tu restes avec tom n est ce pas ?
+= you re staying with tom right ?
+< you re staying with tom right ?
+
+> je crains que la rumeur soit averee .
+= i m afraid the rumor is true .
+< i m afraid i ve s got .
+
+> vous n etes pas faciles a trouver .
+= you re not easy to find .
+< you re not easy to find .
+
+> vous etes tres ouvertes .
+= you re very open .
+< you re very timid .
+
+> j en ai marre qu il m engueule .
+= i m tired of him bawling me out .
+< i am tired to be .
+
+> je suis tienne et tu es mienne .
+= i am yours and you are mine .
+< i am yours and you are mine .
+
+> je vais preparer a diner .
+= i m going to fix some dinner .
+< i m going to get that .
+
+> je suis etranger ici .
+= i am a stranger here .
+< i m here .
+
+> vous etes tres courageux .
+= you are very courageous .
+< you are very brave .
+
+> c est une fille blonde .
+= she is a blonde girl .
+< she s a quiet woman .
+
+> tu es recherche par la police .
+= you re wanted by the police .
+< you re wanted by the police .
+
+> nous sommes vraiment bonnes .
+= we re really good .
+< we re really good .
+
+> je suis en train de travailler .
+= i am working .
+< i m working .
+
+> tu es celui qui m a entrainee .
+= you re the one who trained me .
+< you re the one who trained me .
+
+> je suis ici pour presenter mes excuses .
+= i m here to apologize .
+< i m here to apologize .
+
+> je suis myope .
+= i m nearsighted .
+< i m a .
+
+> vous prechez des convaincus .
+= you re preaching to the choir .
+< you re preaching to the choir .
+
+> nous sommes sensibles .
+= we re sensitive .
+< we re armed .
+
+> j en ai fini de t ecouter .
+= i m done listening to you .
+< i m done with you .
+
+> nous sommes etudiants .
+= we re students .
+< we are students .
+
+> nous sommes plutot occupees ici .
+= we re kind of busy here .
+< we re kind of busy .
+
+> elles cherchent un bouc emissaire .
+= they re looking for a scapegoat .
+< they are spraying for him .
+
+> il est en faillite .
+= he is bankrupt .
+< he s in trouble .
+
+> c est un gaucher .
+= he s a southpaw .
+< he s a senior .
+
+> ils sont asiatiques .
+= they re asian .
+< they re asian .
+
+> je n en suis pas content .
+= i m not happy with this .
+< i m not happy .
+
+> c est toi l enseignant .
+= you re the teacher .
+< you re the teacher .
+
+> nous allons danser .
+= we re going dancing .
+< we re going to begin .
+
+> vous n etes pas maries si ?
+= you re not married are you ?
+< you re not married are you ?
+
+> nous en sommes tous responsables .
+= we re all to blame for that .
+< we re all responsible .
+
+> je suis completement saoul .
+= i m totally drunk .
+< i m totally confused .
+
+> il est venu pour causer des ennuis .
+= he s come to make trouble .
+< he is ready in trouble in trouble .
+
+> elle porte un chapeau .
+= she is wearing a hat .
+< she s wearing a hat .
+
+> nous sommes toutes retraitees .
+= we re all retired .
+< we re all set .
+
+> je suis juste un autre homme .
+= i m just another man .
+< i m just a good man .
+
+> nous sommes en train de mourir .
+= we re dying .
+< we re dying .
+
+> vous me faites marcher .
+= you re pulling my leg .
+< you re pulling .
+
+> je viens de tokyo .
+= i m from tokyo .
+< i m from tokyo .
+
+> tu commences a me faire peur .
+= you re starting to scare me .
+< you re starting to scare me .
+
+> j ai peur qu elle ait les oreillons .
+= i m afraid she may have the mumps .
+< i m afraid she is anything .
+
+> je recherche une maison .
+= i m looking for a house .
+< i m bringing a pizza .
+
+> nous sommes tellement desoles .
+= we re so sorry .
+< we re so sorry .
+
+> je m ennuie a mourir .
+= i m bored to death .
+< i m bored to death .
+
+> nous sommes intelligents .
+= we re smart .
+< we re pooped .
+
+> vous me faites de l ombre .
+= you re blocking my light .
+< you re blocking my light .
+
+> il est juste la .
+= he s right here .
+< he is right right .
+
+> je suis desole si je vous ai derangee .
+= i m sorry if i disturbed you .
+< i m sorry if i disturbed you .
+
+> nous sommes tristes .
+= we re sad .
+< we re available .
+
+> je suis fiere de mon frere .
+= i m proud of my brother .
+< i m proud of my brother .
+
+> je suis tellement gene que je veux mourir .
+= i m so embarrassed i want to die .
+< i m so embarrassed i want to die .
+
+> nous sommes conservateurs .
+= we re conservative .
+< we re starved .
+
+> il est malpoli .
+= he is a rude person .
+< he s foolish .
+
+> j en ai marre de ce temps humide .
+= i m fed up with this wet weather .
+< i am fed up with this wet weather .
+
+> je suis pour toujours votre debiteur .
+= i am forever in your debt .
+< i am forever your debt .
+
+> nous sommes tous les memes .
+= we re all the same .
+< we are all the same .
+
+> tu es encore jeune .
+= you re still green .
+< you re still young .
+
+> j ai du mal a me concentrer .
+= i m having trouble focusing .
+< i m having a hard time concentrating .
+
+> vous etes tres occupees .
+= you re very busy .
+< you re very busy .
+
+> vous faites aller ca trop loin .
+= you re carrying this too far .
+< you re going to swim it .
+
+> je conduis .
+= i m driving .
+< i m reporting .
+
+> vous etes tellement previsible !
+= you re so predictable .
+< you re so predictable .
+
+> je meurs de soif .
+= i m dying of thirst .
+< i m very thirsty .
+
+> tu es fou .
+= you re crazy .
+< you are crazy .
+
+> ils vont commettre des erreurs .
+= they re going to make mistakes .
+< they are making making .
+
+> tu n es pas mort .
+= you re not dead .
+< you re no different .
+
+> je suis aime de ma mere .
+= i am loved by my mother .
+< i am loved of my mother .
+
+> nous sommes en train d y penetrer .
+= we re going inside .
+< we re sinking .
+
+> ils sont en train de danser .
+= they re dancing .
+< they re dancing .
+
+> vous etes puissantes .
+= you re powerful .
+< you re bright .
+
+> je ne suis pas desespere .
+= i m not desperate .
+< i m not desperate .
+
+> vous etes odieuses .
+= you re obnoxious .
+< you re fascinating .
+
+> je suis occupe pour le moment .
+= i m busy at the moment .
+< i m busy for the right .
+
+> c est une bombe .
+= she s a hottie .
+< she s a tough .
+
+> je viens d amerique .
+= i m from america .
+< i am from to help .
+
+> je ne vais pas m asseoir ici .
+= i m not sitting here .
+< i m not going to pass here .
+
+> je suis en train d etudier le francais .
+= i m studying french .
+< i m learning french .
+
+> c est un brave homme .
+= he is a brave man .
+< he is a man man .
+
+> ce ne sont que des etudiants .
+= they re just students .
+< they re just students .
+
+> nous ne sommes pas ici pour vous arreter .
+= we are not here to arrest you .
+< we are not here to arrest you .
+
+> je ne t en empeche pas .
+= i m not stopping you .
+< i m free free .
+
+> je me sens stresse .
+= i m feeling stressed .
+< i m feeling low .
+
+> je ne suis pas vraiment inquiete .
+= i m not really worried .
+< i m not really worried .
+
+> vous etes vraiment egoiste .
+= you re really selfish .
+< you re really selfish .
+
+> vous etes tres religieuses n est ce pas ?
+= you re very religious aren t you ?
+< you re very religious aren t you ?
+
+> je ne suis pas presse .
+= i m in no hurry .
+< i m not intimidated .
+
+> il est une sorte de celebrite .
+= he is something of a celebrity .
+< he is a sort gracious .
+
+> je n en suis plus sur .
+= i m not sure anymore .
+< i m not sure of it .
+
+> je suis heureux de vous avoir invitees .
+= i m glad i invited you .
+< i m glad i invited you .
+
+> il est avide de gloire .
+= he is eager to become famous .
+< he is a experienced .
+
+> je ne suis pas un expert .
+= i m not an expert .
+< i m no expert .
+
+> tu imagines des choses .
+= you re imagining things .
+< you are telling things .
+
+> je me porte bien .
+= i m well .
+< i m well pretty .
+
+> tu n es pas le premier .
+= you re not the first .
+< you re not the first .
+
+> je vais a l universite .
+= i m going to college .
+< i m going back home .
+
+> il joue bien au tennis .
+= he is good at playing tennis .
+< he is playing at tennis tennis .
+
+> vous etes fiables .
+= you re trustworthy .
+< you re reliable .
+
+> elle est tres amere envers moi .
+= she is very bitter toward me .
+< she is very annoyed . me .
+
+> je n en suis pas sure .
+= i m not sure about it .
+< i m not sure about that .
+
+> nous y sommes presque .
+= we re nearly there .
+< we re almost ready .
+
+> je suis sur qu elle partira tot .
+= i m sure she ll leave early .
+< i m sure she ll leave early .
+
+> je m en rejouis d avance .
+= i m looking forward to that .
+< i m in absolutely with tom .
+
+> je ne suis pas une enfant unique .
+= i m not an only child .
+< i m not a child .
+
+> elle est trop vieille pour vous .
+= she s too old for you .
+< she s too old for you .
+
+> c est une amie a moi .
+= she is a friend of mine .
+< she s a hard friend .
+
+> ce n est qu un menteur .
+= he s just a liar .
+< he s just a liar .
+
+> il etudie l histoire a l universite .
+= he is studying history at the university .
+< he is studying economics at university .
+
+> il est raisonnable dans ses exigences .
+= he is reasonable in his demands .
+< he is familiar with his ability .
+
+> vous etes juste .
+= you re fair .
+< you re fair .
+
+> je cherche une bijouterie .
+= i am looking for a jewelry store .
+< i m looking for a job .
+
+> je vais a cet endroit .
+= i am going to that place .
+< i m going to go out .
+
+> elle est occupee a apprendre l anglais .
+= she is busy learning english .
+< she is busy learning english .
+
+> je suis plus vieux que ton frere .
+= i m older than your brother .
+< i m older than your brother .
+
+> je n ai pas peur de la mort .
+= i m not afraid of death .
+< i m not of of death .
+
+> elle est bonne en natation .
+= she is good at swimming .
+< she is good .
+
+> je ne suis pas triste .
+= i m not sad .
+< i m not embarrassed .
+
+> tu n es pas ma mere .
+= you aren t my mother .
+< you re not my mother .
+
+> je prends deux jours de conge .
+= i m taking a couple of days off .
+< i m taking a couple of days off .
+
+> nous sommes tous en train de dejeuner .
+= we re all having lunch .
+< we re all being .
+
+> on te regarde .
+= you re being watched .
+< you re looking at .
+
+> je suis desolee si je vous ai effrayes .
+= i m sorry if i frightened you .
+< i m sorry if i frightened you .
+
+> tu es faible .
+= you re weak .
+< you re weak .
+
+> vous etes tres avises .
+= you re very wise .
+< you re very wise .
+
+> je suis plutot heureux .
+= i m fairly happy .
+< i m happy happy .
+
+> tu es fort comprehensif .
+= you re very understanding .
+< you re very understanding .
+
+> tu vas te remettre .
+= you re going to be ok .
+< you re going to be ok .
+
+> je ne suis jamais chez moi le dimanche .
+= i m never at home on sundays .
+< i m never at home s .
+
+> tu es un type genial .
+= you re a wonderful guy .
+< you re a little person .
+
+> je suis plein de ressources .
+= i m resourceful .
+< i m resourceful .
+
+> nous ne fricotons pas .
+= we re not dating .
+< we re not really .
+
+> il n est pas tres bon en mathematiques .
+= he is not very good at mathematics .
+< he s not very good at all .
+
+> je suis vraiment contente .
+= i m really happy .
+< i m really happy .
+
+> c est un mauvais conducteur .
+= he is bad at driving .
+< he is a bad influence .
+
+> je suis en train de changer de poste .
+= i m between jobs .
+< i m reading .
+
+> je ne fais qu une suggestion .
+= i m just making a suggestion .
+< i m only a little .
+
+> nous sommes fiances .
+= we re engaged .
+< we re creative .
+
+> il est toujours debout .
+= he is still standing .
+< he is still alive .
+
+> il vous regarde .
+= he s looking at you .
+< he s looking at you .
+
+> je suis le patron .
+= i m the boss .
+< i m the boss .
+
+> elle est en colere apres moi .
+= she is angry with me .
+< she is angry with me .
+
+> nous sommes coinces .
+= we re stuck .
+< we re trapped .
+
+> il est votre fils .
+= he s your son .
+< he s your son .
+
+> je suis toujours content .
+= i m always happy .
+< i m always happy .
+
+> vous etes vraiment egoistes .
+= you re really selfish .
+< you re really forward .
+
+> vous n etes pas l unique femme ici .
+= you re not the only woman here .
+< you re not the only woman here .
+
+> c est toi le chef .
+= you re the leader .
+< you re the leader .
+
+> n avoir qu un ami me convient .
+= i m ok with having just one friend .
+< i m fine to miss your friend .
+
+> je ne suis pas fou .
+= i m not insane .
+< i m not mad .
+
+> je suis heureux que vous veniez .
+= i m glad you re coming .
+< i m glad that you ll come .
+
+> je ne m en vais pas .
+= i m not leaving .
+< i m not going away .
+
+> elle est douee pour jouer au tennis .
+= she is good at playing tennis .
+< she is poor at tennis tennis .
+
+> tu es tres peureux .
+= you re very timid .
+< you re very timid .
+
+> il n est pas vraiment minutieux .
+= he s not a very meticulous guy .
+< he s not really angry .
+
+> vous etes plus grandes que moi .
+= you re taller than i am .
+< you are taller than i am .
+
+> ils sont en dessous .
+= they re downstairs .
+< they re downstairs .
+
+> vous etes maigrichons .
+= you re skinny .
+< you re arrogant .
+
+> elle aime prendre des photos .
+= she s fond of taking pictures .
+< she is fond of taking pictures .
+
+> tu es matinale .
+= you re early .
+< you are early .
+
+> je suis votre voisin .
+= i m your neighbor .
+< i m in your side .
+
+> je suis alite .
+= i m in bed .
+< i m here .
+
+> je suis puissante .
+= i m powerful .
+< i m powerful .
+
+> je prepare le the .
+= i m making tea .
+< i m starting the problem .
+
+> je n ai pas peur d etre critique .
+= i m not afraid to be criticized .
+< i m not ashamed to be out .
+
+> vous me critiquez sans cesse !
+= you re always criticizing me !
+< you re getting me .
+
+> il a trois ans de plus que moi .
+= he s three years older than me .
+< he is younger years younger than me .
+
+> elle porte un collier de prix .
+= she is wearing an expensive necklace .
+< she is wearing a cotton .
+
+> elles ne sont pas du tout interessees .
+= they are not at all interested .
+< they re not happy at home .
+
+> nous aurons un examen aujourd hui .
+= we re going to have a test today .
+< we re getting married today .
+
+> il a hate de vous parler .
+= he s eager to speak to you .
+< he s scared to talk to you .
+
+> nous sommes tres en retard .
+= we re really late .
+< we are very late .
+
+> je suis libre maintenant .
+= i m free now .
+< i m free now .
+
+> tu es incroyable .
+= you re incredible .
+< you re amazing .
+
+> je suis fatigue des devoirs .
+= i am tired of homework .
+< i am tired of homework .
+
+> nous sommes assez seules .
+= we re quite alone .
+< we re quite alone .
+
+> il est toujours en train de se plaindre .
+= he is constantly complaining .
+< he s always laughing .
+
+> je suis accro .
+= i m addicted .
+< i m addicted .
+
+> il commence a perdre ses cheveux .
+= he is beginning to lose his hair .
+< he is going to voice her .
+
+> tu es fort sage .
+= you re very wise .
+< you re very wise .
+
+> je suis quasiment pret .
+= i m about ready .
+< i am ready ready .
+
+> je ne suis pas assez bien pour tom .
+= i m not good enough for tom .
+< i m not good enough .
+
+> j agis pour mon pere .
+= i am acting for my father .
+< i m at my books .
+
+> nous plaisantons .
+= we re kidding .
+< we re joking .
+
+> tu n es pas totalement irreprochable .
+= you re not totally blameless .
+< you re not fit .
+
+> je suis votre et vous etes miennes .
+= i am yours and you are mine .
+< i m yours and you are .
+
+> tu es fort avisee .
+= you re very wise .
+< you re very wise .
+
+> il est dans la mouise .
+= he s in hot water .
+< he is in trouble .
+
+> c est l un de mes voisins .
+= he is one of my neighbors .
+< he is one of my neighbours .
+
+> je suis pret pour demain .
+= i m ready for tomorrow .
+< i m ready for tomorrow .
+
+> vous adorerez ce livre .
+= you re going to love this book .
+< you are seeing this book .
+
+> je ne suis pas completement naive .
+= i m not completely naive .
+< i m not rich .
+
+> c est un tricheur et un menteur .
+= he s a cheat and a liar .
+< he s a novelist and liar .
+
+> c est moi le patron .
+= i m the boss .
+< i am in charge here .
+
+> il est occupe a preparer son voyage .
+= he is busy preparing for the trip .
+< he is busy preparing of his own .
+
+> il ne se presente pas aux prochaines elections .
+= he is not running in the coming election .
+< he s not ashamed of this .
+
+> nous sommes enseignants .
+= we are teachers .
+< we re tired .
+
+> je suis juste un simple instituteur .
+= i am just a humble teacher .
+< i m just a little .
+
+> je suis de vos eleves .
+= i m one of your students .
+< i m from with all .
+
+> j en ai fini de vous ecouter .
+= i m done listening to you .
+< i m done with you so .
+
+> elles sont nerveuses .
+= they re jittery .
+< they re conceited .
+
+> vous etes naives .
+= you re naive .
+< you re finicky .
+
+> je suis assez contente .
+= i m happy enough .
+< i m pretty happy .
+
+> il est ici pour nous espionner .
+= he s here to spy on us .
+< he s here trying .
+
+> je ne me plains pas .
+= i m not complaining .
+< i m not arguing .
+
+> je descends l escalier .
+= i am going down the stairs .
+< i m dreading the exam .
+
+> je suis plutot occupee .
+= i m rather busy .
+< i m pretty busy .
+
+> je ne suis pas a l aise .
+= i m not comfortable .
+< i m not allowed of .
+
+> tu n es plus le bienvenu ici .
+= you are no longer welcome here .
+< you re no longer welcome here .
+
+> vous n etes pas mort .
+= you re not dead .
+< you re no different .
+
+> nous sommes remues .
+= we re shaken .
+< we re broke .
+
+> c est vous la plus vieille .
+= you re the oldest .
+< you re the oldest .
+
+> je suis desolee si je t ai effrayee .
+= i m sorry if i frightened you .
+< i m sorry if i frightened you .
+
+> je suis deja mariee .
+= i m already married .
+< i m already married .
+
+> vous etes si mechante .
+= you re so mean .
+< you re so mean .
+
+> je suis desolee de vous avoir derange !
+= i m sorry to have bothered you .
+< i m sorry to have bothered you .
+
+> vous etes inutiles .
+= you re useless .
+< you re stuck .
+
+> je suis plutot heureuse .
+= i m fairly happy .
+< i m pretty happy .
+
+> tu as parfaitement raison .
+= you re perfectly right .
+< you re completely right .
+
+> je ne suis pas extraverti .
+= i m not outgoing .
+< i m not . .
+
+> j attends toujours votre reponse .
+= i m still waiting for your answer .
+< i m still waiting for your answer .
+
+> c est de notre faute a tous .
+= we re all to blame for that .
+< he is on his wrong .
+
+> il dort profondement .
+= he s sound asleep .
+< he s raking .
+
+> tu es courageuse .
+= you re courageous .
+< you re tough .
+
+> je suis ponctuelle .
+= i m punctual .
+< i am punctual .
+
+> je ne suis pas utile ici .
+= i m unnecessary here .
+< i m not here here .
+
+> vous etes desormais un homme .
+= you re a man now .
+< you re a man now .
+
+> vous n etes pas medecin .
+= you re not a doctor .
+< you re no doctor .
+
+> vous convenez au poste .
+= you are suitable for the job .
+< they re waiting for .
+
+> vous etes tres habiles .
+= you re very clever .
+< you re very clever .
+
+> vous etes important .
+= you are important .
+< you re annoying .
+
+> vous n etes pas citadine si ?
+= you re not a city girl are you ?
+< you re not upset are you ?
+
+> il est desormais a son compte .
+= he is now on his own .
+< he is used to the money .
+
+> j en ai assez de ses excuses .
+= i m sick of her excuses .
+< i m tired of with her .
+
+> ce sont des bebes .
+= they re babies .
+< they re traitors .
+
+> j etudie l anglais .
+= i m studying english .
+< i m learning english .
+
+> tu es occupe en ce moment ?
+= you are busy now aren t you ?
+< you re alone aren t you ?
+
+> nous sommes seuls .
+= we re alone .
+< we re on our own .
+
+> vous etes tres grossieres .
+= you re very rude .
+< you re very rude .
+
+> vous etes tres talentueux .
+= you re very talented .
+< you re very talented .
+
+> nous sommes encore ici .
+= we re still here .
+< we re still here .
+
+> il est innocent .
+= he s innocent .
+< he is innocent innocent
+
+> nous sommes convaincues de son succes .
+= we are sure of his success .
+< we are crazy with his success .
+
+> c est un pigiste .
+= he s a freelance journalist .
+< he s a senior man .
+
+> il est trop vieux pour vous .
+= he s too old for you .
+< he s too old for you .
+
+> nous sommes hors de danger .
+= we are free from danger .
+< we are out of danger .
+
+> elles te cherchent .
+= they re looking for you .
+< they re looking for you .
+
+> je suis heureux que tu puisses venir .
+= i m glad that you can come .
+< i m glad you are you are .
+
+> je n ai simplement pas tres faim .
+= i m just not very hungry .
+< i m just not very hungry .
+
+> il desire ardemment s y rendre .
+= he is eager to go there .
+< he is eager to go there .
+
+> je ne suis pas autorisee a vous aider .
+= i m not allowed to help you .
+< i m not allowed to help you .
+
+> nous sommes riches .
+= we re rich .
+< we re wealthy .
+
+> il est en train d arriver .
+= he s coming .
+< he s coming .
+
+> je suis cette voiture .
+= i am following that car .
+< i m at the
+
+> il n est pas vraiment un artiste .
+= he is not much of an artist .
+< he is not a an artist .
+
+> tu ne regardes pas tout le paysage .
+= you re not looking at the whole picture .
+< you re not at all all .
+
+> vous etes mince .
+= you re thin .
+< you re thin .
+
+> nous sommes touches .
+= we re touched .
+< we re finicky .
+
+> je ne vais pas vous aider .
+= i m not going to help you .
+< i m not going to help you .
+
+> nous sommes tres reconnaissants .
+= we re very grateful .
+< we re very forward .
+
+> j en ai fini de toi .
+= i m done with you .
+< i m done with you .
+
+> moi aussi je prends ce train .
+= i m also taking this train .
+< i m feeling the same evening .
+
+> vous etes degoutant .
+= you re disgusting .
+< you re disgusting .
+
+> nous sommes impuissantes .
+= we re helpless .
+< we re powerless .
+
+> vous etes fort elegante .
+= you re very sophisticated .
+< you re very sophisticated .
+
+> c est un esprit independant .
+= she s an independent thinker .
+< he s an independent thinker .
+
+> vous etes plus grandes que moi .
+= you re taller than me .
+< you are taller than me .
+
+> je ne suis pas anglaise .
+= i m not english .
+< i m not japanese .
+
+> tu es trop maigrichon .
+= you re too skinny .
+< you re too skinny .
+
+> tu es remarquable .
+= you re remarkable .
+< you re temperamental .
+
+> je suis tres contente de vous revoir .
+= i m very glad to see you again .
+< i m very glad to see you back .
+
+> nous comptons sur vous pour aider .
+= we re counting on you to help .
+< we re counting on you to help .
+
+> il est reveur .
+= he is a dreamer .
+< he is more .
+
+> vous etes tous fous .
+= you re all crazy .
+< you re all crazy .
+
+> vous etes tres contrariee .
+= you re very upset .
+< you re very upset .
+
+> ce n est pas un menteur .
+= he s not a liar .
+< he s no liar liar .
+
+> vous etes plus intelligent que moi .
+= you re smarter than me .
+< you re smarter than me .
+
+> vous etes celle qui m a entrainee .
+= you re the one who trained me .
+< you re the one who trained me .
+
+> je vais te blesser .
+= i m going to hurt you .
+< i m going to you you
+
+> je suis pret a mourir .
+= i am ready to die .
+< i m ready to die .
+
+> vous n etes pas aussi malins que moi .
+= you re not as smart as me .
+< you aren t as short as i am .
+
+> il se cache dans la penderie .
+= he s hiding in the closet .
+< he s hiding in the closet .
+
+> je ne suis pas vraiment un expert .
+= i m not really an expert .
+< i m not really a poor .
+
+> je ne vais pas travailler .
+= i m not going to work .
+< i m not going to working .
+
+> t es marrant .
+= you re funny .
+< you re fun .
+
+> j ai trop sommeil pour conduire .
+= i m too sleepy to drive .
+< i m too sleepy to drive .
+
+> je chante avec mes enfants .
+= i am singing with my children .
+< i m saving to get children .
+
+> je tue le temps .
+= i m killing time .
+< i m wasting this .
+
+> je ne suis pas malheureuse .
+= i m not unhappy .
+< i m not miserable .
+
+> ils sont tous les memes .
+= they re all the same .
+< they are all the same .
+
+> je suis allonge dans l herbe .
+= i m lying on the grass .
+< i m ready .
+
+> je suis ravi que tu aies souleve cela .
+= i m glad you brought that up .
+< i m glad you brought that up .
+
+> il est un bon perdant .
+= he is a good loser .
+< he is a good speaker .
+
+> il est desesperement amoureux .
+= he s hopelessly in love .
+< he is old old .
+
+> elle est encore mineure .
+= she is still a girl .
+< she s still a minor .
+
+> je suis la professeur .
+= i m the teacher .
+< i m the teacher .
+
+> nous sommes toutes celibataires .
+= we re all single .
+< we re all single .
+
+> je commence a devenir vieux .
+= i m getting old .
+< i m beginning to be old .
+
+> tu es merveilleux .
+= you re wonderful .
+< you re wonderful .
+
+> c est un marcheur rapide .
+= he s a fast walker .
+< he is a smooth talker .
+
+> vous etes veinarde .
+= you re in luck .
+< you re in luck .
+
+> je ne vais pas te revoir .
+= i m not going to see you again .
+< i m not going to tell you .
+
+> vous etes tellement gentils !
+= you re so sweet .
+< you re so sweet .
+
+> c est un de mes meilleurs amis .
+= he is one of my best friends .
+< he s a friend of my friends .
+
+> il est sur le chemin de son domicile .
+= he s on his way home .
+< he is about the path of his . .
+
+> il deambule aux alentours en transe .
+= he is wandering around in a trance .
+< he is staying in english .
+
+> je suis a toi .
+= i m yours .
+< i m yours .
+
+> tu es l elu .
+= you are the one .
+< you are the chosen one .
+
+> je n en ai pas fini avec vous .
+= i m not done with you .
+< i m not finished with you .
+
+> je ne suis pas medecin mais enseignant .
+= i am not a doctor but a teacher .
+< i am not a doctor but a teacher .
+
+> il est votre ami .
+= he s your friend .
+< he s your friend .
+
+> je t aide quand tu veux .
+= i am always ready to help you .
+< i m giving you are you .
+
+> vous etes la maitresse .
+= you re the master .
+< you re the master .
+
+> il est assez timide .
+= he s kind of shy .
+< he is a shy .
+
+> vous etes libre de vous en aller .
+= you re free to go .
+< you re free to go .
+
+> il est un danger pour la societe .
+= he is a danger to society .
+< he s an expert for for .
+
+> je suis etudiant a l universite d oxford .
+= i am a student at oxford university .
+< i m a student of hyogo .
+
+> tu n es pas drole .
+= you re no fun .
+< you re no fun .
+
+> c est une tres belle dame .
+= she is a most beautiful lady .
+< she is a very nice person .
+
+> je suis tout seul .
+= i m all alone .
+< i m all by myself .
+
+> vous n etes pas seules .
+= you re not alone .
+< you re not alone .
+
+> je porte des lunettes de soleil .
+= i m wearing sunglasses .
+< i m looking for coffee .
+
+> vous etes fort emotives .
+= you re very emotional .
+< you re very emotional .
+
+> vous mentez .
+= you are lying .
+< you re lying .
+
+> elles ne sont pas mortes .
+= they re not dead .
+< they re not dead .
+
+> tu as trop confiance en toi .
+= you re overconfident .
+< you re too much .
+
+> il semble probable qu il echoue .
+= he is not likely to succeed .
+< he is likely to win come .
+
+> je suis sure de pouvoir persuader tom .
+= i m sure i can persuade tom .
+< i m sure i ve tom .
+
+> vous etes nerveusement usee .
+= you re a nervous wreck .
+< you re a nervous wreck .
+
+> elle travaille nuit et jour .
+= she is working night and day .
+< she is working and hard .
+
+> je vais appeler une ambulance .
+= i m going to call an ambulance .
+< i m going to have a baby .
+
+> je suis sincere .
+= i m sincere .
+< i m hardworking .
+
+> vous abusez de votre autorite .
+= you are abusing your authority .
+< you are abusing on your side .
+
+> je suis nouveau ici .
+= i am new here .
+< i m new here .
+
+> je ne suis pas ici pour affaires .
+= i m not here on business .
+< i m not here for you .
+
+> nous sommes consciencieuses .
+= we re conscientious .
+< we re available .
+
+> il est plus fort que jamais .
+= he is stronger than ever .
+< he s stronger than than he .
+
+> je suis en colere apres vous .
+= i m mad at you .
+< i m mad at you .
+
+> nous sommes maintenant en phase .
+= we re on the same page now .
+< we re safe for now .
+
+> tu es surmene .
+= you re overworked .
+< you are overworked .
+
+> je suis stupefaite .
+= i m astonished .
+< i m out .
+
+> il est fier d etre medecin .
+= he is proud of being a doctor .
+< he is proud of being a doctor .
+
+> je suis pret .
+= i m ready .
+< i m ready .
+
+> elle est en colere contre moi .
+= she is mad at me .
+< she is well with me .
+
+> vous etes vraiment geniale .
+= you re really awesome .
+< you re really awesome .
+
+> c est un mari ideal pour moi .
+= he is an ideal husband for me .
+< he s a child to me .
+
+> elles ne sont pas seules .
+= they aren t alone .
+< they re not alone .
+
+> vous hallucinez completement .
+= you re completely delusional .
+< you re totally .
+
+> tu es en danger tom .
+= you re in danger tom .
+< you re in danger tom .
+
+> vous etes tres occupee .
+= you re very busy .
+< you re very busy .
+
+> tu souffres n est ce pas ?
+= you re in pain aren t you ?
+< you re winning aren t you ?
+
+> je suis perplexe .
+= i m puzzled .
+< i m in .
+
+> tu es la personne la plus grande ici .
+= you re the tallest person here .
+< you re the one who tallest person .
+
+> c est vous l instituteur .
+= you re the teacher .
+< you re the teacher .
+
+> je joue avec mes amis .
+= i m playing with my friends .
+< i m playing with my friends .
+
+> vous etes fort bonnes .
+= you re very good .
+< you re very good .
+
+> ils sont la pour moi .
+= they re here for me .
+< they re here for me .
+
+> j y retourne .
+= i m going back .
+< i m going back .
+
+> il a le moral tres bas .
+= he s feeling really low .
+< he s a very very studies .
+
+> je ne suis pas la patronne .
+= i m not the boss .
+< i m not the boss .
+
+> tu es endormi .
+= you re sleepy .
+< you re sleepy .
+
+> elle est tres en colere apres moi .
+= she is very angry with me .
+< she is very angry with me .
+
+> nous ne sommes pas vieilles .
+= we re not old .
+< we re not .
+
+> je ne porte aucun sous vetement .
+= i m not wearing any underwear .
+< i m not interested in a .
+
+> tu es jolie .
+= you re pretty .
+< you re pretty .
+
+> vous allez etre sur pieds .
+= you re going to be ok .
+< you re going to be ok .
+
+> tu mets ma patience a l epreuve .
+= you re testing my patience .
+< you re testing my patience .
+
+> vous etes bons .
+= you are good .
+< you re good .
+
+> il est plus fort que vous .
+= he s stronger than you .
+< he s stronger than you .
+
+> tu gaspilles des munitions .
+= you re wasting ammo .
+< you re wasting ammo .
+
+> je n ai pas sommeil .
+= i m not sleepy .
+< i m not sleepy .
+
+> je vais a paris a l automne .
+= i m going to paris in the fall .
+< i m going to izu the station .
+
+> il est dans sa bibliotheque .
+= he is in his library .
+< he is in his library .
+
+> je suis ton ami .
+= i m your friend .
+< i m your friend .
+
+> vous ne pensez pas clairement .
+= you re not thinking clearly .
+< you are not helping point .
+
+> ca ne vous reussit pas .
+= you re not good at this .
+< you re not helping .
+
+> nous sommes freres .
+= we re brothers .
+< we are brothers .
+
+> elle est raide dingue de lui .
+= she s completely crazy about him .
+< she is mad .
+
+> vous etes grossiers .
+= you re rude .
+< you re rude .
+
+> vous etes celle la .
+= you are the one .
+< you are the one .
+
+> tu as raison je pense .
+= you re right i think .
+< you re always i i .
+
+> je suis tres desorientee .
+= i m all confused .
+< i am very happy .
+
+> ils sont vieux .
+= they re old .
+< they re old .
+
+> je suis en train de dormir .
+= i m sleeping .
+< i m drowning .
+
+> je suis un clochard bon a rien .
+= i m a good for nothing bum .
+< i m a pretty at this .
+
+> tu n es qu un enfant .
+= you re just a boy .
+< you re just a kid .
+
+> je me rejouis de te voir heureuse .
+= i m glad to see you re happy .
+< i m glad to see you re happy .
+
+> je suis toujours tres nerveux .
+= i m always very nervous .
+< i m still going .
+
+> je pense que vous avez raison .
+= you re right i think .
+< you re afraid that think .
+
+> je me fais porter pale demain .
+= i m calling in sick tomorrow .
+< i m leaving it tomorrow .
+
+> tu es gentille .
+= you re kind .
+< you re nice .
+
+> j en ai marre de l entendre .
+= i m sick of hearing it .
+< i m tired of hearing that .
+
+> nous sommes des hommes occupes .
+= we are busy men .
+< we re unemployed .
+
+> elle est ivre de bonheur .
+= she is drunk with happiness .
+< she is certain to succeed .
+
+> nous sommes tous fous .
+= we re all crazy .
+< we re all crazy .
+
+> c est un casse cou .
+= he is a daredevil .
+< he s a head s .
+
+> je n abandonne pas facilement .
+= i m no quitter .
+< i m not joking .
+
+> je suis sur que tom avait ses raisons .
+= i m sure tom had his reasons .
+< i m sure tom had his reasons .
+
+> tu es agitee .
+= you re restless .
+< you re cruel .
+
+> je suis patient .
+= i m patient .
+< i m patient .
+
+> je vais les voir ce soir .
+= i m seeing them tonight .
+< i m going to go tonight .
+
+> nous sommes en train d attendre .
+= we re waiting .
+< we re having .
+
+> je suis fatigue de faire la queue .
+= i m tired of waiting in line .
+< i m tired of waiting in line .
+
+> je suis heureux de t avoir invitee .
+= i m glad i invited you .
+< i m glad i invited you .
+
+> il est capitaine de l equipe .
+= he is the captain of the team .
+< he s the captain of the team .
+
+> elle mange comme deux .
+= she s eating for two .
+< she is as like a hard .
+
+> elles ne sont pas onereuses .
+= they re not expensive .
+< they re not expensive .
+
+> tu sais te faire comprendre .
+= you re assertive .
+< you re assertive to win .
+
+> elle est non seulement belle mais aussi intelligente .
+= she is not only beautiful but also intelligent .
+< she is not only intelligent beautiful beautiful .
+
+> nous sommes tres semblables .
+= we are very similar .
+< we re very excited .
+
+> vous etes hors de controle .
+= you re out of control .
+< you re out of control .
+
+> elle est son amie .
+= she is her friend .
+< she is his friend .
+
+> nous abandonnons .
+= we re quitting .
+< we re giving up .
+
+> tu as tellement de talent !
+= you re so talented .
+< you re so stupid .
+
+> je suis heureuse que tu aies rencontre tom .
+= i m glad you met tom .
+< i m glad you enjoyed tom .
+
+> je suis juste curieuse .
+= i m just curious .
+< i m just curious .
+
+> nous sommes flattes .
+= we re flattered .
+< we re canadians .
+
+> il a deux ans de plus que mary .
+= he s two years older than mary is .
+< he is two years older than mary .
+
+> tu es tres observatrice .
+= you re very observant .
+< you re very observant .
+
+> nous sommes en retard .
+= we re behind schedule .
+< we are late .
+
+> j en ai marre de lui .
+= i m fed up with him .
+< i m fed up with him .
+
+> elle est sa veritable mere .
+= she is his real mother .
+< she is her husband her mother .
+
+> je ne parle pas avec vous .
+= i m not talking to you .
+< i m not talking to you .
+
+> ce n est qu une enfant .
+= she s just a child .
+< she is just a child .
+
+> vous tirez avantage de sa faiblesse .
+= you re taking advantage of her weakness .
+< you re taking advantage of her weakness .
+
+> je ne le fais plus .
+= i m not doing this anymore .
+< i m not doing it anymore .
+
+> je suis sournois .
+= i m sneaky .
+< i am sneaky .
+
+> elle est apparemment une honnete femme .
+= she is apparently an honest woman .
+< she s one of english woman .
+
+> nous perdons toutes du temps .
+= we re all wasting time .
+< we re all wasting time .
+
+> nous sommes separes .
+= we re separated .
+< we re starved .
+
+> tu es tres sceptique .
+= you re very skeptical .
+< you re very skeptical .
+
+> je n en suis plus sure .
+= i m not sure anymore .
+< i m not sure of
+
+> je suis le seul a avoir survecu .
+= i m the only one who survived .
+< i m the only one who survived .
+
+> tu n es pas medecin .
+= you re not a doctor .
+< you re no doctor .
+
+> je suis photographe .
+= i m a photographer .
+< i m a .
+
+> c est un grand scientifique .
+= he is a great scientist .
+< he is a big scientist .
+
+> il est adorable .
+= he s adorable .
+< he s a southpaw .
+
+> tu es imprudente .
+= you re foolish .
+< you re foolish .
+
+> je ne suis pas vieux .
+= i m not old .
+< i m not old .
+
+> il ne vient pas non plus .
+= he isn t coming either .
+< i m not making either .
+
+> je suis amoureux d une fille geniale .
+= i m in love with a wonderful girl .
+< i m in a child of it .
+
+> je suis fourbu .
+= i am exhausted .
+< i m very tired .
+
+> je crains que la rumeur ne soit averee .
+= i m afraid the rumor is true .
+< i m afraid i m not the problem .
+
+> je suis ivre .
+= i m drunk .
+< i m exhausted .
+
+> vous n etes pas different .
+= you re no different .
+< you re no different .
+
+> elle a deux ans de plus que toi .
+= she is two years older than you .
+< she is two years older than you .
+
+> je suis content de ma nouvelle veste .
+= i m pleased with my new jacket .
+< i m pleased with my new bathing suit .
+
+> j attends noel avec impatience .
+= i am looking forward to christmas .
+< i m looking forward to him .
+
+> je suis furieux .
+= i m furious .
+< i m stubborn .
+
+> elle nous apprend le francais .
+= she is teaching us french .
+< she s teaching us french .
+
+> il est vraiment beau .
+= he s really good looking .
+< he is really into .
+
+> elle est tranquille .
+= she is quiet .
+< she is guilty .
+
+> je suis juste un mec normal .
+= i m just an average guy .
+< i m just a normal guy .
+
+> il m aide .
+= he s helping me .
+< he is after me .
+
+> il est frais emoulu de l ecole .
+= he s fresh out of college .
+< he is fresh from college .
+
+> je me rejouis que vous vous portiez mieux .
+= i m glad you re doing better .
+< i m glad you re all as you .
+
+> nous ne sommes pas vos ennemies .
+= we re not your enemy .
+< we re not your enemy .
+
+> tu es tellement mignonne .
+= you re so pretty .
+< you re so impatient .
+
+> il a des chances de gagner la partie .
+= he is likely to win the game .
+< he is likely to win the game .
+
+> elle a loupe le coche .
+= she s missed the boat .
+< she s on the boat .
+
+> elle n est pas encore debout .
+= she is not up yet .
+< she s not a yet .
+
+> je ne suis pas bon a ca .
+= i m not good at it .
+< i m not good at this .
+
+> je suis content que ca vous rende heureux .
+= i m glad that makes you happy .
+< i m glad that makes you happy .
+
+> je suis trop gros .
+= i m too fat .
+< i m too fat .
+
+> nous ne sommes pas invites .
+= we re not invited .
+< we re not invited .
+
+> nous n y sommes pas habitues .
+= we re not used to it .
+< we re not happy sure .
+
+> vous etes tellement previsibles !
+= you re so predictable .
+< you re so picky .
+
+> tu es precis .
+= you re precise .
+< you re early .
+
+> tu es inquiet pas vrai ?
+= you re worried aren t you ?
+< you re impressed aren t you ?
+
+> je suis en train d utiliser l ordinateur .
+= i m using the computer .
+< i m learning basque .
+
+> c est un creationiste .
+= he s a creationist .
+< he s a senior .
+
+> il est apres mes fesses .
+= he s after me .
+< he is my brother .
+
+> c est une femme forte .
+= she s a tough woman .
+< she is a jealous woman .
+
+> tu es l amour de ma vie .
+= you re the love of my life .
+< you re the love of my life .
+
+> je crains de ne pas suivre .
+= i m afraid i don t follow .
+< i m afraid i am the .
+
+> tu n es pas le bienvenu ici .
+= you re not welcome here .
+< you re not welcome here .
+
+> tu es toujours mon fils .
+= you re still my son .
+< you are always my son .
+
+> je ne suis pas perfectionniste .
+= i m not a perfectionist .
+< i m not a .
+
+> vous etes endormi .
+= you re sleepy .
+< you re sleepy .
+
+> vous etes malins .
+= you re clever .
+< you re resilient .
+
+> je suis contagieux .
+= i m contagious .
+< i m forgetful .
+
+> nous restons .
+= we re staying .
+< we re resigning .
+
+> il agit en son nom propre .
+= he is acting on his own behalf .
+< he s up with his own .
+
+> elle est coupable de vol .
+= she is guilty of theft .
+< she is guilty of fraud .
+
+> nous avons tous peur .
+= we re all afraid .
+< we re all scared .
+
+> il dort comme un bebe .
+= he s sleeping like a baby .
+< he is able to have a baby .
+
+> vous etes fort sceptiques .
+= you re very skeptical .
+< you re very skeptical .
+
+> je suis plutot occupe .
+= i m rather busy .
+< i m pretty busy .
+
+> tu es prevenante .
+= you re considerate .
+< you re annoying .
+
+> elle est toujours a fumer .
+= she is always smoking .
+< she is always finding fault .
+
+> il va venir chez moi ce soir .
+= he is to come to my house tonight .
+< he is going to love this evening .
+
+> je suis pret a t aider .
+= i am ready to help you .
+< i am ready to help you .
+
+> ils sont sur le point de commencer .
+= they are about to start .
+< they are about to start .
+
+> je suis un nouvel eleve .
+= i m a new student .
+< i m a lazy student .
+
+> tu n es pas encore mort .
+= you re not dead yet .
+< you re not dead yet .
+
+> tu es le champion n est ce pas ?
+= you re the champion aren t you ?
+< you re the champion aren t you ?
+
+> tu n es pas un espion si ?
+= you aren t a spy are you ?
+< you re not a woman are you ?
+
+> vous vous exprimez bien .
+= you re articulate .
+< you re articulate .
+
+> il n est pas gentil avec elle .
+= he is not kind to her .
+< he is out kind to be . .
+
+> tu es decue n est ce pas ?
+= you re disappointed aren t you ?
+< you re disappointed aren t you ?
+
+> elle est privee de sortie .
+= she is forbidden to go out .
+< she s pregnant .
+
+> je suis satisfait .
+= i m satisfied .
+< i m satisfied .
+
+> ils sont tous normaux .
+= they re all normal .
+< they re all normal .
+
+> je suis benie .
+= i m blessed .
+< i m korean .
+
+> ils sont jeunes et en bonne sante .
+= they re young and healthy .
+< they re young and healthy .
+
+> vous gaspillez de l eau .
+= you re wasting water .
+< you re wasting water .
+
+> je manque d espace dans mon placard .
+= i m running out of closet space .
+< i m running out of my closet .
+
+> elles sont heureuses .
+= they re happy .
+< they re happy .
+
+> vous n etes jamais chez vous .
+= you re never at home .
+< you re never at home .
+
+> je me rejouis de vous avoir finalement rencontres .
+= i m glad to finally meet you .
+< i m glad to finally meet you .
+
+> vous etes idiot de vous fier a lui .
+= you re stupid to trust him .
+< you re stupid to trust him .
+
+> je n essaie d impressionner personne .
+= i m not trying to impress anyone .
+< i m just trying for you .
+
+> il depend financierement de son epouse .
+= he s financially dependent on his wife .
+< he is wearing of his own .
+
+> je suis fort impressionne .
+= i m definitely impressed .
+< i m very impressed .
+
+> vous etes trop maigres .
+= you re too skinny .
+< you re too tense .
+
+> je suis sur le chemin du travail .
+= i m on my way to work .
+< i m on the best of work .
+
+> elle n est qu une enfant .
+= she is just a child .
+< she is just a child .
+
+> tu n aides pas beaucoup .
+= you re not helping much .
+< you re not very supportive .
+
+> il est medium .
+= he is a psychic .
+< he s broke .
+
+> il est deja la .
+= he is already here .
+< he s already here .
+
+> elle est aimee de ses amies .
+= she s loved by her friends .
+< she is loved with his friends .
+
+> je suis gave .
+= i m stuffed .
+< i m out .
+
+> vous etes impressionnees n est ce pas ?
+= you re impressed aren t you ?
+< you re depressed aren t you ?
+
+> nous sommes remuees .
+= we re shaken .
+< we re powerful .
+
+> tu es une veritable amie .
+= you re a true friend .
+< you re a true friend .
+
+> j ai le mal du pays .
+= i m homesick .
+< i am seeing the washing mondays .
+
+> je suis sur le point de partir .
+= i m about to leave .
+< i m about to go .
+
+> je suis heureux que vous ayez mentionne cela .
+= i m glad you brought this up .
+< i m glad you brought that up .
+
+> c est un pauvre type sans c ur .
+= he s a cold hearted jerk .
+< he is a jerk .
+
+> il s appuie sur une canne .
+= he s leaning on a cane .
+< he s just about a .
+
+> je voyage leger .
+= i m traveling light .
+< i m going downtown .
+
+> elle ecrit constamment des lettres .
+= she is constantly writing letters .
+< she is taking better heels .
+
+> je vais dormir .
+= i m going to sleep .
+< i am going to sleep .
+
+> vous n avez plus d excuses .
+= you re out of excuses .
+< you re out of excuses .
+
+> je suis sure que nous pouvons arranger ca .
+= i m sure we can work this out .
+< i m sure we can work this out .
+
+> elle est trop agee pour toi .
+= she s too old for you .
+< she s too old for you .
+
+> nous sommes sur le chemin de la maison .
+= we are on the way home .
+< we re on the way home .
+
+> je suis ici pour affaires .
+= i am here on business .
+< i m here to save .
+
+> elle est certaine de reussir les examens .
+= she is certain to pass the exam .
+< she is sure of us .
+
+> elle n est pas tres riche .
+= she is not very well off .
+< she is not very rich .
+
+> c est vous la professeur .
+= you re the teacher .
+< you re the teacher .
+
+> il revasse toujours .
+= he is always day dreaming .
+< he s always reading .
+
+> c est un artiste celebre .
+= he s a famous artist .
+< he is a famous artist .
+
+> nous sommes vieux amis .
+= we re friends from way back .
+< we re old friends .
+
+> c est votre fils .
+= he s your son .
+< i s your son .
+
+> j ai honte .
+= i am ashamed .
+< i m ashamed .
+
+> c est pour vous que je suis venu .
+= you re the reason i came .
+< you re the reason i came .
+
+> j ai honte car j ai agi stupidement .
+= i m ashamed because i acted foolishly .
+< i m terribly sorry i forgot .
+
+> tu n es pas comme les autres .
+= you aren t like the others .
+< you aren t like the others .
+
+> il simule .
+= he s faking .
+< he s coming .
+
+> je vais avoir besoin de plus d argent .
+= i m going to need some more money .
+< i m going to need some more money .
+
+> il a l habitude de travailler dur .
+= he is accustomed to hard work .
+< he is accustomed to working hard .
+
+> je suis plus elegante que toi .
+= i m smarter than you .
+< i m smarter than you .
+
+> je suis tres inquiet a ton sujet .
+= i m very worried about you .
+< i am very tired about you .
+
+> je n ai pas honte d etre pauvre .
+= i m not ashamed that i am poor .
+< i m not ashamed of being poor .
+
+> il n est pas a l interieur .
+= he s not in .
+< he is not in .
+
+> vous etes en avance .
+= you are early .
+< you re early .
+
+> tu es l ainee .
+= you re the oldest .
+< you re the oldest .
+
+> tu es impatient .
+= you re impatient .
+< you re impatient .
+
+> vous etes tout seul .
+= you re all alone .
+< you re all alone .
+
+> je suis difficile .
+= i m fussy .
+< i m shocked .
+
+> je souffre d un mauvais rhume .
+= i am suffering from a bad cold .
+< i am suffering from a baby .
+
+> je m habitue a ce mode de vie .
+= i am accustoming to this life style .
+< i m thinking of this sort .
+
+> tu es veinard .
+= you re in luck .
+< you re in luck .
+
+> il n est pas chanteur mais acteur .
+= he is not a singer but an actor .
+< he is not poor at the edges .
+
+> je suis contente de la voir .
+= i am glad to see her .
+< i m glad to see the place .
+
+> elle est mere isolee de deux enfants .
+= she s a single mother of two .
+< she is more acquainted with the children .
+
+> je suis a ton cote .
+= i m by your side .
+< i m by your side .
+
+> je suis satisfait de leur representation .
+= i m pleased with their performance .
+< i m pleased with their performance .
+
+> je suis libre cet apres midi .
+= i am free this afternoon .
+< i m free the afternoon .
+
+> tu n es pas en securite ici .
+= you re not safe here .
+< you re not safe here .
+
+> je suis certain de pouvoir persuader tom .
+= i m sure i can persuade tom .
+< i m sure i have tom .
+
+> elle est tranchante .
+= she is sharp .
+< she is used to
+
+> vous etes si gentille !
+= you re so sweet .
+< you re so sweet .
+
+> il se rapproche .
+= he s coming closer .
+< he s raking .
+
+> je suis vraiment occupee .
+= i m really busy .
+< i m really busy .
+
+> je suis seulement fatiguee .
+= i m just tired .
+< i m just tired .
+
+> je fais du benevolat .
+= i m volunteering .
+< i m at the restaurant .
+
+> je n attends personne .
+= i m not expecting anyone .
+< i m feeling low .
+
+> nous ne faisons pas de chichis .
+= we re not fussy .
+< we re not talking .
+
+> j en suis certain .
+= i m sure .
+< i m certain of that .
+
+> je n apprends rien .
+= i m not learning anything .
+< i m not suggesting anything .
+
+> tu ne vises pas assez haut .
+= you re not aiming high enough .
+< you re not aiming enough .
+
+> il aime beaucoup la musique .
+= he is very fond of music .
+< he is fond of music .
+
+> nous ne sommes pas seules .
+= we are not alone .
+< we re not alone .
+
+> comme tu es mignonne .
+= you are so cute .
+< you re a pretty .
+
+> je ne fais pas partie de ses admirateurs .
+= i m not a fan .
+< i m not in of them .
+
+> je ne presente pas mes excuses .
+= i m not apologizing .
+< i m not selling to my .
+
+> on n a plus le temps .
+= we re out of time .
+< we re not getting better .
+
+> nous sommes ponctuelles .
+= we re punctual .
+< we re sunk .
+
+> je suis desolee . j ai oublie .
+= i m sorry . i forgot .
+< i m sorry . i forgot .
+
+> vous etes idiote .
+= you re silly .
+< you re being silly
+
+> il l a fait auparavant .
+= he s done it before .
+< he s done this before .
+
+> vous n etes pas si interessant .
+= you re not that interesting .
+< you re not that interesting .
+
+> il ne me prete aucune attention .
+= he s not paying any attention to me .
+< he s still ready me .
+
+> je suis tres contrarie .
+= i m very upset .
+< i m very upset .
+
+> ce n est pas un ami a moi .
+= he is no friend of mine .
+< he s no friend of mine .
+
+> vous etes fort timide .
+= you re very timid .
+< you re very timid .
+
+> je suis interesse par l histoire japonaise .
+= i am interested in japanese history .
+< i am interested in japanese .
+
+> ils sont tous morts .
+= they are all dead .
+< they re all dead .
+
+> cela m inquiete .
+= i m worried about it .
+< i m getting .
+
+> je m entraine pour le triathlon .
+= i m training for the triathlon .
+< i m growing at it .
+
+> desole j ai perdu mon sang froid .
+= i m sorry i lost my temper .
+< i m very my books in my .
+
+> j ai toujours faim .
+= i m always hungry .
+< i m still hungry .
+
+> c est un americain d origine asiatique .
+= he s an asian american .
+< he is an an american person .
+
+> c est vous l enseignante .
+= you re the teacher .
+< you re the teacher .
+
+> je suis sure que tout ira bien .
+= i m sure everything will be ok .
+< i m sure everything will be fine .
+
+> je suis fatigue d ecouter tes plaintes .
+= i m sick of listening to your complaints .
+< i m tired of your complaints .
+
+> je ne suis pas interesse par votre opinion .
+= i m not interested in your opinion .
+< i m not interested in your opinion .
+
+> nous n allons pas nous marier .
+= we re not getting married .
+< we re not going .
+
+> je me sens un peu fatigue .
+= i m feeling kind of tired .
+< i m just a little .
+
+> vous etes fort raffine .
+= you re very sophisticated .
+< you re very sophisticated .
+
+> c est un joueur de tennis .
+= he is a tennis player .
+< he is a tennis player .
+
+> nous sommes tetus .
+= we re stubborn .
+< we are anxious .
+
+> je suis content de t avoir engage .
+= i m glad i hired you .
+< i m glad i hired you .
+
+> tu me genes .
+= you re embarrassing me .
+< you re killing me .
+
+> nous souffrons .
+= we re in pain .
+< we re trying to fight .
+
+> il est deja marie .
+= he s already married .
+< he s already married .
+
+> tu es responsable de ce que tu fais .
+= you are responsible for what you do .
+< you re responsible for what you know .
+
+> je me tire .
+= i m going .
+< i m being .
+
+> il n est pas tout a fait la .
+= he s not all there .
+< he s not quite content .
+
+> je t en prie .
+= you re welcome .
+< you re welcome .
+
+> vous etes toutes a moi .
+= you re all mine .
+< you re all mine .
+
+> il est genereux envers ses amis .
+= he is generous to his friends .
+< he s a father to love .
+
+> je dois dix mille dollars a mon oncle .
+= i m in debt to my uncle for .
+< i am in a good at my dissatisfaction .
+
+> tu es trop naive .
+= you re too naive .
+< you re too naive .
+
+> elle a l esprit ouvert .
+= she s open minded .
+< she is appearing of thunder .
+
+> je suis maigrichon .
+= i m skinny .
+< i m skinny .
+
+> elles s inquietent pour la paix .
+= they re anxious for peace .
+< they re anxious for peace .
+
+> elle est folle .
+= she s demented .
+< she is tall .
+
+> tu es exactement comme ta mere .
+= you re just like your mother .
+< you re so like your mother .
+
+> c est un aristocrate .
+= he s an aristocrat .
+< he is a bigot .
+
+> elle attend un enfant .
+= she is expecting a child .
+< she is knitting a child .
+
+> tu es tres elegant .
+= you re very sophisticated .
+< you re very sophisticated .
+
+> nous sommes tous en train de diner .
+= we re all having lunch .
+< we re both .
+
+> ce n est pas un saint .
+= he s no saint .
+< he s no saint .
+
+> je suis en salle de classe .
+= i am in the classroom .
+< i m in the bathroom .
+
+> nous avons toujours raison .
+= we re always right .
+< we re always right .
+
+> tu rougis !
+= you are blushing .
+< you re joking !
+
+> je suis desolee de te deranger .
+= i am sorry to trouble you .
+< i m sorry to have you .
+
+> il est nouveau en ville .
+= he s new in town .
+< he s loaded in business .
+
+> je me fais du souci pour lui .
+= i am worried about him .
+< i m worried about them .
+
+> il est unique en son genre .
+= he s one of a kind .
+< he s kind of cute .
+
+> il est plus chanceux qu intelligent .
+= he is more lucky than clever .
+< he is more clever than singer .
+
+> t es un chic type .
+= you are a good person .
+< you are a good person .
+
+> elle est hors de danger .
+= she is out of danger .
+< she is certain of danger .
+
+> nous en avons presque termine .
+= we re nearly finished .
+< we re nearly finished .
+
+> vous etes astucieuse .
+= you re crafty .
+< you re crafty .
+
+> je reste avec toi .
+= i m staying with you .
+< i m looking forward to you .
+
+> nous sommes sans voix .
+= we re speechless .
+< we are defenseless .
+
+> vous etes talentueuse .
+= you re talented .
+< you re talented .
+
+> je suis offense .
+= i m offended .
+< i m offended .
+
+> tu es un beau papillon .
+= you are a beautiful butterfly .
+< you are a big .
+
+> vous etes fort attirant .
+= you re very attractive .
+< you re very attractive .
+
+> je n ai simplement pas faim .
+= i m just not hungry .
+< i m just not hungry .
+
+> j essaie juste d aider .
+= i m just trying to help .
+< i am just trying to help .
+
+> nous montons .
+= we re going upstairs .
+< we re resigning .
+
+> j attends une lettre d elle .
+= i m expecting a letter from her .
+< i m expecting a she person .
+
+> je vais reecrire ce rapport .
+= i m going to rewrite this report .
+< i m going to figure this place .
+
+> il en a marre de mes problemes .
+= he is fed up with my problems .
+< he is tired of with my cat .
+
+> tu es encore un bleu .
+= you re still green .
+< you re still a woman .
+
+> nous sommes tres reconnaissants pour votre hospitalite .
+= we re very grateful for your hospitality .
+< we are very grateful for your own .
+
+> je suis remue .
+= i m shaken .
+< i m tired .
+
+> je suis fortune .
+= i m wealthy .
+< i m a .
+
+> on va bien s amuser .
+= we re gonna have a lot of fun .
+< we re only going to do it .
+
+> je suis vraiment prudent .
+= i m real careful .
+< i m really ugly .
+
+> vous etes le dernier espoir de l humanite .
+= you re the last hope for humanity .
+< you re the last hope for humanity .
+
+> nous sommes en couple .
+= we re a couple .
+< we re part .
+
+> elle fait un regime .
+= she s dieting .
+< she is knitting a sweater .
+
+> c est vous qui m avez entrainee .
+= you re the one who trained me .
+< you re the one who trained me .
+
+> je m ennuie tellement en ce moment .
+= i m so bored right now .
+< i m bored right now .
+
+> il est amoureux d elle .
+= he is in love with her .
+< he s well of her .
+
+> tu es impatiente .
+= you re impatient .
+< you re talkative .
+
+> je vais a boston pour trois mois .
+= i m going to boston for three months .
+< i m going to fix her rent .
+
+> nous n avons pas encore tres faim .
+= we aren t very hungry yet .
+< we re not very close yet .
+
+> je ne suis pas nerveuse .
+= i m not nervous .
+< i m not . .
+
+> je suis triste sans toi .
+= i m sad without you .
+< i m sad without you .
+
+> tu es fort bonne .
+= you re very good .
+< you re very good .
+
+> je suis fou de vous .
+= i m crazy about you .
+< i m crazy about you .
+
+> nous passerons une bonne journee .
+= we re going to have a good day .
+< we re having a good .
+
+> vous etes deux fois plus fort que moi .
+= you are twice as strong as me .
+< you are twice as strong as i am
+
+> tu n es pas aussi maligne que moi .
+= you re not as smart as me .
+< you re not as smart as me .
+
+> je commets trop de fautes .
+= i am making too many mistakes .
+< i m very sorry with you .
+
+> elle vient de france .
+= she is from france .
+< she is dependent by .
+
+> c est un membre estime .
+= he is a member in good standing .
+< he s a strange guy .
+
+> vous etes tres chouettes .
+= you re very nice .
+< you re very upset .
+
+> nous contribuons .
+= we re contributing .
+< we re going out .
+
+> il est prof d anglais .
+= he is a teacher of english .
+< he s english english .
+
+> je suis a court d idees .
+= i m running out of ideas .
+< i m out of ideas .
+
+> il est en train de dejeuner .
+= he is having lunch .
+< he is reading .
+
+> il a peur de son grand pere .
+= he is afraid of his grandfather .
+< he is afraid of his father .
+
+> il est toujours alite .
+= he is still on his back .
+< he is still alive .
+
+> vous etes tres contrariees .
+= you re very upset .
+< you re very upset .
+
+> tu es tres courageuse .
+= you re very brave .
+< you are very brave .
+
+> je suis un vendeur .
+= i m a salesman .
+< i m a salesperson .
+
+> il tend a etre paresseux .
+= he is inclined to be lazy .
+< he is ashamed to be a .
+
+> j ai la gueule de bois .
+= i m hungover .
+< i m feeling very .
+
+> vous gagnez .
+= you re winning .
+< you re winning .
+
+> je suis impliquee .
+= i m involved .
+< i m prepared .
+
+> je fais frire du poisson .
+= i am frying fish .
+< i m looking at singing .
+
+> elles sont en avance .
+= they re early .
+< they re early .
+
+> il economise pour pouvoir aller a l universite .
+= he s saving up to go to college .
+< he is anxious to go up with .
+
+> il t attend chez nous .
+= he s waiting for you at home .
+< he s waiting for you at home .
+
+> c est un homme jaloux .
+= he is a jealous man .
+< he is a quiet man .
+
+> tu es tres ouvert .
+= you re very open .
+< you re very open .
+
+> vous etes vraiment embetante .
+= you re really annoying .
+< you re really awesome .
+
+> je me rejouis que vous soyez venus .
+= i m glad you came over .
+< i m glad you came over .
+
+> vous etes bonne .
+= you are good .
+< you re good .
+
+> elle vous attend chez elle .
+= she s waiting for you at home .
+< she s waiting for you at home .
+
+> nous sommes stupefaits .
+= we re astonished .
+< we re stuffed .
+
+> me revoila .
+= i m back .
+< i m going to fight .
+
+> vous etes fatigue n est ce pas ?
+= you are tired aren t you ?
+< you re worried aren t you ?
+
+> je suis desole vraiment .
+= i m sorry i really am .
+< i m sorry married .
+
+> c est le garcon le plus grand .
+= he is the tallest boy .
+< she is the greatest .
+
+> je me specialise en sociologie .
+= i m majoring in sociology .
+< i m off of breath .
+
+> je suis fourbu .
+= i m exhausted .
+< i m very tired .
+
+> elles mentent .
+= they re lying .
+< they re lying .
+
+> tu es merveilleuse .
+= you re wonderful .
+< you re wonderful .
+
+> nous sommes au regime .
+= we re dieting .
+< we re up early .
+
+> je suis en train de me concentrer .
+= i m concentrating .
+< i m reading .
+
+> je ne suis pas prete a me battre .
+= i m not ready to fight .
+< i m not allowed to fight .
+
+> je regrette vraiment d entendre ca .
+= i m really sorry to hear that .
+< i m very sorry to hear that .
+
+> je lui dis constamment de bien se comporter .
+= i m constantly telling her to behave herself .
+< she s getting up with a good .
+
+> quel imbecile vous etes !
+= you re such an idiot !
+< you re such an idiot !
+
+> vous etes geniale .
+= you re awesome .
+< you re awesome .
+
+> je suis satisfait de sa performance .
+= i m pleased with his performance .
+< i m pleased with his performance .
+
+> tu es assise sur ma chaise .
+= you re sitting in my chair .
+< you re sitting in my chair .
+
+> nous sommes toujours engages .
+= we re still involved .
+< we re still involved .
+
+> il est attire par les negresses .
+= he s attracted to black women .
+< he is attracted to black .
+
+> je suis sournoise .
+= i m sneaky .
+< i m shocked .
+
+> je prends des vacances a la plage .
+= i am taking a holiday at the beach .
+< i m dying to the door .
+
+> je ne suis pas encore marie .
+= i m not married yet .
+< i m not married yet .
+
+> tout le monde parle de lui en bien .
+= he is well spoken of by everybody .
+< he is always trying to please .
+
+> elles se trouvent juste derriere toi .
+= they re right behind you .
+< they re right behind you .
+
+> tu plaisantes !
+= you re kidding !
+< you re joking !
+
+> nous sommes en train de jouer aux cartes .
+= we re playing cards .
+< we re taking .
+
+> tu es mignonne dans ton genre .
+= you re kind of cute .
+< you re kind of cute .
+
+> je vais le tuer pour ca !
+= i m going to kill him for this !
+< i m going to let this next .
+
+> nous sommes deprimes .
+= we re depressed .
+< we re pooped .
+
+> il n est plus ce qu il etait .
+= he is not what he was .
+< he is not what he used to be .
+
+> je vais etre pret pour ca .
+= i m going to be ready for that .
+< i m going to m tom that .
+
+> nous sommes supposes connaitre les regles .
+= we are supposed to know the rules .
+< we re just busy with the .
+
+> nous sommes en train de bouger .
+= we re moving .
+< we re moving .
+
+> elle est fiere de ses enfants .
+= she is proud of her children .
+< she is proud of her children .
+
+> vous etes mon seul veritable ami .
+= you re my only real friend .
+< you re my only real friend .
+
+> je suis vraiment heureux d entendre ca .
+= i m really glad to hear that .
+< i m really glad to hear that .
+
+> nous sommes tous infectes .
+= we re all infected .
+< we re all done .
+
+> je suis votre nouvel avocat .
+= i m your new lawyer .
+< i m your lawyer .
+
+> je suis habitue a veiller tard .
+= i am accustomed to staying up late .
+< i am used to be .
+
+> je ne suis pas satisfait .
+= i m not satisfied .
+< i m dissatisfied .
+
+> vous etes bizarres .
+= you re weird .
+< you re fortunate .
+
+> nous avons tous peur .
+= we re all scared .
+< we re all scared .
+
+> elle est dure avec eux .
+= she is hard on them .
+< she is hard with her .
+
+> je ne suis pas votre ami .
+= i m no friend of yours .
+< i m not your friend .
+
+> nous ne sommes pas idiotes .
+= we re not stupid .
+< we re not dressed .
+
+> nous ne faisons que commencer .
+= we re just starting .
+< we re just beginning .
+
+> je suis ravie que vous ayez souleve cela .
+= i m glad you brought that up .
+< i m glad you brought that up .
+
+> je suis un joueur de foot .
+= i m a football player .
+< i m a sort of a .
+
+> nous sommes condamnes .
+= we re doomed .
+< we are doomed .
+
+> elle manque de sens commun .
+= she is lacking in common sense .
+< she is certainly afraid .
+
+> nous ne sommes pas apparentees .
+= we aren t related .
+< we re unrelated .
+
+> tu es le bienvenue .
+= you are welcome here .
+< you re the greatest .
+
+> je vais a hanovre avec toi .
+= i m going to hanover with you .
+< i m going to cook for you .
+
+> il est probable qu il remporte la partie .
+= he is likely to win the game .
+< he s likely to win the game .
+
+> ils s interessent beaucoup a l astronomie .
+= they are very interested in astronomy .
+< they re very good at .
+
+> nous ne sommes pas ouvertes .
+= we re not open .
+< we re not .
+
+> j oublie toujours les noms des gens .
+= i am constantly forgetting people s names .
+< i m always forgetting people s names .
+
+> elle est en colere apres vous .
+= she is mad at you .
+< she is mad at you .
+
+> je suis en train de m entrainer .
+= i m exercising .
+< i m learning .
+
+> j en ai assez de l entendre .
+= i m sick of hearing it .
+< i m tired of hearing that .
+
+> je ne suis pas patient .
+= i m not patient .
+< i m not patient .
+
+> elles ne sont toujours pas en securite .
+= they re still not safe .
+< they re still not happy .
+
+> je suis terriblement fatiguee .
+= i m awfully tired .
+< i m suddenly tired .
+
+> c est ton fils .
+= he s your son .
+< i s your son .
+
+> elles sont toutes en vacances .
+= they re all on vacation .
+< they re all on vacation .
+
+> ils sont tous semblables a moi .
+= they are all alike to me .
+< they are all alike to me .
+
+> nous sommes en guerre .
+= we re at war .
+< we are at war .
+
+> tu es allemand n est ce pas ?
+= you re german right ?
+< you re german aren t you ?
+
+> vous etes tres elegants .
+= you re very stylish .
+< you re very sophisticated .
+
+> nous sommes completement egares .
+= we re completely lost .
+< we re totally ignorant .
+
+> tu es fort maline .
+= you re quite smart .
+< you re very clever .
+
+> j ai vraiment sommeil .
+= i m really sleepy .
+< i m really sleepy .
+
+> c est vous le professionnel .
+= you re the pro .
+< you re the pro .
+
+> je suis desole si je t ai effraye .
+= i m sorry if i frightened you .
+< i m sorry if i frightened you .
+
+> personne n est trop vieux pour apprendre .
+= you re never too old to learn .
+< you re never too old to learn .
+
+> je depends de toi .
+= i m depending on you .
+< i m coming you .
+
+> il est bon chanteur .
+= he is a good singer .
+< he is good at singing .
+
+> je suis convaincu de son innocence .
+= i am convinced that he is innocent .
+< i am convinced of his innocence .
+
+> il n est pas gentil a son egard .
+= he is not kind to her .
+< he is out of his his his .
+
+> je n ai plus faim .
+= i m not angry anymore .
+< i m no hungry anymore .
+
+> je suis enchante d etre ici .
+= i am delighted to be here .
+< i m delighted to be here .
+
+> ils sont incroyables .
+= they re amazing .
+< they re amazing .
+
+> je suis en train de conduire .
+= i m driving .
+< i m learning .
+
+> c est un ange .
+= she s an angel .
+< he s a bad .
+
+> j ai honte de ta conduite .
+= i am ashamed of your conduct .
+< i m ashamed of my monotonous .
+
+> il a mal a la tete .
+= he s got a headache .
+< he s addicted to cocaine .
+
+> il est assez vieux pour boire .
+= he is old enough to drink .
+< he s old enough to drink .
+
+> il est employe dans le batiment .
+= he s a construction worker .
+< he s running in the job .
+
+> je ne suis pas abruti .
+= i m not dumb .
+< i m not discouraged .
+
+> il est joueur .
+= he s a gambler .
+< he s a gambler .
+
+> tu es agressif .
+= you re aggressive .
+< you re being .
+
+> je suis enchantee de te rencontrer .
+= i m delighted to meet you .
+< i m delighted to meet you .
+
+> il est intelligent .
+= he is smart .
+< he is intelligent .
+
+> je suis heureux de vous voir .
+= i m glad to see you .
+< i m glad to see you .
+
+> elles sont vieilles .
+= they re old .
+< they are busy .
+
+> tu es decu n est ce pas ?
+= you re disappointed aren t you ?
+< you re disappointed aren t you ?
+
+> il est bon menteur .
+= he s a good liar .
+< he s good at him .
+
+> tu es une femme tres attirante .
+= you re a very attractive woman .
+< you re a very attractive .
+
+> vous etes plante .
+= you re stuck .
+< you re stuck .
+
+> je ne suis pas malheureux .
+= i m not miserable .
+< i m not unhappy .
+
+> je n ai absolument pas peur .
+= i m not afraid at all .
+< i m not scared of it .
+
+> je ne suis pas armee .
+= i m not armed .
+< i m not armed .
+
+> je suis consciencieux .
+= i m thorough .
+< i m conscientious .
+
+> pour l instant je m entraine seulement .
+= i am just warming up now .
+< they re free i get free .
+
+> il y travaille .
+= he s working on it .
+< he s hiding .
+
+> vous etes tres braves .
+= you re very brave .
+< you re very brave .
+
+> je suis tres heureux en georgie .
+= i am very happy in georgia .
+< i m very happy with his .
+
+> j ai un peu la tete qui tourne .
+= i m a little dizzy .
+< i m feeling dizzy .
+
+> j ai environ le meme age que vous .
+= i m about the same age as you .
+< i m about the same age as you .
+
+> tu es vraiment embetante .
+= you re really annoying .
+< you re really awesome .
+
+> je ne vais pas garder cette chose .
+= i m not keeping this thing .
+< i m not taking any this thing .
+
+> je suis allergique aux fruits de mer .
+= i m allergic to seafood .
+< i m allergic to the sea .
+
+> je suis tellement content que tu sois la .
+= i m so happy that you re here .
+< i m happy you re here .
+
+> vous n etes pas si vieilles .
+= you re not that old .
+< you re not that interesting .
+
+> nous sommes tous nes fous .
+= we are all born mad .
+< we re all sure .
+
+> c est un etudiant de deuxieme annee .
+= he s a sophomore .
+< he is a student .
+
+> tu trouves toujours des reproches a me faire .
+= you re always finding fault with me .
+< i m always trying to do me .
+
+> vous etes fort efficaces .
+= you re very efficient .
+< you re very efficient .
+
+> il devient chauve .
+= he s going bald .
+< he is raking .
+
+> vous etes endurantes .
+= you re resilient .
+< you re charming .
+
+> je suis sideree .
+= i m stunned .
+< i m here .
+
+> elle est tres photogenique .
+= she is very photogenic .
+< she is very attractive .
+
+> vous n etes pas tres bon .
+= you re not very good .
+< you re not very good .
+
+> je suis tranquille .
+= i m quiet .
+< i m finnish .
+
+> je suis differente .
+= i m different .
+< i m attentive .
+
+> vous etes tres marrant .
+= you re very funny .
+< you re very funny .
+
+> vous etes l aine .
+= you re the oldest .
+< you re the oldest .
+
+> il devient ramollo avec l age .
+= he s getting soft in his old age .
+< he is going to see the time .
+
+> la natation m interesse .
+= i am interested in swimming .
+< i am interested in interested in you .
+
+> nous avons fini .
+= we re done .
+< we re done .
+
+> il est scenariste .
+= he s a scriptwriter .
+< he s out of practice .
+
+> je ne suis pas vieille .
+= i m not old .
+< i m not . .
+
+> vous etes fantasque .
+= you re temperamental .
+< you re temperamental .
+
+> c est une enfoiree .
+= she s a dog .
+< she is a runner .
+
+> elle est dans une bonne passe .
+= she s on a roll .
+< she is in a good hotel .
+
+> je suis ravie de vous rencontrer .
+= i m delighted to meet you .
+< i m delighted to meet you .
+
+> je n y suis pas vraiment si interesse .
+= i m not really that interested .
+< i m not really interested in really interested .
+
+> il frole les cinquante ans .
+= he s pushing fifty .
+< he is boiling years old .
+
+> il a le meme age que moi .
+= he s the same age as me .
+< he s the same age as me .
+
+> tu es hors service .
+= you re out of order .
+< you re very skeptical .
+
+> je suis trop fatigue pour marcher davantage .
+= i am too tired to walk any more .
+< i m too tired to do a rat .
+
+> je suis un tantinet jaloux .
+= i m a little bit jealous .
+< i m a bit person .
+
+> je suis plus fort desormais .
+= i m stronger now .
+< i m really married now .
+
+> tu es celle qui a plante cet arbre .
+= you re the one who planted that tree .
+< you re the one who planted that tree .
+
+> il va avoir un choc .
+= he s in for a shock .
+< he is going to have a baby .
+
+> tu deformes mes paroles .
+= you re twisting my words .
+< you re twisting my words .
+
+> il m est totalement inconnu .
+= he is an utter stranger to me .
+< he is completely young me am .
+
+> je tiens son succes pour certain .
+= i am sure of her success .
+< i m cleaning for money .
+
+> je suis presque prete .
+= i am almost ready .
+< i m about ready .
+
+> vous me decevez .
+= i m disappointed in you .
+< you re killing me .
+
+> je meurs de faim !
+= i m starved .
+< i m starving !
+
+> je suis quasiment prete .
+= i m about ready .
+< i am almost ready .
+
+> je me rejouis de te voir ici .
+= i m glad to see you here .
+< i m glad to see you here .
+
+> je ne vais pas jouer a ce jeu .
+= i m not going to play this game .
+< i m not going to playing this .
+
+> c est une personne adorable .
+= he is a lovable person .
+< she is a lovely person .
+
+> je suis ambidextre .
+= i m ambidextrous .
+< i am off .
+
+> je suis de votre cote .
+= i m on your side .
+< i m by your side .
+
+> tu es malade !
+= you re sick !
+< you re sick !
+
+> je suis plus beau que toi .
+= i am more beautiful than you .
+< i m more beautiful than you .
+
+> nous ne sommes pas maries .
+= we re not married .
+< we aren t married .
+
+> nous ne sommes pas tes ennemies .
+= we re not your enemy .
+< we re not welcome .
+
+> nous sommes toutes en colere .
+= we re all angry .
+< we re all angry .
+
+> il creuse sa propre tombe .
+= he is digging his own grave .
+< he s digging his own grave .
+
+> je compte sur toi .
+= i am counting on you .
+< i m counting on you .
+
+> je suis un nouvel etudiant .
+= i m a new student .
+< i m a student student .
+
+> vous etes une personne merveilleuse .
+= you re a wonderful guy .
+< you re a wonderful guy .
+
+> je le fais malgre vous .
+= i m doing it in spite of you .
+< i m doing it in spite of you .
+
+> je ne suis pas de garde demain .
+= i am off duty tomorrow .
+< i am not on call tomorrow .
+
+> vous etes naif .
+= you re naive .
+< you re naive .
+
+> je suis desolee je ne te reconnais pas .
+= i m sorry i don t recognize you .
+< i m sorry i don t recognize you .
+
+> je ne suis pas interessee par une relation .
+= i m not interested in a relationship .
+< i m not interested in a relationship .
+
+> tu es tres jolie .
+= you re very pretty .
+< you re very sophisticated .
+
+> nous sommes ruines .
+= we re ruined .
+< we re broke .
+
+> elle est plus sage qu intelligente .
+= she is more wise than clever .
+< she is younger than him .
+
+> il n est plus celui qu il etait .
+= he is not what he used to be .
+< he s not what he used to be .
+
+> elles sont medecins .
+= they are doctors .
+< they re doctors .
+
+> je suis impatient de vous revoir .
+= i am looking forward to seeing you again .
+< i m looking forward to seeing you .
+
+> je suis assez bon etudiant .
+= i m a pretty good student .
+< i m pretty good student .
+
+> vous etes tellement idiots !
+= you are so stupid .
+< you re so picky .
+
+> il est tres soigneux .
+= he is very careful .
+< he is very very .
+
+> nous sommes veinardes .
+= we re in luck .
+< we re up .
+
+> nous sommes reconnaissants .
+= we re grateful .
+< we re shocked .
+
+> tu n es pas mon ami .
+= you re not my friend .
+< you re not my friend .
+
+> il est toujours celibataire .
+= he s still single .
+< he s always single .
+
+> elle est tres belle .
+= she s very pretty .
+< she is very beautiful .
+
+> je garde la maison .
+= i m housesitting .
+< i m giving home .
+
+> tu es en grave danger .
+= you re in serious danger .
+< you re in serious danger .
+
+> nous sommes pour ainsi dire pretes .
+= we re about ready .
+< we re lucky for that .
+
+> il est au bureau .
+= he is at the office .
+< he is on the office .
+
+> je suis meticuleuse .
+= i m finicky .
+< i m thorough .
+
+> nous sommes dans une bibliotheque .
+= we re in a library .
+< we are in a library .
+
+> je suis ravie de vous aider .
+= i am glad to help you .
+< i am glad to help you .
+
+> je ne suis pas content de cette situation .
+= i m not happy with this situation .
+< i m not really pleased with this .
+
+> je ne suis pas d humeur a blaguer .
+= i am in no mood for joking .
+< i m not in good mood .
+
+> il va probablement gagner le match .
+= he is bound to win the match .
+< he s going to win .
+
+> il est tres talentueux .
+= he is very talented .
+< he s very talented .
+
+> il est plus intelligent qu eux .
+= he s brighter than they are .
+< he is more clever than he .
+
+> tu es fort occupe .
+= you re very busy .
+< you re very busy .
+
+> il a l air bien .
+= he s looking good .
+< he is his short .
+
+> tu es pardonne .
+= you re forgiven .
+< you re forgiven .
+
+> ce ne sont pas les miens .
+= they re not mine .
+< they re not mine .
+
+> je ne suis pas du coin .
+= i m not from around here .
+< i m not from around here .
+
+> tu es en train de mentir .
+= you are lying .
+< you are lying .
+
+> vous n etes pas chanteuse .
+= you re no singer .
+< you re no singer .
+
+> tu ne vas pas le croire .
+= you re not going to believe this .
+< you re not going to believe this .
+
+> vous etes incroyables .
+= you re amazing .
+< you re incredible .
+
+> vous n etes pas invite .
+= you aren t invited .
+< you re not .
+
+> elle est active .
+= she is active .
+< she s tall .
+
+> je ne me sens pas trop bien .
+= i m not feeling too well .
+< i m not feeling too .
+
+> elle est en train de l aider .
+= she is helping him .
+< she is putting .
+
+> tu me decois .
+= i m disappointed in you .
+< you re me me .
+
+> il connait le maire .
+= he is acquainted with the mayor .
+< he is giving it now .
+
+> je ne suis pas supposee boire .
+= i m not supposed to drink .
+< i m out of today .
+
+> nous n y sommes pas habituees .
+= we re not used to it .
+< we re not sure .
+
+> j engage des poursuites .
+= i m pressing charges .
+< i m trying out of practice .
+
+> je ne suis pas sur de comprendre .
+= i m not sure i understand .
+< i m not sure i understand .
+
+> elles mentent toutes .
+= they re all lying .
+< they re all .
+
+> je suis en service .
+= i m on duty .
+< i m on duty .
+
+> je suis aussi grand que mon pere .
+= i m as tall as my father .
+< i m as tall as my father .
+
+> je t observe .
+= i m watching you .
+< i m giving you .
+
+> j arrive chez moi .
+= i m coming home .
+< i m coming at coming .
+
+> elle est habituee a se lever tot .
+= she s accustomed to getting up early .
+< she s used to getting up early .
+
+> il est en train d etudier .
+= he s studying .
+< he is studying now .
+
+> vous etes plus grande que moi .
+= you re taller than me .
+< you re taller than i am .
+
+> je suis vraiment concerne par votre avenir .
+= i m really concerned about your future .
+< i m really interested in your opinion .
+
+> je suis faineante .
+= i am lazy .
+< i m lazy .
+
+> je serai en retard .
+= i m going to be late .
+< i m running late .
+
+> elles sont toutes parties .
+= they re all gone .
+< they re all gone .
+
+> je suis actrice non mannequin .
+= i m an actress not a model .
+< i m not a model .
+
+> j ai sommeil alors je pars maintenant .
+= i m sleepy so i am leaving now .
+< i m feeling if i m a now .
+
+> tu es paresseux .
+= you re lazy .
+< you re lazy .
+
+> j ai dix huit ans .
+= i m eighteen .
+< i m years old .
+
+> il est probable qu il gagne la partie .
+= he is likely to win the game .
+< he s likely to win the game .
+
+> vous etes fort sage .
+= you re very wise .
+< you re very wise .
+
+> elle est une artiste nee .
+= she s a born artist .
+< she is a gifted artist .
+
+> je suis un simple employe de bureau .
+= i m just a plain office worker .
+< i m a terrible office worker .
+
+> c est bon pour moi .
+= i m fine with it .
+< i m good for me .
+
+> je suis desole a propos de cette nuit .
+= i m sorry about last night .
+< i m sorry about last night .
+
+> c est un auteur .
+= he s an author .
+< he s a freshman .
+
+> tu es en train de rever .
+= you are dreaming .
+< you are dreaming .
+
+> vous etes un mec bien .
+= you are a good person .
+< you are a good person .
+
+> je suis juste une fille normale .
+= i m just an average girl .
+< i m just a normal .
+
+> elles ne viennent pas .
+= they re not coming .
+< they re not coming .
+
+> je n en suis pas entierement sur .
+= i m not entirely sure .
+< i m not entirely sure .
+
+> il gagne du temps .
+= he s stalling for time .
+< he is wasting time .
+
+> je suis vraiment stresse .
+= i m really stressed out .
+< i m really good .
+
+> elle est convaincue de mon innocence .
+= she is convinced of my innocence .
+< she is proud of my custom .
+
+> nous n en sommes pas fiers .
+= we re not proud of it .
+< we re not sure .
+
+> je ne suis pas belle .
+= i m not good looking .
+< i m not . .
+
+> ils agissent de leur propre chef .
+= they re acting on their own .
+< they re acting on their own .
+
+> je suis impatient de te revoir .
+= i am looking forward to seeing you again .
+< i m looking forward to seeing you again .
+
+> vous etes un etudiant .
+= you are a student .
+< you are a student .
+
+> nous nous rejouissons de votre presence .
+= we re looking forward to your being here .
+< we re all looking forward to you .
+
+> je n en suis simplement pas sure .
+= i m just not sure .
+< i m not sure sure .
+
+> nous sommes habitues a porter des chaussures .
+= we are accustomed to wearing shoes .
+< we are tired to wearing shoes .
+
+> je suis populaire .
+= i m popular .
+< i m a .
+
+> c est un cardiologue .
+= he s a cardiologist .
+< he s a senior .
+
+> tu es mignon dans ton genre .
+= you re kind of cute .
+< you re kind of cute .
+
+> nous ne sommes pas satisfaites .
+= we re unhappy .
+< we re not satisfied .
+
+> nous sommes detendues .
+= we re relaxed .
+< we re conceited .
+
+> c est la fille de mes reves .
+= she is my dream girl .
+< she s the girl of my dreams .
+
+> je suis puissant .
+= i m powerful .
+< i m powerful .
+
+> elle est professeur .
+= she s a professor .
+< she is a teacher .
+
+> je ne suis pas desesperee .
+= i m not desperate .
+< i m not discouraged .
+
+> il est connu pour etre un grand peintre .
+= he is known as a great painter .
+< he is known to be a painter .
+
+> c est un ecrivain plein d imagination .
+= he is a very imaginative writer .
+< he s a mathematical writer .
+
+> nous ne sommes pas de la meme famille .
+= we re not family .
+< we are not in the same .
+
+> c est certainement une quadra .
+= she is certainly over forty .
+< she s a powerful witch .
+
+> vous etes la seule a me comprendre .
+= you re the only one who understands me .
+< you re the only one who understands me .
+
+> vous n etes pas vous meme aujourd hui .
+= you re not yourself today .
+< you re not yourself today .
+
+> je suis en retard .
+= i m late .
+< i m behind schedule .
+
+> je suis capable de prendre mes propres decisions .
+= i m capable of making my own decisions .
+< i m capable of making some life .
+
+> j ai tres sommeil .
+= i m very sleepy .
+< i m very sleepy .
+
+> je ne suis pas tellement bon en tennis .
+= i m not so good at tennis .
+< i m not good at all .
+
+> je suis un homme .
+= i m a man .
+< i m a man .
+
+> il s amuse .
+= he s enjoying himself .
+< he is amusing sleeping .
+
+> je ne te donnerai pas davantage d argent .
+= i m not giving you any more money .
+< i m not giving you any more money .
+
+> c est un renard .
+= she is a fox .
+< she s a fox .
+
+> il est son ami .
+= he is her friend .
+< he is his friend .
+
+> on s occupe bien d eux .
+= they are well looked after .
+< we are all out of hearing .
+
+> il est comme mort .
+= he is as good as dead .
+< he is sitting like a .
+
+> elles en sont presque la .
+= they re almost here .
+< they re almost here .
+
+> je suis pour ainsi dire heureux .
+= i m kind of happy .
+< i m aware of see happy .
+
+> il est faineant .
+= he is lazy .
+< he s drunk .
+
+> vous dramatisez .
+= you re overreacting .
+< you re coming .
+
+> je ne suis pas une criminelle .
+= i m not a criminal .
+< i m not a drug .
+
+> j en ai marre des devoirs !
+= i m fed up with homework .
+< i m tired of homework .
+
+> il est capable de nager tres vite .
+= he is able to swim very fast .
+< he is capable to a very lawyer .
+
+> tu es important .
+= you are important .
+< you re disgusting .
+
+> vous etes l elue .
+= you are the one .
+< you are the one .
+
+> il n est pas honnete du tout .
+= he is not honest at all .
+< he is not at all all .
+
+> je suis plus petite que vous .
+= i am shorter than you .
+< i m shorter than you .
+
+> vous etes tres indelicats .
+= you are very insensitive .
+< you are very nice .
+
+> je suis en retard pour l entrainement .
+= i m late for practice .
+< i m behind for the manager .
+
+> ce sont des etudiantes .
+= they re students .
+< they re students .
+
+> nous n en sommes pas entierement surs .
+= we re not entirely sure .
+< we re not sure sure .
+
+> elles font partie de nous .
+= they re part of us .
+< they re part of us .
+
+> tu es intrepide .
+= you re fearless .
+< you re fearless .
+
+> elle est bonne nageuse .
+= she is a good swimmer .
+< she is a good swimmer .
+
+> je n y suis pas interesse .
+= i m not interested in that .
+< i m not interested in it .
+
+> je ne prevois rien .
+= i m not planning anything .
+< i m not staying with it .
+
+> tu es charmante .
+= you re charming .
+< you re charming .
+
+> tu es fort contrariee .
+= you re very upset .
+< you re very upset .
+
+> vous etes un bon journaliste .
+= you re a good journalist .
+< you re a good journalist .
+
+> tu es agite .
+= you re restless .
+< you re mine .
+
+> il est ivre .
+= he is drunk .
+< he s drunk .
+
+> tu n es plus un enfant .
+= you are not a child anymore .
+< you re no longer a child .
+
+> je vais etre enseignant .
+= i m going to be a teacher .
+< i m going to be a teacher .
+
+> je suis la pour te proteger .
+= i m here to protect you .
+< i m here to protect you .
+
+> nous sommes tous deux fous .
+= we re both insane .
+< we re both witnesses .
+
+> j en ai marre de mentir .
+= i m sick of lying .
+< i m sick of
+
+> je suis accoutume au temps froid .
+= i am accustomed to cold weather .
+< i m an tv worker .
+
+> il vous attend chez nous .
+= he s waiting for you at home .
+< he s waiting for you at home .
+
+> il est americain .
+= he is american .
+< he isn an american
+
+> tu es une chouette gonzesse .
+= you are a good person .
+< you are a good person .
+
+> je perds patience avec toi .
+= i am losing my patience with you .
+< i am losing my patience with you .
+
+> tu n as pas totalement tort .
+= you re not entirely wrong .
+< you re not wrong are .
+
+> je ne parle pas avec tom .
+= i m not talking to tom .
+< i m not talking to tom .
+
+> je ne suis pas vegetarien .
+= i m not a vegetarian .
+< i m not . .
+
+> je suis completement epuise .
+= i m completely exhausted .
+< i m completely exhausted .
+
+> elle est morte .
+= she is dead .
+< she is a .
+
+> vous etes precis .
+= you re precise .
+< you re early .
+
+> je ne suis pas en service aujourd hui .
+= i m not on duty today .
+< i am off today .
+
+> je suis pret a retrousser mes manches .
+= i m ready to roll up my sleeves .
+< i m ready to apologize my hot .
+
+> je ne suis pas une voleuse .
+= i m not a thief .
+< i m no saint .
+
+> tu n es pas trop vieux pour apprendre .
+= you re never too old to learn .
+< you re not old enough to learn .
+
+> vous n etes pas de mes amis .
+= you re no friend of mine .
+< you re no friend of mine .
+
+> je suis chanceux aujourd hui .
+= i m lucky today .
+< i m the today .
+
+> ils vont essayer .
+= they re going to try .
+< they re going to try .
+
+> il sait jouer de la guitare .
+= he is able to play the guitar .
+< he s suffering from the cold .
+
+> elle porte une belle montre .
+= she is wearing a nice watch .
+< she is a selfish a .
+
+> ils peuvent chanter .
+= they re able to sing .
+< they are talking .
+
+> je vais aller rejoindre les bras de morphee .
+= i am going to sleep .
+< i m going to join soccer tomorrow .
+
+> il sort avec ma fille .
+= he s dating my daughter .
+< he is about it him .
+
+> je vais passer a la television .
+= i m going to be on tv .
+< i m going to izu .
+
+> tu es celui qui m a entraine .
+= you re the one who trained me .
+< you re the one who trained me .
+
+> je suis content de la voir .
+= i am glad to see her .
+< i m glad to see the .
+
+> tu es injuste .
+= you re unfair .
+< you re one .
+
+> vous ne pretez meme pas attention .
+= you re not even paying attention .
+< you re not paying attention .
+
+> vous etes vraiment tres bons .
+= you are really very good .
+< you re really very good .
+
+> je vous ordonne de partir immediatement .
+= i m ordering you to leave immediately .
+< i m ordering you to leave immediately .
+
+> tu vas te bousiller les yeux .
+= you re going to ruin your eyes .
+< you re going to ruin your eyes .
+
+> tu es brillant .
+= you re bright .
+< you re bright .
+
+> je n en peux plus de me battre .
+= i m sick of fighting .
+< i m tired of fighting of them .
+
+> elle s entraine au piano nuit et jour .
+= she s practicing the piano day and night .
+< she s going to win and .
+
+> j y pense encore .
+= i m still thinking about it .
+< i m still thinking about it .
+
+> je suis en train de saigner .
+= i m bleeding .
+< i m learning .
+
+> il est jeune et attirant .
+= he s young and attractive .
+< he is young and young .
+
+> il commence a se sentir desespere .
+= he s starting to feel desperate .
+< he s starting to feel desperate .
+
+> il est vraiment rapide .
+= he s really quick .
+< he is really angry .
+
+> nous en sommes toutes responsables .
+= we re all to blame for that .
+< we re all too .
+
+> je suis aussi choquee que toi .
+= i m as shocked as you are .
+< i m as shocked as you are .
+
+> tu es vraiment embetante .
+= you are really annoying .
+< you re really awesome .
+
+> il ne s en va pas .
+= he s not going .
+< he s not going .
+
+> ils cherchent un bouc emissaire .
+= they re looking for a scapegoat .
+< they are making for him .
+
+> je suis assez heureuse .
+= i m quite happy .
+< i m pretty happy .
+
+> j ecris un roman .
+= i m writing a novel .
+< i m in a a cold .
+
+> nous nous marions .
+= we re getting married .
+< we re joking .
+
+> vous etes tres habile .
+= you re very clever .
+< you re very clever .
+
+> ils envoient de l aide .
+= they re sending help .
+< they re keeping for help .
+
+> je suis heureux que tu l aies aime .
+= i m happy you liked it .
+< i m glad you liked it .
+
+> vous etes l elue .
+= you are the chosen one .
+< you are the one .
+
+> il est absent en conges .
+= he s away on vacation .
+< he is perfect at .
+
+> tu es le doyen .
+= you re the oldest .
+< you re the oldest .
+
+> vous etes fort bon .
+= you re very good .
+< you re very good .
+
+> elle n est pas aussi agee que marie .
+= she s not as old as mary .
+< she s not as old as you .
+
+> je ne suis vraiment pas occupe .
+= i m really not busy .
+< i m really not busy .
+
+> vous etes tres directe .
+= you re very direct .
+< you re very direct .
+
+> vous n y allez pas si ?
+= you re not going are you ?
+< you re going to tell you ?
+
+> je vais voir tom .
+= i m going to see tom .
+< i m going to tom .
+
+> elle m est hostile .
+= she is hostile to me .
+< she s a beginner .
+
+> vous etes si mechants .
+= you re so mean .
+< you re so paranoid .
+
+> je ne suis pas extravertie .
+= i m not outgoing .
+< i m not . .
+
+> ils sont tous coupables .
+= they re all guilty .
+< they re all guilty .
+
+> je suis sidere .
+= i m flabbergasted .
+< i m stunned .
+
+> je suis heureuse que tu sois la .
+= i m happy you re here .
+< i m happy you re here .
+
+> elle est bonne en ski .
+= she is good at skiing .
+< she is good at skiing .
+
+> il n est pas content du resultat .
+= he is unsatisfied with the result .
+< he s not himself of the result .
+
+> elle est inconsciente .
+= she is unconscious .
+< she s a doctor .
+
+> je ne suis pas flic .
+= i m not a cop .
+< i m not a teacher .
+
+> je suis responsable de la securite de tom .
+= i m responsible for tom s safety .
+< i m in charge of tom .
+
+> tu es terre a terre .
+= you re grounded .
+< you re grounded .
+
+> je m inquiete pour l avenir .
+= i m worried about the future .
+< i m worried to see the future .
+
+> il a le coup de foudre .
+= he s love struck .
+< he is always for the .
+
+> je suis juste un type normal .
+= i m just a normal guy .
+< i m just a bad guy .
+
+> je suis allongee dans l herbe .
+= i m lying on the grass .
+< i m being now .
+
+> elles sont en colere .
+= they re angry .
+< they re angry .
+
+> je suis desole d avoir rompu ma promesse .
+= i m sorry i broke my promise .
+< i m sorry i broke my promise .
+
+> elle est vraiment une fille ravissante .
+= she s a real hottie .
+< she is really a really girl .
+
+> nous sommes perplexes .
+= we re baffled .
+< we re confused .
+
+> c est un joueur invetere .
+= he is a compulsive gambler .
+< he is a harsh critic .
+
+> je suis de la meme taille que lui .
+= i m the same height as he is .
+< i m from the same age .
+
+> je suis vraiment fatigue .
+= i m really tired .
+< i m really tired .
+
+> je n y vais pas .
+= i m not going .
+< i m not going .
+
+> c est une personne fiable .
+= she is a reliable person .
+< he is a particularily guy .
+
+> je suis fort impressionne .
+= i m very impressed .
+< i m very modest .
+
+> tu es tres gentil tom .
+= you re very kind tom .
+< you re very kind tom .
+
+> tu es chanceux .
+= you re fortunate .
+< you re fortunate .
+
+> je suis timide .
+= i m shy .
+< i m timid .
+
+> nous sommes pleins de ressources .
+= we re resourceful .
+< we re resourceful .
+
+> je pars .
+= i m going .
+< i m leaving .
+
+> je suis bourre .
+= i m plastered .
+< i m sloshed .
+
+> je dis seulement la verite .
+= i m only telling the truth .
+< i m losing the finishing .
+
+> nous y sommes presque .
+= we re almost there .
+< we re almost ready .
+
+> vous etes avec des amies .
+= you re with friends .
+< you re with friends .
+
+> il est fou de baseball .
+= he is crazy about baseball .
+< he is crazy about jazz .
+
+> vous n etes pas cense fumer ici .
+= you are not supposed to smoke here .
+< you are not supposed to smoke here .
+
+> nous sommes devoues .
+= we re dedicated .
+< we are free .
+
+> je suis sur que tom serait ravi .
+= i m sure tom would be delighted .
+< i m sure tom would be delighted .
+
+> tu n es pas en retard .
+= you re not late .
+< you re not late .
+
+> tu es l instituteur .
+= you re the teacher .
+< you re the teacher .
+
+> elle va sur ses ans .
+= she is going on .
+< she is about her old .
+
+> je suis inquiet pour ta sante .
+= i am anxious about your health .
+< i m anxious for your health .
+
+> tu es l instituteur de mon enfant .
+= you re my kid s teacher .
+< you re my kid s teacher .
+
+> elle porte une bague de prix .
+= she is wearing a valuable ring .
+< she is a a cotton .
+
+> j en ai marre du poisson !
+= i m sick of fish .
+< i m tired of this .
+
+> je suis sobre .
+= i m sober .
+< i m finnish .
+
+> vous etes pathetique .
+= you re pathetic .
+< you re pathetic .
+
+> je ne suis pas facilement impressionne .
+= i m not easily impressed .
+< i m not easily impressed .
+
+> je suis desole de vous avoir fait attendre .
+= i am sorry to have kept you waiting .
+< i m sorry to have kept you waiting .
+
+> vous n etes pas mortes .
+= you re not dead .
+< you re not being .
+
+> vous n etes pas autorise a penetrer ici .
+= you re not allowed in here .
+< you re not allowed in here .
+
+> il est mon ami .
+= he s my friend .
+< he is my friend .
+
+> je ne suis pas folle .
+= i m not insane .
+< i m not crazy .
+
+> je ne suis pas jolie .
+= i m not pretty .
+< i m not bitter .
+
+> je ne vais pas y toucher .
+= i m not going to touch it .
+< i m not going .
+
+> je suis fatigue de lire .
+= i m sick and tired of reading .
+< i am tired of reading .
+
+> c est un physicien .
+= he is a physicist .
+< he is a physicist .
+
+> il lit un roman en ce moment .
+= he s reading a novel right now .
+< he is reading a hard right now .
+
+> j en ai marre de tous tes chichis .
+= i m tired of all your fussing .
+< i m tired of you .
+
+> cela me preoccupe .
+= i m concerned about it .
+< i m getting with it .
+
+> je travaille chez mcdonald s .
+= i m working for mcdonald s .
+< i m moving this s s .
+
+> elles sont encore jeunes .
+= they re still young .
+< they re still young .
+
+> je suis un pietre danseur .
+= i m a terrible dancer .
+< i m a lazy dancer .
+
+> elles sont en train de te chercher .
+= they re looking for you .
+< they re looking for you .
+
+> vous etes depourvu d ambition .
+= you re unambitious .
+< you re unambitious .
+
+> je suis aneanti .
+= i m devastated .
+< i m concerned .
+
+> elle n arrete pas de raler .
+= she s always grumbling .
+< she is not wearing a hat .
+
+> elle a honte de ses vieux vetements .
+= she is ashamed of her old clothes .
+< she is ashamed of his old age .
+
+> je ne me sens pas offensee .
+= i m not offended .
+< i m not feeling .
+
+> il est professeur de biologie a harvard .
+= he s a professor of biology at harvard .
+< he is anxious of english at leeds .
+
+> il est parti au maquis .
+= he s gone into hiding .
+< he is sitting to heroin .
+
+> nous sommes en train de nous echapper .
+= we re escaping .
+< we re eating it .
+
+> j ai du mal avec les noms .
+= i m not good with names .
+< i m calling with work .
+
+> je suis ruine .
+= i m ruined .
+< i m prepared .
+
+> je romps ce soir avec ma nana .
+= i m breaking up with my girlfriend tonight .
+< i m breaking up with my work .
+
+> nous ne sommes pas impressionnes .
+= we re not impressed .
+< we re not soldiers .
+
+> tu n es pas vraiment millionnaire si ?
+= you re not really a millionaire are you ?
+< you re not really a millionaire are you ?
+
+> nous sommes vraiment saoules .
+= we re really drunk .
+< we re really drunk .
+
+> il se plaint toujours de quelque chose .
+= he s always complaining about something .
+< he is always complaining of something .
+
+> je prends mon apres midi demain .
+= i m taking tomorrow afternoon off .
+< i am leaving for my cellphone tomorrow .
+
+> nous sommes trop proches .
+= we re too close .
+< we re too close .
+
+> je suis egalement pensionne .
+= i m retired too .
+< i m retired too .
+
+> je suis enchante de vous rencontrer .
+= i m glad to see you .
+< i m charmed to meet you .
+
+> je ne crains pas les serpents .
+= i m not afraid of snakes .
+< i m not making the law .
+
+> il est vraiment egoiste .
+= he s really selfish .
+< he is really selfish .
+
+> il cherche a plaire .
+= he is eager to please .
+< he is writing his business .
+
+> je ne suis pas en train de mourir .
+= i m not dying .
+< i m not dying .
+
+> je suis libre demain .
+= i am off duty tomorrow .
+< i m free .
+
+> je suis disposee a me repentir .
+= i m ready to make amends .
+< i m confronted to me .
+
+> tu es tres gentil .
+= you re very nice .
+< you re very kind .
+
+> elle porte une robe verte .
+= she is in a green dress .
+< she is wearing a hat .
+
+> il a peur de se tromper .
+= he s afraid of making mistakes .
+< he is afraid that he will
+
+> elles sont toutes deux bonnes .
+= they are both good .
+< they are both good .
+
+> il a trois ans de plus que moi .
+= he s three years older than i am .
+< he is younger years younger than me .
+
+> je vais epargner plus d argent .
+= i m going to save more money .
+< i m going to go money .
+
+> il est en train de faire des cookies .
+= he is making cookies .
+< he is washing .
+
+> vous etes trop lents .
+= you re too slow .
+< you re too tense .
+
+> il est plus que probable qu il vienne .
+= he s more than likely to come .
+< he s smoking than his he come .
+
+> je suis retenu en otage .
+= i m being held hostage .
+< i m in favor of the facts .
+
+> je me rejouis de vous revoir .
+= i am looking forward to seeing you again .
+< i m looking forward see seeing again .
+
+> il porte des lunettes .
+= he is wearing glasses .
+< he is wearing high .
+
+> tu fais aller ca trop loin .
+= you re carrying this too far .
+< you re going too far .
+
+> nous sommes influences par notre environnement .
+= we are influenced by our environment .
+< we are interested in our way .
+
+> ils ne mijotent rien de bon .
+= they re up to no good .
+< they re not wearing .
+
+> nous sommes tous a la pension .
+= we re all retired .
+< we re all retired .
+
+> elles sont de grandes amies .
+= they are great friends .
+< they re out of friends .
+
+> je suis tout a fait eveillee .
+= i m wide awake .
+< i m all set .
+
+> tu es tellement idiote !
+= you are so stupid .
+< you re so stupid .
+
+> je fait maintenant officiellement partie de ce groupe .
+= i m now officially part of this group .
+< i m leaving in favor of this reading .
+
+> tu n es plus un enfant .
+= you are not a child any more .
+< you re no longer a child .
+
+> vous etes fascinante .
+= you re fascinating .
+< you re fascinating .
+
+> je suis tellement desole !
+= i m so sorry .
+< i am so sorry .
+
+> il est populaire aupres de tout le monde .
+= he is popular with everybody .
+< he is a world everyone everyone .
+
+> vous ne cooperez pas .
+= you re not cooperating .
+< you re not cooperating .
+
+> nous n en sommes pas encore sures .
+= we re not sure yet .
+< we re not sure yet .
+
+> je suis une artiste .
+= i m an artist .
+< i m a artist .
+
+> nous regrettons de ne pas pouvoir vous aider .
+= we re sorry we can t help you .
+< we are sorry we can t help you .
+
+> il ment comme un arracheur de dents .
+= he is lying through his teeth .
+< he is worthy of a pretty .
+
+> il n est bon a rien .
+= he is good for nothing .
+< he is a at this .
+
+> il a environ mon age .
+= he is about my age .
+< he is about my age .
+
+> je pars ce soir .
+= i m departing this evening .
+< i m leaving tonight .
+
+> ils sont en salle des profs .
+= they are in the teachers room .
+< they are in the teachers .
+
+> c est un japonais typique .
+= he is a typical japanese .
+< he s a typical japanese man .
+
+> je ne suis pas actuellement arme .
+= i m now unarmed .
+< i m not your maid .
+
+> elle est une championne de football .
+= she s a soccer champion .
+< she is a member of playing .
+
+> nous sommes seules .
+= we re on our own .
+< we re alone .
+
+> il quittera chicago demain .
+= he is leaving chicago tomorrow .
+< he s leaving tomorrow .
+
+> je suis libre !
+= i m free !
+< i m free .
+
+> je suis fier de mon fils .
+= i m proud of my son .
+< i m proud of my son .
+
+> je ne suis pas invincible .
+= i m not invincible .
+< i m not .
+
+> c est vous les proprietaires .
+= you re the owners .
+< you re the oldest .
+
+> tu n es pas content si ?
+= you re not satisfied are you ?
+< you re not upset are you ?
+
+> tu deviens tres injuste envers moi .
+= you re being very unfair to me .
+< you re very much by me .
+
+> je me fais du souci .
+= i m worried .
+< i m worried .
+
+> nous sommes inquiets pour leur securite .
+= we are anxious for their safety .
+< we re here for your safety .
+
+> elles sont fatiguees .
+= they re tired .
+< they are tired .
+
+> il a l esprit ouvert .
+= he s open minded .
+< he is popular of his teeth .
+
+> il est assez grand pour voyager seul .
+= he is old enough to travel alone .
+< he is old enough to travel alone .
+
+> tu es plus grande que moi .
+= you are taller than me .
+< you re taller than i am .
+
+> je ne suis pas un bon menteur .
+= i m not a good liar .
+< i m not good at fishing .
+
+> elles ont raison bien sur .
+= they re right of course .
+< they re right of course .
+
+> je suis inquiet pour lui .
+= i m worried about him .
+< i m confused for him .
+
+> il n enfreint pas la loi .
+= he s not breaking the law .
+< he s not breaking the law .
+
+> elle est l editeur en chef .
+= she is the editor in chief .
+< she is the executive editor .
+
+> tu es en meilleure forme que moi .
+= you re in better shape than i am .
+< you re loaded .
+
+> il n est pas mon genre .
+= he s not my type .
+< he s not my type .
+
+> je donne le sein a mon bebe .
+= i m breast feeding my baby .
+< i m taking my way my brother .
+
+> je suis en quelque sorte introverti .
+= i m sort of an introvert .
+< i m sort of the .
+
+> vous etes veinards .
+= you re in luck .
+< you re sleepy .
+
+> je pars en voyage d affaire .
+= i m going on a business trip .
+< i m going on vacation .
+
+> je suis en chemin .
+= i m on my way .
+< i m on the way .
+
+> j attends ma mere .
+= i m waiting for my mother .
+< i m waiting for my mother .
+
+> vous etes toutes satisfaites .
+= you re all happy .
+< you re all prisoners .
+
+> je suis flic .
+= i m a cop .
+< i m concerned .
+
+> tu es un genie .
+= you are a genius .
+< you are a genius .
+
+> j ai tres faim .
+= i m very hungry .
+< i m very hungry .
+
+> il est assez mignon .
+= he s kind of cute .
+< he is kind of cute .
+
+> il est en colere apres le monde .
+= he s angry at the world .
+< he is angry .
+
+> je suis vraiment occupee a l instant .
+= i m really busy right now .
+< i m really busy right now .
+
+> je ne suis pas ta servante .
+= i m not your maid .
+< i m not your servant .
+
+> nous le faisons pour l argent .
+= we re doing this for the money .
+< we re doing this for the .
+
+> j en suis absolument certaine .
+= i m absolutely certain of it .
+< i m absolutely certain of it .
+
+> je me promene dans un parc .
+= i m taking a walk in a park .
+< i am considering in a traffic .
+
+> ils courent maintenant .
+= they are running now .
+< they re leaving now .
+
+> nous sommes confrontes a de nombreuses difficultes .
+= we are faced with many difficulties .
+< we re faced many difficulties difficulties .
+
+> nous ne sommes pas idiots .
+= we re not stupid .
+< we re not .
+
+> tu as surement d autres talents .
+= i m sure you have other skills .
+< you are hearing to that a .
+
+> il a le meme age que moi .
+= he is just my age .
+< he s the same age as me .
+
+> je suis sur que vous allez reussir .
+= i m sure that you ll succeed .
+< i m sure that you ll succeed .
+
+> je suis a un pot au boulot .
+= i m at an office party .
+< i m in a break now .
+
+> ca me pompe .
+= i m getting tired of this .
+< i m fine with it .
+
+> vous les terrifiez .
+= they re terrified of you .
+< you re winning to laugh .
+
+> je ne vais pas faire ca aujourd hui .
+= i m not doing that today .
+< i m not going to tell you .
+
+> ils n ont pas froid aux yeux .
+= they re brave .
+< they re not arguing .
+
+> il fait plus de kilos .
+= he is over kilos .
+< he s out of practice .
+
+> vous avez tellement de talent !
+= you re so talented .
+< you re so sorry .
+
+> vous etes charmant .
+= you re charming .
+< you re charming .
+
+> tu n es pas differente .
+= you re no different .
+< you re no different .
+
+> je prends quelques jours de conge .
+= i am taking a couple of days off .
+< i m taking a couple of days off .
+
+> elle est sympa avec moi .
+= she s being nice to me .
+< she s nice to me .
+
+> tu es pleine de talent .
+= you re very talented .
+< you re very talented .
+
+> il recupere lentement de sa maladie .
+= he is slowly recovering from his illness .
+< he is ashamed of his own .
+
+> ils se trouvent juste derriere moi .
+= they re right behind me .
+< they re right behind me .
+
+> je suis heureux parce que vous etes ici .
+= i m happy because you re here .
+< i m very glad you are here .
+
+> ils sont a l interieur .
+= they re inside .
+< they re inside .
+
+> ils se disputent .
+= they are arguing .
+< they re taking .
+
+> j ai peur qu il pleuve .
+= i m afraid it will rain .
+< i m afraid he will be .
+
+> je ne vais pas te le repeter .
+= i m not telling you again .
+< i m not going to tell you again .
+
+> tu es tres genereux .
+= you re very generous .
+< you re very generous .
+
+> vous avez vraiment beaucoup de chance .
+= you re very fortunate .
+< you re very fortunate .
+
+> nous n en sommes pas encore convaincues .
+= we re not convinced yet .
+< we re not desperate yet .
+
+> vous n aidez pas beaucoup .
+= you re not helping much .
+< you re not very supportive .
+
+> tu es fatigue et moi aussi .
+= you are tired and so am i .
+< you are old and than .
+
+> vous etes allemands n est ce pas ?
+= you re germans aren t you ?
+< you re german aren t you ?
+
+> tu es la maitresse .
+= you re the master .
+< you re the master .
+
+> nous sommes pour ainsi dire prets .
+= we re about ready .
+< we re lucky for that .
+
+> tu m enerves .
+= you re annoying me .
+< you re annoying .
+
+> ils jouent notre chanson .
+= they re playing our song .
+< they are reading to the future .
+
+> je suis heureux avec ma copine .
+= i am happy with my girlfriend .
+< i m happy with my girlfriend .
+
+> nous en avons completement termine ici .
+= we re all done here .
+< we re all agreed here .
+
+> je ne suis pas une ivrogne .
+= i m not a drunk .
+< i m not a drug addict .
+
+> je ne suis pas riche .
+= i m not wealthy .
+< i m not rich .
+
+> je suis en train de perdre mon temps .
+= i am wasting my time .
+< i m moving .
+
+> il est dans la cuisine .
+= he is in the kitchen .
+< he s in the kitchen .
+
+> j en ai fini avec mes corvees .
+= i m done with my chores .
+< i m through with my time .
+
+> je suis satisfaite de sa representation .
+= i m pleased with his performance .
+< i m pleased with his performance .
+
+> c est une fille mais elle est brave .
+= she s a girl but she s brave .
+< she s a glamorous she is lost .
+
+> j utilise cette tasse .
+= i m using that cup .
+< i m losing that .
+
+> il torrefie des feves de cafe .
+= he is roasting coffee beans .
+< he is one of the sea .
+
+> je me rejouis que tu sois venue .
+= i m glad you came over .
+< i m glad you came over .
+
+> elle est en danger .
+= she s in danger .
+< she s in danger .
+
+> il est en colere apres sa fille .
+= he s mad at his daughter .
+< he is angry with his mother .
+
+> je quitte la ville pour quelques jours .
+= i m leaving town for a few days .
+< i am leaving town for a few days .
+
+> tu es nouvelle ici n est ce pas ?
+= you re new here aren t you ?
+< you re new here aren t you ?
+
+> je suis habitue a rester debout tard .
+= i m used to staying up late .
+< i am used to learn .
+
+> vous etes seul n est ce pas ?
+= you re alone aren t you ?
+< you re alone aren t you ?
+
+> nous partons pour hawai ce soir .
+= we are leaving for hawaii tonight .
+< we re leaving for this evening .
+
+> il est competent en espagnol et en italien .
+= he is proficient in both spanish and italian .
+< he s broke . english .
+
+> tu ne m impressionne pas .
+= you re not impressing me .
+< you re not helping .
+
+> je suis tout a toi .
+= i m all yours .
+< i m all yours .
+
+> nous sommes confrontes a un tas de problemes .
+= we are faced with a host of problems .
+< we are faced with a host of problems .
+
+> je realise un documentaire .
+= i m making a documentary .
+< i m a french citizen .
+
+> je ne suis pas satisfaite .
+= i m not satisfied .
+< i m not happy .
+
+> je ne suis pas libre cette apres midi .
+= i m not free to go this afternoon .
+< i am not who this afternoon .
+
+> vous etes tous prets .
+= you re all set .
+< you are all set .
+
+> nous sommes siderees .
+= we re stunned .
+< we re reliable .
+
+> je ne suis pas en train de mentir .
+= i m not lying .
+< i m not moving .
+
+> vous n etes pas encore morte .
+= you re not dead yet .
+< you re not dead yet .
+
+> vous etes trop lente .
+= you re too slow .
+< you re too slow .
+
+> je prends mon livre avec moi .
+= i m taking my book with me .
+< i m looking forward to her .
+
+> nous n y allons pas .
+= we re not going .
+< we re not going there .
+
+> tu es deux fois plus forte que moi .
+= you are twice as strong as me .
+< you are twice as strong as i am
+
+> je prends des vacances .
+= i m taking a vacation .
+< i m gathering off .
+
+> j ai presque fini de lire ce livre .
+= i m almost finished reading this book .
+< i am just going of this .
+
+> vous etes cerne .
+= you re surrounded .
+< you re surrounded .
+
+> il regarde la tv .
+= he is watching tv .
+< he s waiting for now .
+
+> nous sommes une famille de quatre .
+= we are a family of four .
+< we are a sort of .
+
+> tu analyses trop .
+= you re over analyzing .
+< you re too .
+
+> je crains que tu m aies mal comprise .
+= i m afraid you misunderstood me .
+< i m afraid that i ve you .
+
+> je vais t enseigner un peu de karate .
+= i m going to teach you some karate .
+< i m going to teach you some karate .
+
+> vous etes tres courageux .
+= you are very brave .
+< you are very brave .
+
+> je suis relativement sur .
+= i am pretty sure .
+< i m sure .
+
+> tu es une de ces dragueuse !
+= you re such a flirt .
+< you are such a flirt !
+
+> je m inquiete pour moi .
+= i m just looking out for myself .
+< i m worried about tom .
+
+> il n est pas vraiment le gerant .
+= he isn t actually the manager .
+< he is not in the manager .
+
+> je suis content de te revoir .
+= i m glad to see you back .
+< i m glad to see you again .
+
+> il n est pas encore la .
+= he s not here yet .
+< he s not in yet .
+
+> je suis dispose a l aider .
+= i m willing to help him .
+< i m ready to help .
+
+> vous etes tres serviable .
+= you re very helpful .
+< you re very helpful .
+
+> je ne suis pas medecin mais enseignant .
+= i m not a doctor but a teacher .
+< i am not a doctor but a teacher .
+
+> ils sont nos invites .
+= they are our guests .
+< they are mad right .
+
+> pour l instant je m entraine seulement .
+= i am only warming up now .
+< i m afraid i get just again .
+
+> vous etes trop confiantes .
+= you re too trusting .
+< you re too .
+
+> elle est tres desireuse de vous rencontrer .
+= she is anxious to meet you .
+< she is anxious to meet you .
+
+> vous etes courtoise .
+= you re courteous .
+< you re courteous .
+
+> je suis certain d avoir ferme le gaz .
+= i m sure i turned off the gas .
+< i m sure i turned off the gas .
+
+> nous sommes obeissants .
+= we re obedient .
+< we re starved .
+
+> je suis gele .
+= i m freezing .
+< i m thrilled .
+
+> elle est mere celibataire .
+= she s a single mother .
+< she is a doctor .
+
+> je vais aller faire une sieste .
+= i m going to go take a nap .
+< i m going to buy a new .
+
+> nous sommes egalement a court d ufs .
+= we re also out of eggs .
+< we are to this hot .
+
+> nous sommes pareilles .
+= we re the same .
+< we re armed .
+
+> elles ne sont pas encore chez elles .
+= they re not home yet .
+< they re not home yet .
+
+> je vis avec ma maman maintenant .
+= i m living with my mom now .
+< i m going to go now .
+
+> c est une personne de confiance .
+= she is a reliable person .
+< he is a very person .
+
+> je suis certain de trouver un moyen .
+= i m sure i will find a way .
+< i m sure to have a plan .
+
+> tu es contrarie .
+= you re upset .
+< you re productive .
+
+> vous etes responsables .
+= you are to blame .
+< you are responsible .
+
+> il n est pas du tout brillant .
+= he is by no means bright .
+< he s not at all singer .
+
+> nous sommes des survivantes .
+= we re survivors .
+< we re special .
+
+> il n est pas parfait .
+= he s not perfect .
+< he isn t perfect .
+
+> vous etes belles .
+= you are beautiful .
+< you re beautiful .
+
+> ils jouent aux echecs .
+= they re playing chess .
+< they are playing chess .
+
+> c est mon partenaire .
+= he s my partner .
+< he is my partner .
+
+> tu es en train de gaspiller mon temps .
+= you re wasting my time .
+< you are reading .
+
+> tu n es pas millionnaire .
+= you re not a millionaire .
+< you re not a millionaire .
+
+> il depend completement de ses parents .
+= he is totally dependent on his parents .
+< he s totally dependent on his parents .
+
+> j attends un appel .
+= i m expecting a call .
+< i m waiting for a .
+
+> je suis desole de vous avoir crie apres .
+= i m sorry i yelled at you .
+< i m sorry i yelled at you .
+
+> tu es chiante .
+= you re annoying .
+< you re funny .
+
+> nous ne sommes pas impliquees .
+= we re not involved .
+< we re not . .
+
+> elle a l habitude de voyager .
+= she is used to traveling .
+< she is familiar with the dark .
+
+> j ai honte de votre conduite .
+= i am ashamed of your conduct .
+< i m ashamed of your son .
+
+> je ne te crains plus .
+= i m not scared of you anymore .
+< i m not scared of you anymore .
+
+> tu es un de ces menteurs !
+= you are such a liar !
+< you are such a liar !
+
+> je suis a londres .
+= i am in london .
+< i m at .
+
+> il est avec ses parents .
+= he s with his parents .
+< he is his own his parents .
+
+> il est capitaine de l equipe de football .
+= he is captain of the football team .
+< he is the about of the sales .
+
+> tu es un sale menteur !
+= you re a filthy liar !
+< you re a filthy liar !
+
+> je ne mange pas ca .
+= i m not eating this .
+< i m not not .
+
+> je suis heureux de vous voir .
+= i m happy to see you .
+< i m glad to see you .
+
+> je ne suis pas une idiote .
+= i m no fool .
+< i m not a liar .
+
+> tu es idiote .
+= you re stupid .
+< you re silly .
+
+> je ne conteste pas cela .
+= i m not disputing that .
+< i m not denying that .
+
+> elle est en train de manger des fruits .
+= she s eating fruit .
+< she is eating .
+
+> tu es fabuleuse .
+= you are fabulous .
+< you re fortunate .
+
+> j essaie quelque chose de nouveau .
+= i m trying something new .
+< i m trying something new .
+
+> vous etes tres brave .
+= you re very brave .
+< you are very brave .
+
+> je suis en faveur de ta proposition .
+= i am in favor of your proposal .
+< i m in favor of your proposal .
+
+> il est intelligent .
+= he s smart .
+< he is intelligent .
+
+> nous ne sommes pas encore surs .
+= we re still not sure .
+< we re not dead yet .
+
+> je suis content d avoir pu aider .
+= i m glad i could help out .
+< i m glad i invited you .
+
+> tu as probablement soif .
+= you re probably thirsty .
+< you are probably hungry .
+
+> tu es tres comprehensif .
+= you re very understanding .
+< you re very understanding .
+
+> je ne suis pas preoccupe par cette affaire .
+= i am not concerned with this affair .
+< i m not concerned with this affair .
+
+> elles vont dans cette direction .
+= they re headed this way .
+< they re headed this way .
+
+> il est anglais .
+= he is english .
+< he s english .
+
+> je suis heureux de vous avoir invites .
+= i m glad i invited you .
+< i m glad i invited you .
+
+> tu es impressionne pas vrai ?
+= you re impressed aren t you ?
+< you re impressed aren t you ?
+
+> je suis depourvu d ambition .
+= i m unambitious .
+< i m so .
+
+> je ne suis pas comme les autres gens .
+= i m not like other people .
+< i m not like the others .
+
+> ils sont encore des enfants .
+= they are still children .
+< they are still children .
+
+> c est une dactylographe .
+= she is a typist .
+< she s a beauty .
+
+> je vais dormir .
+= i am going to bed .
+< i am going to sleep .
+
+> je suis votre meilleur ami .
+= i m your best friend .
+< i m your best friend .
+
+> vous etes aveugles par l amour .
+= you are blinded by love .
+< you are blinded by love .
+
+> elle est chanteuse .
+= she is a singer .
+< she s a singer .
+
+> je suis a ton service .
+= i m at your service .
+< i m at your service .
+
+> nous ne faisons que nous exercer .
+= we re just practicing .
+< we re just looking we
+
+> il se montre difficile avec moi .
+= he is giving me a hard time .
+< he is sorry with me .
+
+> nous ne sommes plus amies .
+= we re not friends anymore .
+< we re not friends anymore .
+
+> elle est toujours gentille avec tout le monde .
+= she is always kind to everyone .
+< she is always friendly to everybody .
+
+> elle n est pas toujours heureuse .
+= she is not always happy .
+< she is not always happy .
+
+> je me leve tard le matin .
+= i m not an early riser .
+< i m feeling in this morning .
+
+> nous sommes engagees .
+= we re committed .
+< we re starved .
+
+> je suis financierement independant de mes parents .
+= i m economically independent of my parents .
+< i m in love of my new parents .
+
+> je ne suis toujours pas satisfait .
+= i m still not satisfied .
+< i m still . .
+
+> je suis sure que les enfants grandissent .
+= i m sure the children are getting big .
+< i m sure of what they .
+
+> tu es tellement impatient avec moi .
+= you re so impatient with me .
+< you re so hard me .
+
+> je n en suis plus aussi certain .
+= i m not so sure anymore .
+< i m not sure of that .
+
+> tu reussiras sans aucun doute quoique tu fasses .
+= you are sure to succeed whatever you do .
+< you re turning to do you .
+
+> tu es contrariee .
+= you re upset .
+< you re sad .
+
+> tu n as pas tort du tout .
+= you are not at all wrong .
+< you are not at all wrong .
+
+> nous faisons beaucoup de choses .
+= we re getting a lot of things done .
+< we re very of it of it .
+
+> vous etes un drole de specimen .
+= you re a funny guy .
+< you re a funny gal .
+
+> tu n es pas mon genre .
+= you re not my type .
+< you re not my type .
+
+> ils ont de la chance d etre vivants .
+= they re lucky to be alive .
+< they re up .
+
+> vous etes celle qui a plante cet arbre .
+= you re the one who planted that tree .
+< you re the one who planted that tree .
+
+> je suis juste derriere toi .
+= i m right behind you .
+< i m right behind you .
+
+> il est tres sensible au froid .
+= he is very sensitive to cold .
+< he is very sensitive to the cold .
+
+> il est responsable de cet accident .
+= he is responsible for the accident .
+< he is responsible for this accident .
+
+> vous etes extraverties .
+= you re extroverted .
+< you re charming .
+
+> vous etes matinale .
+= you re early .
+< you are early .
+
+> je suis content d etre la .
+= i m glad to be here .
+< i m glad to be here .
+
+> nous sommes debout .
+= we re standing .
+< we re sloshed .
+
+> il est certain de venir .
+= he is sure to come .
+< he s certain of come .
+
+> il est un critique des autres tres irritant .
+= he is a very irritating critic of others .
+< he is a harsh of thing very .
+
+> vous etes toutes malades .
+= you re all insane .
+< you re all crazy .
+
+> elle est occupee a preparer le diner .
+= she is busy cooking dinner .
+< she is busy enough to this this .
+
+> nous sommes en lune de miel .
+= we re honeymooning .
+< we re in tired of reading .
+
+> de toute facon on va tous mourir .
+= we re all going to die anyway .
+< i m all going to die all die .
+
+> je fais usage de cette tasse .
+= i m using that cup .
+< i m looking of this morning .
+
+> nous allons faire des courses .
+= we re going shopping .
+< we re going shopping .
+
+> je ne suis pas pret a me battre .
+= i m not ready to fight .
+< i m not allowed to fight .
+
+> je suis aussi curieuse que toi .
+= i m as curious as you are .
+< i m as curious as you are .
+
+> je suis le chef de cette equipe .
+= i am the leader of this team .
+< i m the chief of the team .
+
+> nous sommes en train de perdre .
+= we re losing .
+< we re losing it .
+
+> ce n est pas une beaute .
+= she is no beauty .
+< she s not a beauty .
+
+> je suis un bon garcon .
+= i am a good boy .
+< i m a good boy .
+
+> nous sommes tous a court de carburant .
+= we re all out of booze .
+< we re all out of gas .
+
+> nous ne sommes pas interesses .
+= we re not interested .
+< we re not soldiers .
+
+> je suis etranger .
+= i am a foreigner .
+< i m innocent .
+
+> tu veux juste paraitre diplomate .
+= you re just being diplomatic .
+< you re always very worried .
+
+> je suis desole mais je ne comprends pas .
+= i m sorry but i don t understand .
+< i m sorry but i don t understand .
+
+> tu es toujours celibataire pas vrai ?
+= you re still single aren t you ?
+< you are always aren t you ?
+
+> je ne suis pas ici .
+= i m not here .
+< i m not here .
+
+> je suis heureuse que vous ayez reussi .
+= i am glad that you have succeeded .
+< i m glad you could make .
+
+> j ai un peu la tete qui tourne .
+= i m somewhat dizzy .
+< i m feeling dizzy too .
+
+> tu n es pas un saint .
+= you re no saint .
+< you re no saint .
+
+> elle est determinee a quitter l entreprise .
+= she is determined to leave the company .
+< she is never to learn him .
+
+> elle n est pas bonne en sport .
+= she is bad at sports .
+< she s not in good shape .
+
+> tu es trop confiant .
+= you re too trusting .
+< you re too trusting .
+
+> je te donne encore une chance .
+= i m giving you one more chance .
+< i m giving a hurt .
+
+> je suis en train de reamenager .
+= i m remodeling .
+< i m drinking .
+
+> elles sont toujours ensemble .
+= they re still together .
+< they re still together .
+
+> tu dois faire comme je te dis .
+= you are to do as i tell you .
+< you re acting to do anything you .
+
+> j en ai termine .
+= i m finished .
+< i m through .
+
+> tu n aides pas tom .
+= you re not helping tom .
+< you re not helping tom .
+
+> je ne suis pas presse de partir .
+= i m in no hurry to leave .
+< i m not sure i .
+
+> je suis horrible avec les gamins .
+= i m horrible with kids .
+< i m being with his performance .
+
+> je refuse de vous vendre ma voiture .
+= i m not selling you my car .
+< i m not selling you my car .
+
+> c est un maniaque du controle .
+= he s a control freak .
+< he s a potential businessman .
+
+> il est present a la reunion .
+= he is present at the meeting .
+< he s addicted to heroin .
+
+> vous etes toutes pareilles .
+= you re all the same .
+< you re all .
+
+> elle planifie un voyage .
+= she is contemplating a trip .
+< she is giving a baby .
+
+> nous avons fini .
+= we re finished .
+< we re done .
+
+> je suis tres inquiet a votre sujet .
+= i m very worried about you .
+< i am very tired about you .
+
+> je m ennuie juste un peu .
+= i m just a little bored .
+< i m feeling a little of my mind .
+
+> vous me bloquez la vue .
+= you re blocking my view .
+< you re blocking my view .
+
+> il est assez age pour le comprendre .
+= he is old enough to understand it .
+< he is old enough to drive .
+
+> je n ai pas de talent .
+= i m untalented .
+< i m not done .
+
+> je suis etudiant .
+= i am a university student .
+< i am a student .
+
+> c est lui le bouc emissaire .
+= he s the scapegoat .
+< he s the oldest to the task .
+
+> je ne sais pas bien nager .
+= i am poor at swimming .
+< i m bad at swimming .
+
+> je suis tres mediocre en sport .
+= i am very poor at sports .
+< i m very busy with his .
+
+> je suis indignee .
+= i m outraged .
+< i m grounded .
+
+> je vais voir mary cet apres midi .
+= i am seeing mary this afternoon .
+< i m going to leave this afternoon .
+
+> je n abandonne pas si facilement .
+= i m no quitter .
+< i m not joking that younger .
+
+> tu n es pas trop en retard .
+= you re not too late .
+< you re not too late .
+
+> il est satisfait du resultat .
+= he is satisfied with the result .
+< he is content with the result .
+
+> je suis trop fatigue pour continuer de marcher .
+= i m too tired to walk any further .
+< i am too tired to keep on walking .
+
+> tu es liberee de toute responsabilite .
+= you re free of all responsibility .
+< you re free of all responsibility .
+
+> elle est canadienne .
+= she is canadian .
+< she s french .
+
+> je ne suis pas a la maison .
+= i m not home .
+< i m not home .
+
+> je regarde un film .
+= i m watching a movie .
+< i am looking for a sweater .
+
+> je suis excitee .
+= i m excited .
+< i m exhausted .
+
+> on ne l invite pas aux fetes .
+= she s not invited to parties .
+< i m not invited to parties .
+
+> je suis encore mariee .
+= i m still married .
+< i m still married .
+
+> nous sommes tous impressionnes .
+= we re all impressed .
+< we re all devastated .
+
+> vous etes le plus vieux .
+= you re the oldest .
+< you re the oldest .
+
+> nous cherchons l un de nos amis .
+= we re looking for a friend of ours .
+< we are going to love .
+
+> je suis un peu decue .
+= i m a little disappointed .
+< i m a little disappointed .
+
+> il lave votre voiture .
+= he s washing your car .
+< he is washing about car .
+
+> nous nous approchons .
+= we re getting closer .
+< we re giving we
+
+> je suis tres petit .
+= i m very short .
+< i m very clever .
+
+> vous etes naifs .
+= you re naive .
+< you re conscientious .
+
+> je suis a la maison tout le temps .
+= i m home all the time .
+< i m at .
+
+> il a honte de poser des questions .
+= he is ashamed to ask questions .
+< he is ashamed of making .
+
+> je suis desole si je vous ai embarrassees .
+= i m sorry if i embarrassed you .
+< i m sorry if i embarrassed you .
+
+> je suis pret si vous l etes .
+= i m ready if you are .
+< i m ready if you are .
+
+> je ne suis pas la pour me bagarrer .
+= i m not here to fight .
+< i m not here to fight .
+
+> tu es un menteur .
+= you re a liar .
+< you re a liar .
+
+> je ne suis pas pressee .
+= i m in no hurry .
+< i m not deaf .
+
+> il est toujours soigneusement vetu .
+= he is always neatly dressed .
+< he s always neatly dressed .
+
+> c est bien .
+= i m glad to hear that .
+< he s well .
+
+> je suis pret a tout faire pour toi .
+= i am ready to do anything for you .
+< i am ready to do anything for you .
+
+> classer les choses n est pas mon fort .
+= i m not good at classifying things .
+< i m coming you not my .
+
+> je suis plus grand que toi .
+= i m taller than you .
+< i m taller than you .
+
+> nous nous faisons des idees .
+= we re imagining things .
+< we re telling .
+
+> elle est vraiment intelligente .
+= she is very intelligent .
+< she is really indeed .
+
+> je suis desole ce vol est complet .
+= i m sorry that flight is full .
+< i m sorry it is impossible .
+
+> nous nous retirons .
+= we re pulling out .
+< we re pulling back .
+
+> tu gaspilles du temps .
+= you re wasting time .
+< you re wasting time .
+
+> je fais la fete .
+= i m celebrating .
+< i m fasting .
+
+> c est une fille intelligente et independante .
+= she s a smart and independent girl .
+< she is a quiet and tidy .
+
+> vous etes tous fous .
+= you re all mad .
+< you re all crazy .
+
+> tu as tellement tort .
+= you re so wrong .
+< you re completely wrong .
+
+> ils sont en train de manger leurs pommes .
+= they are eating their apples .
+< they re eating apples .
+
+> elles sont toutes la .
+= they re all here .
+< they re all here .
+
+> tu es tres efficace .
+= you re very efficient .
+< you re very efficient .
+
+> c est vous le professeur .
+= you re the teacher .
+< you re the teacher .
+
+> elle coud une robe .
+= she is sewing a dress .
+< she s knitting a point .
+
+> il est le meilleur ami de mon mari .
+= he is my husband s best friend .
+< he s the best of my older .
+
+> c est le fils d une riche famille .
+= he is the son of a wealthy family .
+< he is the teacher of our thing .
+
+> je suis desolee ca ne se reproduira pas .
+= i m sorry it won t happen again .
+< i m sorry it won t happen again .
+
+> je ne suis pas habitue a cette chaleur .
+= i m not used to this heat .
+< i m not used to this heat .
+
+> je suis aneantie .
+= i m devastated .
+< i m hardworking .
+
+> je suis egalement affairee .
+= i m busy too .
+< i m busy enough .
+
+> je suis coreen .
+= i m korean .
+< i am korean .
+
+> il est bon cuisinier .
+= he is good at cooking .
+< he s a good cook .
+
+> tu n es pas coherent .
+= you are not consistent .
+< you re not different .
+
+> vous n etes pas invites .
+= you aren t invited .
+< you re not invited .
+
+> nous tentons de reduire les depenses .
+= we re trying to cut down on expenses .
+< we are from shopping .
+
+> nous ne sommes pas ouverts .
+= we re not open .
+< we re not .
+
+> je me rejouis de le voir .
+= i m looking forward to seeing him .
+< i m glad to see him .
+
+> c est un charmant jeune homme .
+= he s a lovely young man .
+< he is a young young man .
+
+> elles ne sont pas mauvaises .
+= they re not evil .
+< they re not bad .
+
+> je suis vraiment content .
+= i m really happy .
+< i m really happy .
+
+> je suis impatiente de la prochaine fois .
+= i m looking forward to the next time .
+< i m looking forward to the next time .
+
+> elle pleure .
+= she is crying .
+< she s pregnant .
+
+> tu es dure .
+= you re tough .
+< you re tough .
+
+> je suis profondement offense par ceci .
+= i m deeply offended by this .
+< i m offended by by this .
+
+> elle demande comment c est possible .
+= she s asking how that s possible .
+< she is asking enough to leave .
+
+> je ne suis pas d humeur .
+= i m not in the mood .
+< i m not in the mood .
+
+> nous demenageons le mois prochain .
+= we are moving next month .
+< we are learning the next time .
+
+> il est mignon dans son genre non ?
+= he s kind of cute isn t he ?
+< he s kind of cute right ?
+
+> je suis heureuse que tu l aies aime .
+= i m happy you liked it .
+< i m glad you liked it .
+
+> vous etes brillantes .
+= you re bright .
+< you re obnoxious .
+
+> elle donne a chaque enfant deux pommes .
+= she s giving each child two apples .
+< she is getting a hard life .
+
+> vous etes un drole de type .
+= you re a funny man .
+< you re a funny guy .
+
+> elle porte une robe bleue .
+= she is wearing a blue dress .
+< she is wearing a hat .
+
+> vous allez mourir .
+= you re going to die .
+< you re going to die .
+
+> tu n es pas cense nager ici .
+= you aren t supposed to swim here .
+< you aren t supposed to swim here .
+
+> tu es a court de sucre .
+= you re out of sugar .
+< you re out of sugar .
+
+> je suis puni .
+= i m being punished .
+< i m out .
+
+> il court .
+= he is running .
+< he is lying .
+
+> vous etes fous .
+= you re demented .
+< you re safe .
+
+> je suis en sous vetements .
+= i m in my underwear .
+< i m in deep water .
+
+> je suis contente que ca te rende heureux .
+= i m glad that makes you happy .
+< i m glad that makes you happy .
+
+> je ne suis pratiquement jamais chez moi .
+= i m hardly ever home .
+< i m just very home s .
+
+> vous etes adorables .
+= you re adorable .
+< you re surrounded .
+
+> tu es grand .
+= you re big .
+< you are big .
+
+> vous etes la seule desormais pour moi .
+= you re the only one for me now .
+< you re the only one for me now .
+
+> elles sont dures a trouver .
+= they re hard to find .
+< they re hard to find .
+
+> nous fetons ca .
+= we re celebrating .
+< we re hiding .
+
+> vous n etes pas grosse .
+= you re not fat .
+< you re not bruised .
+
+> je suis votre debiteur .
+= i am in your debt .
+< i am in your side .
+
+> il est beau et intelligent .
+= he is handsome and clever .
+< he s handsome and thirsty .
+
+> j ouvre maintenant mes cadeaux .
+= i m opening my presents now .
+< i am living with my cat .
+
+> nous sommes en train de le changer .
+= we re changing it .
+< we are having dinner .
+
+> tu es arrogant .
+= you re arrogant .
+< you re arrogant .
+
+> tu es vraiment embetant .
+= you re really annoying .
+< you re really annoying .
+
+> je suis vraiment occupe .
+= i m really busy .
+< i m really busy .
+
+> je suis perplexe .
+= i m baffled .
+< i m in .
+
+> il est juste derriere vous .
+= he s right behind you .
+< he s right behind you .
+
+> nous sommes attaquees .
+= we re under attack .
+< we re being attacked .
+
+> je ne te vends pas ma voiture .
+= i m not selling you my car .
+< i m not selling you my car .
+
+> vous etes vraiment tete en l air .
+= you re really absent minded .
+< you re really absent minded .
+
+> il observe mon moindre mouvement .
+= he is watching my every move .
+< he is reading my baby .
+
+> je suis a mon aise .
+= i m comfortable .
+< i m in favor of it .
+
+> je me trouve pres de la gare .
+= i am near the station .
+< i m at a friend .
+
+> je n ai plus peur des araignees .
+= i m no longer afraid of spiders .
+< i m not frightened of anymore .
+
+> j attends un client aujourd hui .
+= i m expecting a customer today .
+< i m waiting for a new man .
+
+> il est deja parti .
+= he s already left .
+< he s already already .
+
+> je suis une artiste .
+= i am an artist .
+< i m a artist .
+
+> elles sont folles .
+= they re crazy .
+< they re mad .
+
+> vous etes decus n est ce pas ?
+= you re disappointed aren t you ?
+< you re worried aren t you ?
+
+> tu es plus belle que dans mon souvenir .
+= you re more beautiful than i remember you .
+< you re more beautiful than my own .
+
+> je ne suis pas jalouse .
+= i m not jealous .
+< i m not . .
+
+> je ne porte aucun sous vetement .
+= i am not wearing any underwear .
+< i m not interested in a .
+
+> elles sont trop grasses .
+= they re too fat .
+< they re too fat .
+
+> nous etudions l espagnol .
+= we are studying spanish .
+< we re eating .
+
+> il est encore au lit .
+= he is still in bed .
+< he s still a bed .
+
+> elle ecrit une lettre maintenant .
+= she is writing a letter now .
+< she is a really a .
+
+> nous gachons un temps precieux .
+= we re wasting valuable time here .
+< we re wasting precious time .
+
+> il est lyceen .
+= he is a student at a high school .
+< he s a high school student .
+
+> je suis curieux .
+= i am curious .
+< i m curious .
+
+> c est une gentille fille .
+= she is a kind girl .
+< she s a sweet girl .
+
+> vous etes tres courageux .
+= you re very brave .
+< you are very brave .
+
+> vous avez tout a fait raison .
+= you re absolutely right .
+< you re quite right .
+
+> je suis une sorte de solitaire .
+= i m kind of a loner .
+< i m a sort of .
+
+> je suis une etrangere ici .
+= i m a stranger here .
+< i m a stranger here .
+
+> ils sont la .
+= they re here .
+< they re there .
+
+> je suis desolee de t avoir fait peur .
+= i m sorry if i scared you .
+< i m sorry i shot you .
+
+> je suis mort de fatigue .
+= i m dead tired .
+< i m a tired .
+
+> je suis impressionnee .
+= i m impressed .
+< i m impressed .
+
+> je vais regarder la tele ce soir .
+= i am going to watch tv this evening .
+< i m going to tell the tonight .
+
+> nous avons toutes faim .
+= we re all hungry .
+< we re all hungry .
+
+> je ne suis pas encore prete .
+= i m not ready yet .
+< i am not ready yet .
+
+> tu es epuisee .
+= you re exhausted .
+< you re exhausted .
+
+> vous etes tout a fait attirante .
+= you re quite attractive .
+< you re quite attractive .
+
+> je vais te proteger tom .
+= i m going to protect you tom .
+< i m going to protect you tom .
+
+> je pars maintenant .
+= i m going .
+< i m leaving now .
+
+> nous attendons que tu sois parti .
+= we re waiting for you to leave .
+< we re done you re come .
+
+> je suis un fondu de photo .
+= i m a shutterbug .
+< i m a sort way .
+
+> je ne suis certainement pas ton ami .
+= i m certainly not your friend .
+< i m certainly not your friend .
+
+> je ne suis pas chez moi .
+= i m not home .
+< i m not home .
+
+> vous avez probablement tort .
+= you are probably wrong .
+< you re probably wrong .
+
+> je ne suis pas medecin mais professeur .
+= i am not a doctor but a teacher .
+< i m not a doctor but a teacher .
+
+> tu me mens .
+= you re lying to me .
+< you re killing me .
+
+> je retourne au bureau .
+= i m going back to the office .
+< i m going on the movies .
+
+> tu es fort emotive .
+= you re very emotional .
+< you re very emotional .
+
+> je suis celle qui a construit ceci .
+= i m the one who built this .
+< i m the one who built this .
+
+> elle est rapide pour tout .
+= she is quick at everything .
+< she is quick everything everything .
+
+> vous etes la professeur .
+= you re the teacher .
+< you re the teacher .
+
+> tu vas me manquer .
+= i m going to miss you .
+< i m going to miss you .
+
+> je suis vegetarienne .
+= i am a vegetarian .
+< i m vegetarian .
+
+> j etudie a la bibliotheque .
+= i m studying in the library .
+< i m studying in the library .
+
+> elles attendent toutes .
+= they re all waiting .
+< they re all waiting .
+
+> nous sommes seules ici .
+= we re alone here .
+< we are here alone .
+
+> elle est mon premier amour .
+= she s my first love .
+< she is my close friend .
+
+> je suis un inconditionnel de l opera allemand .
+= i m a fan of german opera .
+< i m such a fan .
+
+> il est quelquefois absent de l ecole .
+= he is sometimes absent from school .
+< he is often absent from school .
+
+> il est grand et fort .
+= he is tall and strong .
+< he is tall and strong .
+
+> vous etes matinal .
+= you re early .
+< you are early .
+
+> je ne vais pas m arreter .
+= i m not going to stop .
+< i m not going to fight .
+
+> je vais aller dans ma chambre .
+= i m going to go to my room .
+< i m going to move my next .
+
+> il verifie son telephone portable .
+= he s checking his cellphone .
+< he is got the teaching .
+
+> ils sont tres interesses par l astronomie .
+= they are very interested in astronomy .
+< they are very kind in college .
+
+> tu es vilaine .
+= you are naughty .
+< you are naughty .
+
+> c est un bel homme .
+= he is a handsome man .
+< he is a clever man .
+
+> nous nous occupons de notre planete .
+= we are concerned about our planet .
+< we re just our our place .
+
+> je ne suis pas du tout fatigue .
+= i m not tired at all .
+< i m not a bit tired .
+
+> nous sommes attaques .
+= we re under attack .
+< we re being attacked .
+
+> je ne suis pas encore pret .
+= i am not ready yet .
+< i m not ready ready .
+
+> elle est deux ans plus jeune que moi .
+= she is two years younger than me .
+< she is two years younger than me .
+
+> j ai froid .
+= i m cold .
+< i m cold .
+
+> c est un homme de grand talent .
+= he is a man of great ability .
+< he s a man of his laboratory .
+
+> desole !
+= i m sorry .
+< i m dying .
+
+> vous avez vraiment de la chance .
+= you re a very lucky man .
+< you re a very lucky man .
+
+> il vient de sortir de l universite .
+= he s fresh out of college .
+< he is fresh from college .
+
+> tu rougis !
+= you re blushing .
+< you re joking !
+
+> je suis curieuse .
+= i m curious .
+< i m curious .
+
+> vous etes responsable de ce que vous faites .
+= you are responsible for what you do .
+< you are responsible for what you do .
+
+> je ne suis jamais en colere sans raison .
+= i m never angry without reason .
+< i m just interested in .
+
+> je suis honnete .
+= i m honest .
+< i m being .
+
+> c est un journaliste independant .
+= he s a freelance journalist .
+< he is a capable journalist .
+
+> je suis sure que nous pouvons resoudre cela .
+= i m sure we can work this out .
+< i m sure we can work this out .
+
+> je songe a demissionner .
+= i m considering resigning .
+< i m thinking of it .
+
+> je me rejouis que tu en prennes conscience .
+= i m glad you realize that .
+< i m glad that you tom .
+
+> maintenant il court .
+= he is running now .
+< he is gone now .
+
+> elle parle bien anglais .
+= she is good at speaking english .
+< she is a good english speaker .
+
+> tu es tellement autoritaire !
+= you re so bossy .
+< you re so bossy .
+
+> je suis etudiant .
+= i m a student .
+< i am a student .
+
+> vous n etes pas censes fumer ici .
+= you are not supposed to smoke here .
+< you are not supposed to smoke here .
+
+> elle est vraiment attentive et patiente .
+= she is very thoughtful and patient .
+< she s really clever and .
+
+> je ne suis pas sure d etre prete .
+= i m not sure i m ready .
+< i m not sure i like .
+
+> j ai termine .
+= i m finished .
+< i m done .
+
+> tu es tres grossier .
+= you re very rude .
+< you re very rude .
+
+> je me sens assez confiant .
+= i m feeling pretty confident .
+< i m feeling kind of .
+
+> il n est plus le bienvenu ici .
+= he is no longer welcome here .
+< he is not longer here here .
+
+> j ai peur de l obscurite .
+= i m afraid of the dark .
+< i m afraid of heights that .
+
+> je suis fier de mes enfants .
+= i m proud of my children .
+< i m proud of my children .
+
+> j economise autant que je peux .
+= i m saving as much as i can .
+< i m waiting i can you .
+
+> il est plus fort que moi .
+= he s stronger than me .
+< he s stronger than i am .
+
+> je me demande si j aime tom .
+= i m wondering if i love tom .
+< i m really if i tom .
+
+> il est toujours plein d idees .
+= he is always full of ideas .
+< he is always full of ideas .
+
+> elles sont toutes dingues .
+= they re all nuts .
+< they re all crazy .
+
+> il a travaille toute la journee .
+= he s been working all day long .
+< he is almost in the police .
+
+> vous etes mon heroine .
+= you are my hero .
+< you are my hero .
+
+> elle est sourde a mes conseils .
+= she is deaf to my advice .
+< she is used to my homework .
+
+> elle est asociale .
+= she is unsociable .
+< she is busy .
+
+> nous sommes confrontes a quantite de problemes .
+= we are faced with a host of problems .
+< we are faced with a host of problems .
+
+> nous sommes assez confiants .
+= we re pretty confident .
+< we re pretty good .
+
+> j attends le dejeuner .
+= i m waiting for lunch .
+< i m waiting for him .
+
+> on m a promu .
+= i m being promoted .
+< i m tired .
+
+> tu arrives trop tard .
+= you are too late .
+< you re too late .
+
+> c est une fille mignonne .
+= she is a pretty girl .
+< she is a sweet girl .
+
+> je suis evidemment tres decu .
+= i m obviously very disappointed .
+< i m obviously very disappointed .
+
+> ils ne sont pas tous occupes .
+= they re not all busy .
+< they re not all busy .
+
+> je ne te drague pas .
+= i m not hitting on you .
+< i m not hitting on you .
+
+> je vais jouer au tennis ce soir .
+= i m going to play tennis this evening .
+< i m going to play this tonight .
+
+> ils sont tous terrifies .
+= they re all terrified .
+< they re all fake .
+
+> on ne veut pas de toi ici .
+= you re not wanted here .
+< you re not wanted here .
+
+> je ne suis plus mariee .
+= i m not married anymore .
+< i m not married .
+
+> nous nous rendons au marche .
+= we are going to the market .
+< we re going to the shop .
+
+> nous sommes sur le chemin de la maison .
+= we re on our way home .
+< we re on the way home .
+
+> tu ne penses pas clairement .
+= you re not thinking clearly .
+< you aren t looking .
+
+> je suis interessee .
+= i m interested .
+< i m interested .
+
+> je me porte bien .
+= i m okay .
+< i m well pretty .
+
+> il est dj .
+= he is a dj .
+< he s a dj .
+
+> je ne comprends rien .
+= i m not understanding anything .
+< i m not suggesting anything .
+
+> elle est toubib .
+= she is a doctor .
+< she is a doctor .
+
+> je ne vais pas m impliquer .
+= i m not getting involved .
+< i m not going to get
+
+> je suis plus que content .
+= i m more than happy .
+< i m more than happy .
+
+> je ne suis plus mariee avec tom .
+= i m not married to tom anymore .
+< i m not married to tom anymore .
+
+> je ne suis pas votre ennemi .
+= i m not your enemy .
+< i am not your enemy .
+
+> vous etes tatillon .
+= you re finicky .
+< you re finicky .
+
+> vous etes tellement idiot !
+= you are so stupid .
+< you are so stupid .
+
+> elles ont de la chance d etre vivantes .
+= they re lucky to be alive .
+< they are talking .
+
+> elles ne sont pas en train de suivre .
+= they re not following .
+< they re not following .
+
+> je vais a l hopital .
+= i m going to the hospital .
+< i m going to the station .
+
+> je suis en train de regarder la television .
+= i m just watching tv .
+< i m watching tv .
+
+> il peut parler cinq langues .
+= he is able to speak five languages .
+< he is able to ten ten languages .
+
+> tu n es jamais chez toi .
+= you re never at home .
+< you re never at home .
+
+> nous en avons fini .
+= we re through .
+< we re done .
+
+> vous etes exactement comme votre mere .
+= you re just like your mother .
+< you re just like your mother .
+
+> je suis trop vieille pour vous .
+= i m too old for you .
+< i m too old for you .
+
+> je suis desole si je vous ai embarrasses .
+= i m sorry if i embarrassed you .
+< i m sorry if i embarrassed you .
+
+> vous etes celle qui m a formee .
+= you re the one who trained me .
+< you re the one who trained me .
+
+> je suis tres heureux .
+= i m very happy .
+< i m very happy .
+
+> je ne suis pas du tout romantique .
+= i am not romantic at all .
+< i m not paid all busy .
+
+> je ne suis pas celle que tu penses .
+= i m not who you think i am .
+< i m not who you think i am .
+
+> je ne suis pas en surpoids .
+= i m not overweight .
+< i m not from .
+
+> je ne suis pas idiot .
+= i m not a fool .
+< i m not stupid .
+
+> je ne m alarme pas .
+= i m not alarmed .
+< i m not going to sell it .
+
+> je m en sors .
+= i m managing .
+< i m in care .
+
+> nous sommes impitoyables .
+= we re ruthless .
+< we re involved .
+
+> je ne suis pas entierement sure .
+= i m not entirely sure .
+< i m not entirely .
+
+> je suis contente que vous soyez la .
+= i m glad you could be here .
+< i m glad you re here .
+
+> c est une dure a cuire .
+= she s one tough cookie .
+< she is a tough to tough .
+
+> je ne suis pas une toxico .
+= i m not a drug addict .
+< i m not a drug addict .
+
+> elles sont fauchees .
+= they re broke .
+< they re coming .
+
+> ils ne sont pas seuls .
+= they re not alone .
+< they aren t alone .
+
+> je suis heureux ici .
+= i m happy here .
+< i m happy here .
+
+> il va se joindre a notre cercle .
+= he s going to join our club .
+< he is leaving thinking of going wrong .
+
+> je suis deja pratiquement adulte .
+= i m practically an adult already .
+< i m already in these of work .
+
+> je commence a devenir curieuse .
+= i m beginning to get curious .
+< i m beginning to get curious .
+
+> nous en sommes fieres .
+= we re proud of that .
+< we re quite too .
+
+> tu es en grand danger .
+= you re in grave danger .
+< you re in grave danger .
+
+> je suis ravi de votre travail .
+= i m very pleased with your work .
+< i m pleased with your work .
+
+> ils vont me donner un devis .
+= they re going to give me an estimate .
+< they re going to build a book .
+
+> nous sommes observes .
+= we re being watched .
+< we re gentlemen .
+
+> vous etes tous malades .
+= you re all insane .
+< you re all crazy .
+
+> il est nerveusement use .
+= he s a nervous wreck .
+< he is a nervous wreck .
+
+> tu es astucieux .
+= you re crafty .
+< you re crafty .
+
+> nous tentons le diable .
+= we re tempting fate .
+< we re having the problem .
+
+> vous n etes pas seul .
+= you re not alone .
+< you re not alone .
+
+> j essaye de ne pas pleurer .
+= i m trying not to cry .
+< i m sorry i don t .
+
+> je le fais pour toi .
+= i m doing this for you .
+< i m doing this for you .
+
+> vous n etes pas encore adolescente .
+= you re not a teenager yet .
+< you re not a teenager yet .
+
+> je suis quelque peu decu .
+= i m a little disappointed .
+< i m a little disappointed .
+
+> c est un emmerdeur .
+= he is a tough cookie .
+< he is a senior .
+
+> elle est devouee a ses enfants .
+= she is devoted to her children .
+< she is subject to children to children .
+
+> elles sont dingues de jazz .
+= they are crazy about jazz .
+< they are crazy about jazz .
+
+> vous n etes plus le bienvenu ici .
+= you are no longer welcome here .
+< you re no longer welcome here .
+
+> je suis trop fatigue pour faire mes devoirs .
+= i m too sleepy to do my homework .
+< i m too tired to do my homework .
+
+> elles sont sous la douche .
+= they re in the shower .
+< they re in the shower .
+
+> elles approchent .
+= they are approaching .
+< they re approaching .
+
+> il est plus grand que moi .
+= he is much taller than i am .
+< he s taller than i am .
+
+> je suis ruine et fatigue .
+= i m broke and tired .
+< i m yours and tired .
+
+> elle est adorable .
+= she s adorable .
+< she s a .
+
+> je me rejouis de vous contenter .
+= i m glad i make you happy .
+< i m glad to meet you .
+
+> tu es le bouc emissaire .
+= you re the scapegoat .
+< you re the scapegoat .
+
+> je suis desole si je vous ai deranges .
+= i m sorry if i disturbed you .
+< i m sorry if i disturbed you .
+
+> nous en avons termine .
+= we re all done .
+< we re finished .
+
+> il respire avec difficulte .
+= he is breathing hard .
+< he is talking to come .
+
+> tu es probablement trop jeune pour le comprendre .
+= you re probably too young to understand this .
+< you re probably too young to understand this .
+
+> tu es facilement distrait .
+= you are easily distracted .
+< you re so pathetic .
+
+> nous nous deshabillons .
+= we re undressing .
+< we re having .
+
+> tu n y es pas bon .
+= you re not good at this .
+< you re not good at this .
+
+> vous etes fort sceptique .
+= you re very skeptical .
+< you re very skeptical .
+
+> je suis tres triste d entendre cela .
+= i m very sad to hear that .
+< i m very sad to hear that .
+
+> vous etes bizarre .
+= you re weird .
+< you re weird .
+
+> je fais tout ce que je peux .
+= i m doing all i can .
+< i m doing all i can .
+
+> vous etes tres belle .
+= you re very beautiful .
+< you are very beautiful .
+
+> je fais encore partie de cette famille .
+= i m still part of this family .
+< i m still out of it .
+
+> je ne suis pas payee pour faire cela .
+= i m not paid to do that .
+< i m not paid to do that .
+
+> je suis fatigue de tout .
+= i m tired of everything .
+< i m tired of everything .
+
+> vous en avez deja fini .
+= you re finished already .
+< you re finished already .
+
+> je cherche un portefeuille .
+= i m looking for a wallet .
+< i m looking for a sweater .
+
+> je suis ravi que tu aies souleve ca .
+= i m glad you brought that up .
+< i m glad you brought that up .
+
+> je suis pret !
+= i m ready !
+< i m ready !
+
+> je ne suis pas facilement offensee .
+= i m not easily offended .
+< i m not easily .
+
+> nous sommes depourvus de prejuges .
+= we re unprejudiced .
+< we re unprejudiced .
+
+> je n en suis pas fiere .
+= i m not proud of that .
+< i m not proud of it .
+
+> je n ai pas honte de vous dire .
+= i m not ashamed to tell you .
+< i m not ashamed to tell you .
+
+> je suis de bonne humeur aujourd hui .
+= i m in a good mood today .
+< i m in good mood today .
+
+> il n est pas chez lui .
+= he is not in .
+< he s not in home .
+
+> je suis desolee .
+= i m sorry .
+< i am sorry .
+
+> nous ne sommes pas contents .
+= we re not happy .
+< we re not happy .
+
+> il est a son bureau .
+= he is at his desk .
+< he is at his office .
+
+> on ne sort pas ensemble officiellement .
+= we re not officially dating .
+< we re not getting any it .
+
+> elle est absorbee par son travail d etude .
+= she is absorbed in her study .
+< she is tired in her room .
+
+> nous avons toutes peur .
+= we re all afraid .
+< we re all scared .
+
+> nous travaillons tous ensemble .
+= we re all working together .
+< we re all together .
+
+> je suis fou .
+= i m crazy .
+< i m crazy .
+
+> vous etes tres vifs .
+= you re very sharp .
+< you are very forward .
+
+> nous en sommes fiers .
+= we re proud of that .
+< we re on it .
+
+> il compte parmi mes amis .
+= he is included among my friends .
+< he is liked to my friends .
+
+> je ne m implique pas .
+= i am not getting involved .
+< i m not getting involved .
+
+> tu es fort solitaire .
+= you re very lonely .
+< you re very lonely .
+
+> c est vous qui vous vous etes emballe .
+= you re the one that went crazy .
+< you re the one .
+
+> je suis la pour vous sauver .
+= i m here to save you .
+< i m here to save you .
+
+> vous etes une traitresse .
+= you re a traitor .
+< you re a traitor .
+
+> tu me fais rougir .
+= you re making me blush .
+< you re making me .
+
+> vous etes liberes de toute responsabilite .
+= you re free of all responsibility .
+< you re very glad all responsibility .
+
+> elle est en danger .
+= she is currently in danger .
+< she s in danger .
+
+> vous avez probablement soif .
+= you re probably thirsty .
+< you re probably loud .
+
+> vous etes insupportable .
+= you are impossible .
+< you re annoying .
+
+> vous etes tres gentil .
+= you re very nice .
+< you re very kind .
+
+> nous sommes partenaires .
+= we re partners .
+< we re stuck .
+
+> je vais la demander en mariage .
+= i m going to propose to her .
+< i m going to hang some food .
+
+> je suis gene .
+= i m uncomfortable .
+< i m embarrassed .
+
+> elle est satisfaite par la robe .
+= she is pleased with the dress .
+< she s interested in love .
+
+> je vais bien .
+= i am okay .
+< i m well .
+
+> je suis heureuse que vous veniez .
+= i m glad you re coming .
+< i m glad that you ll come .
+
+> je suis abasourdi .
+= i m flabbergasted .
+< i m observant .
+
+> ils sont en train de jouer notre chanson .
+= they re playing our song .
+< they are reading their newspapers .
+
+> je suis contente que ca vous rende heureuses .
+= i m glad that makes you happy .
+< i m glad that makes you happy .
+
+> je suis drogue .
+= i m addicted .
+< i m stubborn .
+
+> je ne blague pas .
+= i am not kidding .
+< i m not joking .
+
+> il est aussi grand qu elle .
+= he is as tall as her .
+< he is as tall as he is .
+
+> je suis dans la maison .
+= i am in the house .
+< i m in home house .
+
+> c est un bon a rien .
+= he is good for nothing .
+< he is a good at this .
+
+> c est un de mes voisins .
+= he is one of my neighbors .
+< he is one of my neighbours .
+
+> je suis en train d eplucher des pommes .
+= i am peeling apples .
+< i m closing a door .
+
+> j en ai marre de cette guerre .
+= i m sick of this war .
+< i m tired of with you .
+
+> j y travaille .
+= i m working on it .
+< i m working .
+
+> j ai raison .
+= i am right .
+< i m right .
+
+> il ne va pas progresser .
+= he is not going to get ahead .
+< he s not coming .
+
+> vous etes tres observatrices .
+= you re very observant .
+< you re very sophisticated .
+
+> il n est pas la non ?
+= he isn t here is he ?
+< he s not clever .
+
+> je suis revenu .
+= i m back .
+< i m unhappy .
+
+> vous etes toujours vivante .
+= you re still alive .
+< you re still alive .
+
+> vous etes invitee .
+= you re invited .
+< you re invited .
+
+> elles sont furieuses apres vous .
+= they re mad at you .
+< they re mad at you .
+
+> je ne vais pas encore abandonner .
+= i m not giving up yet .
+< i m not going anywhere .
+
+> je suis un nouvel etudiant .
+= i am a new student .
+< i m a student student .
+
+> je requiers ton aide .
+= i m asking you for your help .
+< i m counting for you .
+
+> nous voyageons avec un budget serre .
+= we are traveling on a tight budget .
+< we re working on a new novel .
+
+> tu n es pas la premiere .
+= you re not the first .
+< you re not the first .
+
+> je suis habitue a travailler dur .
+= i am accustomed to working hard .
+< i am accustomed to working hard .
+
+> vous etes en danger .
+= you re in danger .
+< you re in danger .
+
+> il n est pas japonais .
+= he is not japanese .
+< he s not japanese .
+
+> elles viennent nous chercher .
+= they re coming for us .
+< they re coming for us .
+
+> je commence a vous apprecier .
+= i m starting to like you .
+< i m starting to meet you .
+
+> je suis un tantinet jalouse .
+= i m a little bit jealous .
+< i m a patient .
+
+> tu as toujours quelque chose a me reprocher .
+= you are always finding fault with me .
+< you are always finding fault with me .
+
+> c est un interprete dans une banque internationale .
+= he s an interpreter in an international bank .
+< he is a leading in a group .
+
+> nous avons honte .
+= we re ashamed .
+< we re reliable .
+
+> je n en suis pas certain .
+= i m not certain .
+< i m not sure .
+
+> c est un homme de famille noble .
+= he is a man of noble birth .
+< he s a man of reason man .
+
+> tu es plus intelligente que moi .
+= you re smarter than me .
+< you re smarter than me .
+
+> c est un artiste celebre .
+= he is a famous artist .
+< he is a powerful artist .
+
+> je songe a demissionner immediatement .
+= i am thinking of resigning at once .
+< i m thinking of having .
+
+> elle n est pas apte pour le poste .
+= she isn t fit for the job .
+< she is not here for the job .
+
+> tu es prevenant .
+= you re considerate .
+< you re considerate .
+
+> ce sont tous deux des collegues a moi .
+= they are both colleagues of mine .
+< they are both mine .
+
+> tu n es pas remplacable .
+= you aren t replaceable .
+< you re replaceable .
+
+> je ne vous en empeche pas .
+= i m not stopping you .
+< i m not free .
+
+> il n est pas revenu de la montagne .
+= he isn t back from the mountain .
+< he is out of of the . .
+
+> il a peur de nager .
+= he is afraid of swimming .
+< he is afraid to swim .
+
+> je ne suis pas anglais .
+= i m not english .
+< i m not . .
+
+> je me fais du souci a leur sujet .
+= i m worried about them .
+< i m worried about them .
+
+> il est reporter pour le time .
+= he is a reporter for time magazine .
+< he is good to old him .
+
+> elle est malade depuis mercredi dernier .
+= she s been sick since last wednesday .
+< she is quite certain by profession .
+
+> il est experimente dans l evaluation d antiquites .
+= he is experienced in valuing antiques .
+< he is well in in english .
+
+> j attends ton aide .
+= i m waiting for your assistance .
+< i m waiting for your help .
+
+> elles vont commettre des erreurs .
+= they re going to make mistakes .
+< they are going shopping .
+
+> je suis beaucoup plus a l aise maintenant .
+= i m a lot more comfortable now .
+< i m much interested in now .
+
+> je suis plus petit que lui .
+= i m shorter than him .
+< i m shorter than him .
+
+> moi aussi je suis professeur .
+= i am a teacher too .
+< i m a teacher .
+
+> ils sont en train d arriver .
+= they re coming .
+< they re coming .
+
+> il marche en direction de la gare .
+= he is walking towards the station .
+< he is raking it in .
+
+> vous etes en train de gaspiller mon temps .
+= you re wasting my time .
+< you re stalling .
+
+> il est si distant .
+= he s such a cold fish .
+< he s so happy .
+
+> il est familier de la culture japonaise .
+= he is familiar with japanese culture .
+< he s japanese of the manager .
+
+> vous etes tres craintive .
+= you re very timid .
+< you re very timid .
+
+> je ne suis pas une sainte .
+= i m no saint .
+< i m not a saint .
+
+> il est un peu rouille .
+= he s a little rusty .
+< he s a bit of .
+
+> je suis tres heureux de te voir .
+= i am very glad to see you .
+< i m very glad to see you .
+
+> ce sont des chretiens .
+= they are christians .
+< they re christians .
+
+> vous etes tres raffinees .
+= you re very sophisticated .
+< you re very sophisticated .
+
+> il est toujours chez lui le lundi .
+= he is always at home on mondays .
+< he s always at home on mondays .
+
+> vous etes un merveilleux ami .
+= you re a wonderful friend .
+< you re a wonderful friend .
+
+> j aime les chats .
+= i am a cat person .
+< i m fond of heights .
+
+> je suis trop petit .
+= i am too short .
+< i m too .
+
+> nous sommes maintenant prets .
+= we re ready now .
+< we re ready now .
+
+> il fait de son mieux .
+= he s doing his best .
+< he is his own better .
+
+> nous ne sommes pas vraiment sures .
+= we re not really sure .
+< we re not really sure .
+
+> je suis excite a l idee du demenagement .
+= i m excited about the move .
+< i m grateful to start .
+
+> ils ont peur de moi .
+= they re afraid of me .
+< they re afraid of me .
+
+> je suis en train d attendre le bus .
+= i m waiting for the bus .
+< i m doing it .
+
+> ce sont tous des touristes .
+= they re all tourists .
+< they re all liars .
+
+> je me rejouis de te contenter .
+= i m glad i make you happy .
+< i m glad to meet you .
+
+> je suis tienne et tu es mien .
+= i am yours and you are mine .
+< i am yours and you are mine .
+
+> on est enfin seuls .
+= we re finally alone .
+< we re finally alone .
+
+> nous allons voyager a l etranger cet ete .
+= we are going to travel abroad this summer .
+< we are going to climb this summer .
+
+> je sors un moment .
+= i m going out for a while .
+< i m learning a beer .
+
+> nous prenons l ascendant .
+= we re taking over .
+< we re leaving .
+
+> il n est pas plus fort que moi .
+= he s not stronger than me .
+< he s not as strong as i am .
+
+> il est plein aux as .
+= he s loaded .
+< he is engaged to the .
+
+> vous etes paresseuse .
+= you re lazy .
+< you re lazy .
+
+> j ai raison .
+= i m correct .
+< i m right .
+
+> tu es le plus grand de nous tous .
+= you are the tallest of us all .
+< you re tallest taller than us .
+
+> vous passez a cote .
+= you re missing the point .
+< you re missing the point .
+
+> je suis du meme age .
+= i am the same age .
+< i m the same age .
+
+> tu m evites .
+= you re avoiding me .
+< you re boring .
+
+> t es bourre .
+= you re smashed .
+< you re loaded .
+
+> tu es bon cuisinier .
+= you are a good cook .
+< you re a good cook .
+
+> ils sont la .
+= they are here .
+< they re there .
+
+> il est bon au foot .
+= he is good at soccer .
+< he s good at arithmetic .
+
+> je suis l un de vos eleves .
+= i m one of your students .
+< i m one of your students .
+
+> je reviens a l essentiel .
+= i m just getting back to basics .
+< i m going back to the .
+
+> tu es idiote .
+= you re being silly .
+< you re silly .
+
+> je suis en train de lire un livre .
+= i am reading a book .
+< i m reading a book .
+
+> je sais nager .
+= i m able to swim .
+< i m able to ski .
+
+> tu n es pas occupe maintenant si ?
+= you aren t busy now are you ?
+< you re not busy now are you ?
+
+> je me fais des soucis pour sa securite .
+= i am concerned for her safety .
+< i m up at everything for her .
+
+> il est encore vivant .
+= he is still alive .
+< he is still alive .
+
+> il est meilleur que moi en maths .
+= he is better than me at math .
+< he is better than he .
+
+> vous etes celui qui m a formee .
+= you re the one who trained me .
+< you re the one who trained me .
+
+> vous me faites mal !
+= you re hurting me .
+< you re hurting me .
+
+> elle est juste decorative .
+= she is just a wallflower .
+< she s just right .
+
+> je ne suis pas heureuse .
+= i m not happy .
+< i am not happy .
+
+> nous ne rajeunissons pas .
+= we re not getting any younger .
+< we re not really .
+
+> ma mere m aime .
+= i am loved by my mother .
+< i am interested in him .
+
+> elles sont dans le baquet d eau chaude .
+= they re in the hot tub .
+< they re in the hot tub .
+
+> je ne suis pas un ivrogne .
+= i m not a drunk .
+< i m not a drug .
+
+> ils ne sont pas si mauvais .
+= they re not so bad .
+< they re not so sure .
+
+> je ne vais pas regarder .
+= i m not going to look .
+< i m not going to
+
+> nous sommes plus malins que ca .
+= we re smarter than that .
+< we re smarter than this .
+
+> tu n es pas invite .
+= you aren t invited .
+< you re not invited .
+
+> nous n en sommes pas encore la .
+= we re not yet there .
+< we re not in yet .
+
+> il est beaucoup plus jeune que tom .
+= he s much younger than tom .
+< he s much younger than tom .
+
+> je ne vais pas livrer de noms .
+= i m not going to name names .
+< i m not going to name names .
+
+> il est responsable de l accident .
+= he is responsible for the accident .
+< he is responsible for the money .
+
+> il prevoit de developper son affaire .
+= he is planning to develop his business .
+< he is familiar with his custom .
+
+> ils sont mes amis .
+= they are my friends .
+< they re my friends .
+
+> elle a l habitude de faire la cuisine .
+= she is used to cooking .
+< she is used to playing in line .
+
+> je pense apprendre le coreen le semestre prochain .
+= i m thinking of learning korean next semester .
+< i am moving next moving next month .
+
+> elles ne sont pas encore a la maison .
+= they re not home yet .
+< they re not home yet .
+
+> je ne suis pas ton fils .
+= i m not your son .
+< i m not your son .
+
+> vous etes fort serviables .
+= you re very helpful .
+< you re very helpful .
+
+> il est impatient de te voir .
+= he is impatient to see you .
+< he is anxious to see you .
+
+> nous sommes seules .
+= we re alone .
+< we re alone .
+
+> elle ecrit des nouvelles .
+= she is a short story writer .
+< i am volunteering .
+
+> il a commence a ecrire un roman .
+= he s started writing a novel .
+< he is used to give a a novel .
+
+> vous n etes pas un saint .
+= you re no saint .
+< you re no saint .
+
+> elle est mal elevee .
+= she is bad mannered .
+< she is as strong .
+
+> nous nous portons mieux sans toi .
+= we re better off without you .
+< we re better off without you .
+
+> je suis desolee de vous avoir derange .
+= i m sorry to have disturbed you .
+< i m sorry to have disturbed you .
+
+> je plaisante .
+= i m kidding .
+< i m joking .
+
+> j ai une assuetude .
+= i m addicted .
+< i m in .
+
+> je suis serieuse .
+= i m being serious .
+< i m not bluffing .
+
+> je ne vais pas gaspiller mon argent .
+= i m not going to waste my money .
+< i m not going to do my .
+
+> tu es un maniaque du travail .
+= you are a workaholic .
+< you re a very hard student .
+
+> je suis heureux de t avoir invite .
+= i m glad i invited you .
+< i m glad i invited you .
+
+> il est sur le point de partir .
+= he s about to leave .
+< he s about to go .
+
+> je ne veux pas m en meler .
+= i m staying out of it .
+< i m not going to get involved .
+
+> ils sont apparentes .
+= they re related to each other .
+< they re disposable .
+
+> je compte sur votre aide .
+= i m counting on your help .
+< i m counting on your help .
+
+> je suis content de mon travail .
+= i m satisfied with my work .
+< i m content with my job .
+
+> je suis ruinee .
+= i m ruined .
+< i m innocent .
+
+> je suis desole .
+= i am sorry .
+< i m sorry .
+
+> c est un ecrivain tres imaginatif .
+= he is a very imaginative writer .
+< he is a very cheerful .
+
+> il est mon frere cadet .
+= he s my younger brother .
+< he is my older brother .
+
+> je suis content que ca te rende heureux .
+= i m glad that makes you happy .
+< i m glad that makes you happy .
+
+> je suis un tel idiot .
+= i m such a fool .
+< i m such an idiot .
+
+> ils ne sont toujours pas en securite .
+= they re still not safe .
+< they re still not happy .
+
+> ils ne sont pas du tout interesses .
+= they are not at all interested .
+< they re not all all busy .
+
+> vous etes l enseignante .
+= you re the teacher .
+< you re the teacher .
+
+> je suis desolee de t avoir derangee !
+= i m sorry to have bothered you .
+< i m sorry to have bothered you .
+
+> elles ne constituent pas une menace .
+= they re not a threat .
+< they re not a threat .
+
+> c etaient des jeunes gens habituels .
+= they are typical young people .
+< he is ahead of my word .
+
+> c est vous qui vous vous etes emballee .
+= you re the one that went crazy .
+< you re the one of you re crazy .
+
+> vous etes avides .
+= you re greedy .
+< you re fascinating .
+
+> je vais etre a l exterieur aujourd hui .
+= i m going to be out today .
+< i m going to leave the next time .
+
+> quelle menteuse tu fais !
+= you re such a liar .
+< you re such a liar .
+
+> c est une femme autodidacte .
+= she is a self educated woman .
+< she is a woman person .
+
+> vous etes givrees !
+= you re nuts !
+< you re nuts !
+
+> je suis loyal .
+= i m loyal .
+< i m glad .
+
+> il est en danger grave .
+= he s in grave danger .
+< he is in home .
+
+> je suis encore occupee .
+= i m still busy .
+< i m still busy .
+
+> il est presque toujours chez lui .
+= he is almost always at home .
+< he s always at home .
+
+> elle a une peur bleue des serpents .
+= she s very afraid of snakes .
+< she is afraid of snakes .
+
+> je romps ce soir avec ma petite copine .
+= i m breaking up with my girlfriend tonight .
+< i m breaking up with my girlfriend tonight .
+
+> je connais l auteur .
+= i am acquainted with the author .
+< i m dreading the exam .
+
+> j ai peur des araignees .
+= i m afraid of spiders .
+< i m afraid of .
+
+> il souffre d amnesie .
+= he is suffering from loss of memory .
+< he s suffering in .
+
+> nous sommes des amis proches .
+= we re close friends .
+< we re friends friends .
+
+> j epargne pour une voiture .
+= i m saving money for a car .
+< i m going to buy a car .
+
+> je suis beau .
+= i m beautiful .
+< i m glad .
+
+> je suis un excellent joueur d echecs .
+= i am a very good chess player .
+< i m a little sort of music .
+
+> je suis sur la paille et fatigue .
+= i m broke and tired .
+< i m not sure he will .
+
+> elle est en train de s exprimer .
+= she is talking .
+< she is thinking .
+
+> nous nous approchons .
+= we re getting close .
+< we re giving we
+
+> je suis enfant unique .
+= i am an only child .
+< i m the child .
+
+> je ne suis pas le patron .
+= i m not the boss .
+< i m not the manager .
+
+> je suis en securite .
+= i m safe .
+< i m safe .
+
+> vous etes difficile n est ce pas ?
+= you re picky aren t you ?
+< you re worried aren t you ?
+
+> je fais le bon choix .
+= i m doing the right thing .
+< i m making it now .
+
+> elle a plus de livres .
+= she s got more books .
+< she s more with a bride .
+
+> je ne vais pas perdre mon temps .
+= i m not wasting my time .
+< i m not going to do my brother .
+
+> vous n etes pas fatiguees si ?
+= you re not tired are you ?
+< you re not tired are you ?
+
+> je m en rends compte .
+= i m fully aware of that .
+< i m counting of it .
+
+> ils sont juste derriere vous .
+= they re right behind you .
+< they re right behind you .
+
+> il n est pas americain .
+= he is not an american .
+< he isn t an american .
+
+> je suis certain .
+= i am sure .
+< i m certain .
+
+> c est une gentille fille .
+= she is a very kind girl .
+< she s a sweet girl .
+
+> il est toujours a court de liquide .
+= he s always running short of cash .
+< he is always out of ideas .
+
+> je suis satisfaite de leur performance .
+= i m pleased with their performance .
+< i m pleased with their performance .
+
+> c est un poete ne .
+= he is a born poet .
+< he is a born poet .
+
+> je me rejouis de vous revoir .
+= i m glad to see you again .
+< i m looking forward see seeing again .
+
+> vous ne trompez personne .
+= you re not fooling anybody .
+< you re not fooling anybody .
+
+> tu n es pas citadine si ?
+= you re not a city girl are you ?
+< you re not upset are you ?
+
+> nous y arrivons .
+= we re getting there .
+< we re in .
+
+> elle attend un heureux evenement .
+= she s pregnant .
+< she s giving too hard .
+
+> il est tres amical avec nous .
+= he is very friendly to us .
+< he is very happy to us .
+
+> il t attend chez lui .
+= he s waiting for you at home .
+< he s waiting for you at home .
+
+> j ai legerement faim .
+= i m slightly hungry .
+< i m hungry hungry .
+
+> je suis laid .
+= i m ugly .
+< i m disgusted .
+
+> il n est pas serieux .
+= he s not serious .
+< he s not serious .
+
+> elles sont tres intelligentes .
+= they re very smart .
+< they are very kind .
+
+> tu n es pas grosse .
+= you re not fat .
+< you re not tired .
+
+> tu es trop critique des defauts des autres .
+= you are too critical of others shortcomings .
+< you are too critical of others shortcomings .
+
+> il est le president du comite .
+= he s the chairman of the committee .
+< he is the head the ship .
+
+> vous vous approchez .
+= you re getting closer .
+< you re embarrassing me .
+
+> c est toi qui t es emballe .
+= you re the one that went crazy .
+< you re the master .
+
+> je vous autorise a y aller .
+= i m allowing you to go .
+< i m allowing you to go .
+
+> il est detective .
+= he is a detective .
+< he s now .
+
+> je suis en colere apres toi .
+= i m mad at you .
+< i m mad at you .
+
+> il est ingenu .
+= he s innocent .
+< he is innocent .
+
+> vous etes vraiment splendides .
+= you re really gorgeous .
+< you re really annoying .
+
+> je suis tres desoriente .
+= i m all confused .
+< i m very impressed .
+
+> nous allons toutes a la maison .
+= we re all going home .
+< we re all going home .
+
+> nous sommes malchanceux .
+= we re unlucky .
+< we re stuffed .
+
+> je ne suis pas scientifique .
+= i m not a scientist .
+< i m not a .
+
+> je suis pleinement satisfait de ma nouvelle maison .
+= i am very pleased with my new house .
+< i am pleased with my new house .
+
+> ce sont tous les miens .
+= they re all mine .
+< they re all behind .
+
+> je suis ici pour ecouter .
+= i m here to listen .
+< i m here for you .
+
+> vous etes fort attirantes .
+= you re very attractive .
+< you re very attractive .
+
+> il est extraverti .
+= he is outgoing .
+< he s extroverted .
+
+> je suis intrepide .
+= i m fearless .
+< i m unbiased .
+
+> il est maintenant etudiant en faculte .
+= he s now a college student .
+< he s now in a good person .
+
+> je ne suis pas particulierement impressionnee .
+= i m not particularly impressed .
+< i m not particularly impressed .
+
+> vous etes probablement fatigue .
+= you re probably tired .
+< you re probably tired .
+
+> vous etes plus grands que moi .
+= you are taller than me .
+< you re taller than i am .
+
+> je suis sure que tom a ete implique .
+= i m sure tom was involved .
+< i m sure tom was involved .
+
+> je suis plutot content .
+= i m fairly happy .
+< i m rather happy .
+
+> tu es tire d affaire cette fois .
+= you re off the hook this time .
+< you are responsible for the result .
+
+> nous attendons la publication de son ouvrage .
+= we are expecting the publication of his book .
+< we re housesitting in of his success .
+
+> vous etes trop vieille pour moi .
+= you re too old for me .
+< you re too old for me .
+
+> vous n etes pas aussi petit que moi .
+= you aren t as short as i am .
+< you aren t as short as i am .
+
+> je suis ravie que vous ayez pu venir .
+= i m glad you could make it .
+< i m glad you could make it .
+
+> je l emporte .
+= i m winning .
+< i m taking the road now .
+
+> je suis heureuse de vous avoir invites .
+= i m glad i invited you .
+< i m glad i invited you .
+
+> tu gaspilles notre temps a tous les deux .
+= you re wasting both of our time .
+< you re wasting both of our time .
+
+> tu penses de travers .
+= you re not thinking straight .
+< you re looking to leave .
+
+> nous ne sommes plus vraiment amies .
+= we re not really friends anymore .
+< we re not really busy .
+
+> je suis vraiment desolee .
+= i am truly sorry .
+< i m really sorry .
+
+> j insiste que vous devez partir .
+= i m adamant that you should go .
+< i m sorry you need to leave .
+
+> tu es plus grand que moi .
+= you re taller than i am .
+< you re taller than i am
+
+> elle est toujours aussi pauvre .
+= she is as poor as ever .
+< she is always neatly around here .
+
+> ils sont dangereux .
+= they re dangerous .
+< they re dangerous .
+
+> je ne suis pas tres bon en francais .
+= i m not very good at french .
+< i m not very good .
+
+> c est vraiment un homme de parole .
+= he is indeed a man of his word .
+< he is a really popular person his word .
+
+> nous n en sommes pas encore convaincus .
+= we re not convinced yet .
+< we re not working yet .
+
+> il est aristocrate .
+= he s an aristocrat .
+< he is swiss .
+
+> nous allons simplement discuter .
+= we re just going to talk .
+< we re going to talk .
+
+> vous n etes plus seul .
+= you re not alone anymore .
+< you re not alone anymore .
+
+> il est fier d etre musicien .
+= he is proud of being a musician .
+< he is proud of being a father .
+
+> elle est encore mineure .
+= she s still under age .
+< she s still a minor .
+
+> je suis en droit a ma propre opinion .
+= i m entitled to my own opinion .
+< i m in favor my girlfriend .
+
+> nous sortons d ici .
+= we re getting out of here .
+< we re getting out of here .
+
+> je ne suis pas jeune .
+= i m not young .
+< i m not young .
+
+> je suis fatigue d ecouter tom .
+= i am tired of listening to tom .
+< i m tired of her tom .
+
+> t es a sec .
+= you re out of booze .
+< you re out of booze .
+
+> je suis un peu fatigue .
+= i m a little tired .
+< i m a little tired .
+
+> je viens de la ville .
+= i m from the city .
+< i m from the city .
+
+> tu es le seul pour moi maintenant .
+= you re the only one for me now .
+< you re the only one now now .
+
+> je lis une lettre .
+= i am reading a letter .
+< i am a a letter .
+
+> je ne suis pas completement naif .
+= i m not completely naive .
+< i m not totally .
+
+> j ai la tete qui me tourne .
+= i m feeling dizzy .
+< i m feeling dizzy .
+
+> je ne suis pas contente .
+= i m not happy .
+< i m not happy .
+
+> nous tentons notre chance .
+= we re tempting fate .
+< we are having a .
+
+> je suis decu et en colere .
+= i m disappointed and angry .
+< i m disgusted and angry .
+
+> vous etes surmenees .
+= you re overworked .
+< you re rude .
+
+> je n en ai pas fini avec vous .
+= i m not finished with you .
+< i m not finished with you .
+
+> vous n etes pas tres amusants .
+= you re not very funny .
+< you re not very funny .
+
+> c est toi l enseignante .
+= you re the teacher .
+< you re the teacher .
+
+> t es pleine de fric .
+= you re loaded .
+< you re loaded .
+
+> nous sommes tres proches .
+= we re very close .
+< we re very close .
+
+> t es chiant .
+= you re annoying .
+< you re annoying .
+
+BLEU-1: 0.7571
+BLEU-2: 0.6394
+BLEU-3: 0.5586
+BLEU-4: 0.5034

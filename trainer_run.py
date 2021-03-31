@@ -1,5 +1,5 @@
 from __future__ import unicode_literals, print_function, division
-from helpers import timeSince, wordIndexesFromSentence, showPlot
+from helpers import timeLapsed, wordIndexesFromSentence, makePlot
 from main import EncoderRNN, AttnDecoderRNN, train, EOS_token, beamDecode
 import random
 import time
@@ -49,7 +49,7 @@ def tensorsFromPair(pair):
     target_tensor = tensorFromSentence(output_lang, pair[1])
     return (input_tensor, target_tensor)
 
-def evaluate(encoder, decoder, sentence, input_lang, input_char, max_length=MAX_LENGTH ):
+def evaluate(encoder, decoder, sentence, max_length=MAX_LENGTH ):
     with torch.no_grad():
         input_tensor = tensorFromSentence(input_lang, sentence)
         input_length = input_tensor.size()[0]
@@ -113,15 +113,17 @@ def trainEpochs(encoder, decoder, n_epochs=20, print_every=1000, plot_every=100,
                 print_loss_avg = print_loss_total / print_every
                 print_loss_total = 0
                 print('%s (%d %d%%) %.4f' % (
-                timeSince(start, i / len(train_pairs)), i, i / len(train_pairs) * 100, print_loss_avg))
+                timeLapsed(start, i / len(train_pairs)), i, i / len(train_pairs) * 100, print_loss_avg))
 
             if i % plot_every == 0:
                 plot_loss_avg = plot_loss_total / plot_every
                 plot_losses.append(plot_loss_avg)
                 plot_loss_total = 0
-
-    showPlot(plot_losses)
-
+    try:
+        makePlot(plot_losses)
+    except Exception as e:
+        print('Error in Plotting')
+        print('stack trace:', e)
 
 
 encoder1 = EncoderRNN(input_char.n_chars, input_lang.n_words, hidden_size, char_embedding_dim, char_representation_dim).to(device)
@@ -134,7 +136,7 @@ for pair in test_pairs:
   # Evaluate pair
   print('>', pair[0])
   print('=', pair[1])
-  decoded_batch = evaluate(encoder1, attn_decoder1, input_lang, input_char, pair[0])
+  decoded_batch = evaluate(encoder1, attn_decoder1 ,pair[0])
   output_sentence = ' '.join([output_lang.index2word[index.item()] for index in decoded_batch[0][0][1:-1]])
   print('<', output_sentence)
   print('')
